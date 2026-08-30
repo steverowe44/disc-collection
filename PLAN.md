@@ -9,6 +9,7 @@ This document is the spec. Read it before adding or editing any row in `collecti
 |---|---|
 | `collection.csv` | The collection. Single source of truth. |
 | `PLAN.md` | This spec — rules for filling the CSV. |
+| `UNCERTAINTIES.txt` | Running log of every guessed field, one tickable item per doubt. |
 
 `collection.csv` is UTF-8 **with BOM** so that Excel renders the `✓` character correctly.
 Keep the BOM when rewriting the file.
@@ -105,21 +106,53 @@ Do not re-sort the file — it makes diffs unreadable. Sorting is the viewer's j
 5. **Commit that batch** with a message naming what was added, e.g.
    `Add 14 titles from image 03 (Arrow / Criterion)`.
    One commit per batch, so any batch can be reverted independently.
-6. Report back: what was added, plus every uncertainty (see below).
+6. Log every uncertainty to `UNCERTAINTIES.txt` **in the same commit**, then report back in chat:
+   what was added, and a pointer to the new open items.
+
+### Verifying online
+
+Web search is available and should be used. When the exact release matters — which label,
+which cut, whether a 4K package also contains a Blu-ray — look it up rather than guessing.
+**blu-ray.com** is the best source for disc contents and release specs; Amazon UK listings
+and the label's own site are reasonable backups.
+
+Worth checking online, roughly in order of how often the guess would be wrong:
+
+- Whether a 4K release includes a bundled Blu-ray (varies by title *and* territory).
+- Which label put out a given title in this territory.
+- Which cut a specific release contains.
+- Original release year for anything obscure.
+
+Knowledge of releases runs to **May 2026** — anything newer must be looked up, not recalled.
 
 ### Reporting uncertainty
 
-Best guess goes in the CSV, and the guess is reported so Stephen can correct it fast.
-Every uncertainty report must cite the **image number** and give enough physical detail to
-locate the disc on the shelf without hunting:
+Anything that goes into the CSV as a guess is written to `UNCERTAINTIES.txt` **in the same
+commit as the rows it concerns**, so the doubt lives in git alongside the data instead of
+scrolling away in chat.
 
-> Image 04 — between *Heat* and *The Insider*, black spine with red text, top shelf.
-> My guess: *Thief* (Arrow). Couldn't read the label from the spine.
+Each item gets a stable ID (`U001`, `U002`...) and must contain enough to find the disc on
+the shelf without hunting:
 
-Cover the case, the neighbours, the colour/position, then the guess and what was uncertain.
-Same format whether the doubt is about the title, the label, the cut, or the disc contents.
-Never invent a title that isn't legible — if a spine is unreadable, report it as unreadable
-and skip the row rather than guessing blind.
+```
+[ ] U001 | Image 04 | Row: "Thief" | Field: Label
+    Where: top shelf, third from left, between Heat and The Insider.
+           Black spine, red text, standard Blu-ray case.
+    In CSV: Arrow
+    Doubt:  Label logo not legible at this resolution.
+    Need:   Read the logo at the bottom of the spine.
+```
+
+Always: image number, physical position and neighbours, what went in the CSV, what the doubt
+is, and what would settle it. Same format whether the doubt is title, label, cut, year, or
+disc contents.
+
+When Stephen answers an item: correct `collection.csv`, tick the item, move it to the
+RESOLVED section with the answer, and commit referencing the ID
+(`Resolve U004: Thief is StudioCanal, not Arrow`). Resolved items are never deleted.
+
+Never invent a title that isn't legible. An unreadable spine is logged as an unreadable
+spine and gets no CSV row until it's identified.
 
 ### Future additions
 

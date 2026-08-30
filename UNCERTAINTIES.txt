@@ -1,0 +1,38 @@
+UNCERTAINTIES — OPEN ITEMS
+==========================
+
+Every field that went into collection.csv as a guess rather than a fact gets logged here,
+with the image number and enough physical detail to find the disc on the shelf.
+
+  [ ] = open, needs Stephen's eyes
+  [x] = resolved (moved to the RESOLVED section, kept for history — never deleted)
+
+Each item has a stable ID (U001, U002...) so commits can reference it:
+  "Resolve U004: Thief is StudioCanal, not Arrow"
+
+Work through them at any pace. Answering one means: correct the row in collection.csv,
+tick the item, move it to RESOLVED with the answer, commit.
+
+
+OPEN
+----
+
+(none yet)
+
+
+RESOLVED
+--------
+
+(none yet)
+
+
+ITEM FORMAT
+-----------
+
+[ ] U001 | Image 04 | Row: "Thief" | Field: Label
+    Where: top shelf, third from left, between Heat and The Insider.
+           Black spine, red text, standard Blu-ray case.
+    In CSV: Arrow
+    Doubt:  Label logo not legible at this resolution. Arrow and StudioCanal both
+            put out a UK Blu-ray; the spine typography looks closer to Arrow.
+    Need:   Read the logo at the bottom of the spine, or the back of the case.
