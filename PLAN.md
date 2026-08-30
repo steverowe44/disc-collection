@@ -233,6 +233,10 @@ disambiguation.
 - **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray:
   Léon, Cinema Paradiso, Midsommar. Each cut is a row, and its format ticks follow the
   disc it actually sits on — so one row can be 4K-only and its sibling Blu-ray-only.
+- **Quoting:** a `Name` beginning with an apostrophe (e.g. `'71`) is quoted in the CSV so
+  spreadsheets do not swallow the leading character.
+- **Bootlegs** get Label `Unofficial` and a note. Never record the label the packaging
+  imitates — the Miyazaki set passes for a Disney release and is not one.
 - **Identical duplicates** are recorded once. Genuinely different releases of the same film
   still get separate rows.
 

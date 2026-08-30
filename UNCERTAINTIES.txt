@@ -35,32 +35,6 @@ OPEN
             Ang Lee's 1995 film or the 2008 BBC serial — I assumed the film.
     Need:   Any name printed on the box, and confirmation that it's the 1995 film.
 
-[ ] U041 | Image 22 | Row: none — NOT CATALOGUED | Field: identification
-    Where: 2nd from left, a grey/white StudioCanal spine almost entirely hidden between
-           North by Northwest and the black Arrow Vengeance Trilogy box. Only one
-           character resolves — possibly a "7" or a "1".
-    In CSV: nothing. No row was created.
-    Doubt:  Too little of the spine is visible to name the film.
-    Need:   Pull it out and tell me what it is.
-
-[ ] U042 | Image 21 | Rows: 11 Miyazaki rows | Field: contents
-    Where: the white "THE COLLECTED WORKS OF HAYAO MIYAZAKI" Ghibli boxset, 127617.
-    In CSV: the eleven Miyazaki features, Castle of Cagliostro (1979) through
-            The Wind Rises (2013), all on Blu-ray, label Disney.
-    Doubt:  The eleven features are the standard contents of this set and I'm reasonably
-            confident — but the box also carries shorts and documentaries (On Your Mark,
-            the Ghibli shorts, Kingdom of Dreams and Madness) which have no rows. Whether
-            those deserve rows is your call.
-    Need:   Confirm eleven features, and say whether you want the shorts listed too.
-
-[ ] U043 | Image 22 | Rows: 6 Rocky rows | Field: contents
-    Where: the black-and-red "ROCKY: ULTIMATE KNOCKOUT COLLECTION" 4K box, 9th from left.
-    In CSV: Rocky I-V plus Rocky Balboa, all 4K + Blu-ray.
-    Doubt:  Six films is the standard line-up, but some editions of this set add
-            "Rocky IV: Rocky vs. Drago — The Ultimate Director's Cut", which under the cuts
-            rule would be a seventh row with Year "1985 / 2021". Titles aren't on the face.
-    Need:   Disc count, and whether Rocky vs. Drago is in there.
-
 [ ] U044 | Image 23 | Row: True Detective: Season 1 | Field: Name
     Where: 4th from left, blue HBO spine, between Dr. Strangelove and the white BFI
            Kurosawa box.
@@ -219,6 +193,19 @@ OPEN
     Need:   The publisher named on the back of the case.
 
 RESOLVED
+
+[x] U041 | The obscured StudioCanal spine, image 22 | It is '71 (2014, Yann Demange),
+    the Northern Ireland film. StudioCanal, Blu-ray only. Row added in shelf position,
+    right after North by Northwest.
+
+[x] U042 | The Collected Works of Hayao Miyazaki | A bootleg. Label changed from Disney to
+    "Unofficial" on all eleven rows, with the fact noted - the packaging mimics a Disney
+    release, which is what fooled me. The eleven features stand; no rows for the shorts.
+
+[x] U043 | Rocky: Ultimate Knockout Collection | Rocky 1 to 6 plus Rocky vs. Drago, 4K only.
+    Blu-ray cleared on all rows, and a seventh added for the recut:
+    "Rocky IV (Rocky vs. Drago - The Ultimate Director's Cut)", Year "1985 / 2021" - a
+    second cut of Rocky IV under the cuts rule, so both rows sit in the set.
 
 [x] U028 | The Die Hard films | One DVD box set. Collection "Die Hard Trilogy" stands on
     all three rows.
