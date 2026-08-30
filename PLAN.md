@@ -228,8 +228,9 @@ disambiguation.
 - **Cuts split across discs:** where one package puts different cuts on different discs,
   each cut is its own row and the format ticks follow the disc that cut sits on —
   see Léon (DC on 4K, theatrical on BD) and Cinema Paradiso (theatrical on 4K, DC on BD).
-- **Alternate presentations** (black-and-white versions, Logan Noir, Black & Chrome) are
-  noted in Notes, not given their own row — unlike re-edits. Open question, U059.
+- **Alternate presentations get their own row**, same as re-edits: a black-and-white
+  version is a row (`Parasite (Black and White Version)`, `Logan (Noir)`), with format
+  ticks following the disc it sits on.
 - **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray:
   Léon, Cinema Paradiso, Midsommar. Each cut is a row, and its format ticks follow the
   disc it actually sits on — so one row can be 4K-only and its sibling Blu-ray-only.

@@ -53,65 +53,37 @@ OPEN
             it is a single work released in two parts rather than a collection.
     Need:   Your preference. Same question would apply to any other two-part feature.
 
-[ ] U055 | Images 26 and 29 | Rows: 3 Lord of the Rings rows | Field: Collection, Name
-    Where: Fellowship EBR5194 (image 26, 4th), Two Towers EBR5195 (image 19, 7th),
-           Return of the King EBR5196 (image 29, 5th). All the same ornate packaging,
-           consecutive catalogue numbers.
-    In CSV: three separate rows, Collection empty, no cut named.
-    Doubt:  Consecutive numbers and identical packaging suggest these came as a trilogy
-            box, which would mean a Collection value on all three. The elaborate packaging
-            also points to the Extended Editions, which under the cuts rule would need
-            "(Extended Edition)" in the name and a second year. This supersedes U036, which
-            raised the same question when only Two Towers had been seen.
-    Need:   Is there an outer box? (The cut half is settled - U036 confirms all three are
-            Extended Editions, and the rows now say so.)
-
-[ ] U056 | Image 31 | Row: Zack Snyder's Justice League | Field: Year
-    Where: 5th from left, black 4K spine, DC + WB.
-    In CSV: Year "2017 / 2021", treated as a cut of Justice League (2017).
-    Doubt:  Defensible either way — it is a recut of the 2017 film, but it is also released
-            and widely treated as its own title. If you'd rather it stood alone the Year
-            should just be 2021. Same question would apply to The Godfather Coda.
-    Need:   Your preference.
-
-[ ] U057 | Image 04 | Row: The Last Emperor | Field: Blu-ray / row count
-    Where: 3rd from left, red Arrow spine, FCD2424.
-    In CSV: 4K only, theatrical cut, on the assumption this is Arrow's Standard Edition.
-    Doubt:  Arrow put out two UK 4K editions. The Standard Edition (May 2023) is a single
-            4K disc carrying the theatrical cut - verified. The Limited Edition (Feb 2023)
-            adds a Blu-ray holding the longer television version, which under the cuts rule
-            would need a SECOND row. The photo shows a standard-depth case, which is why I
-            went with the Standard Edition.
-    Need:   One disc or two?
-
-[ ] U058 | Image 26 | Row: Cinema Paradiso (Director's Cut) | Field: Year
-    Where: 3rd from left, black Arrow Academy spine, FCD2054.
-    In CSV: Year "1988 / 2002".
-    Doubt:  The two-cut split is verified - Arrow's 4K carries the theatrical on the UHD
-            disc and the director's cut on the Blu-ray. The 2002 date for the longer
-            version is my dating and was not confirmed by the lookup.
-    Need:   Nothing urgent; flagged so the year isn't taken as verified.
-
-[ ] U059 | Image 01 | Row: Parasite | Field: row count
-    Where: 2nd from left, teal/black Curzon spine.
-    In CSV: one row, 4K + Blu-ray, with the black-and-white version noted in Notes.
-    Doubt:  A policy question thrown up by your answer. The black-and-white version is an
-            alternate presentation rather than a re-edit, so I did not give it its own row
-            the way a director's cut would get one. If you'd rather see it listed, it
-            becomes "Parasite (Black and White Version)" with Year "2019 / 2020".
-    Need:   Your preference. The same question will come up for other B&W variants
-            (Logan Noir, Mad Max: Fury Road Black & Chrome).
-
-[ ] U060 | Image 17 | Row: Howards End | Field: Label
-    Where: rightmost, cream spine, catalogue ODK26901, cast listed down the side
-           (Hopkins / Redgrave / Bonham Carter / Thompson).
-    In CSV: Optimum Home Entertainment - a guess, unchanged.
-    Doubt:  Carried forward from U034, the one of those four that searching could not
-            settle. The known editions are Columbia TriStar (1999), Home Vision's Merchant
-            Ivory Collection (2004) and Criterion, none of which uses an ODK prefix.
-    Need:   The publisher named on the back of the case.
-
 RESOLVED
+
+[x] U055 | The Lord of the Rings | Treated as a collection. All three rows now carry
+    Collection "Lord of the Rings, The: The Motion Picture Trilogy", noted as the early-2010s
+    Extended Edition Blu-ray boxset with the outer box no longer held. This is the one place
+    the "physical box only" rule is knowingly bent - the box existed, it just isn't on the
+    shelf any more.
+
+[x] U056 | Zack Snyder's Justice League | Stands as its own title. Year is now plain 2021,
+    with the recut noted rather than carried in the Year column.
+
+[x] U057 | The Last Emperor | 4K only - the Standard Edition, theatrical cut, as entered.
+    No second row needed.
+
+[x] U058 | Cinema Paradiso | Split confirmed: theatrical on the 4K, director's cut on the
+    Blu-ray, which is how the rows already read. The year is confirmed too - the 173-minute
+    cut was released in 2002 as "Cinema Paradiso: The New Version", so "1988 / 2002" is
+    right rather than merely assumed.
+
+[x] U059 | Alternate presentations | Reversed: black-and-white versions DO get their own row.
+    Two rows added -
+      Parasite (Black and White Version), 2019 / 2020, Blu-ray. The Curzon package is three
+        discs: 4K colour, Blu-ray colour, Blu-ray black-and-white.
+      Logan (Noir), 2017, Blu-ray only, on the Blu-ray inside the 4K package.
+    No Black & Chrome Mad Max, so nothing to add there. The rule in PLAN.md has been
+    rewritten accordingly.
+
+[x] U060 | Howards End | A regular UK DVD, nothing boutique. Label set to Columbia TriStar,
+    who put out the standard UK disc - but flagged in Notes as unverified. Searching on the
+    ODK26901 code returned nothing at all, and since I read that code off a low-resolution
+    spine, the code itself may be what is wrong. Reopen it if the case says otherwise.
 
 [x] U046 | Raging Bull | Criterion, as entered. No change.
 
