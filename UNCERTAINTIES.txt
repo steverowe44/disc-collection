@@ -26,42 +26,6 @@ OPEN
     Need:   Your preference for same-year recuts. Also: the label is a guess — "01ABUA"
             suggests Buena Vista, which is what I entered.
 
-[ ] U028 | Image 13 | Rows: three Die Hard rows | Field: Collection
-    Where: rightmost, white spine showing three stacked "BRUCE WILLIS / DIE HARD" blocks,
-           F1-OGB 25985TDVD.
-    In CSV: Collection "Die Hard Trilogy" on all three.
-    Doubt:  One catalogue number across the three titles says boxset, but it could equally
-            be three slim cases standing together. If they're separate purchases the
-            Collection cell should be empty on all three.
-    Need:   One box or three cases?
-
-[ ] U029 | Image 11 | Rows: 24 James Bond rows | Field: contents
-    Where: the black MGM 007 boxset, leftmost, WW-BOGB.1 5698607010.
-    In CSV: 24 films, Dr. No (1962) through Spectre (2015).
-    Doubt:  No titles are printed on the visible face. The set was issued both as a 23-film
-            edition ending at Skyfall and as a 24-film edition including Spectre. I went
-            with 24 on the strength of the catalogue number's era.
-    Need:   Is Spectre in the box? If not, delete that row.
-
-[ ] U030 | Image 16 | Rows: 8 3D Blu-rays | Field: schema question
-    Where: images 16's run of "Blu-ray 3D" spines — the seven Marvel discs plus Ready
-           Player One and Avatar.
-    In CSV: Blu-ray ticked, with "3D Blu-ray" written into Notes.
-    Doubt:  There is no 3D column in the schema. A 3D Blu-ray is a Blu-ray, so the tick is
-            right, but the 3D-ness only survives as free text. Most of these packages also
-            contain a plain 2D Blu-ray, which the row cannot express either.
-    Need:   Your call: leave it in Notes, or add a 3D column. Notes is fine if 3D is
-            incidental to you; a column is better if you'd ever want to filter on it.
-
-[ ] U031 | Image 16 | Rows: 7 Marvel rows | Field: Label
-    Where: the run of MARVEL / MARVEL STUDIOS 3D spines, images 16 items 4-10.
-    In CSV: Marvel Studios.
-    Doubt:  "MARVEL" or "MARVEL STUDIOS" is what's printed, but the actual UK disc
-            publisher is Walt Disney Studios Home Entertainment — the BIY/BUY catalogue
-            codes are Disney's. The Label column is meant to be the disc's publisher.
-    Need:   Which you'd rather see: what's on the spine, or the real distributor. Whichever
-            you choose becomes the rule for all Disney/Marvel/Pixar discs.
-
 [ ] U032 | Image 16 | Row: 3 Pride & Prejudice rows | Fields: Collection, Label
     Where: leftmost, green DVD spine listing Pride & Prejudice / Atonement /
            Sense and Sensibility, 8288508.
@@ -70,78 +34,6 @@ OPEN
             placeholder rather than a real set name. Also: Sense and Sensibility could be
             Ang Lee's 1995 film or the 2008 BBC serial — I assumed the film.
     Need:   Any name printed on the box, and confirmation that it's the 1995 film.
-
-[ ] U033 | Image 17 | Row: The Phantom of the Opera | Fields: Year, Director, Label
-    Where: 9th from left, black spine with white mask artwork, "UNIVERSAL" at the top,
-           between the Marx Brothers box and 28 Weeks Later.
-    In CSV: 2004, Joel Schumacher, Universal.
-    Doubt:  The mask artwork points to the 2004 Lloyd Webber film, but that was not a
-            Universal picture in the UK — and Universal owns the 1943 Phantom, which you
-            already hold inside the Universal Monsters set. If it is the 1943 film this is
-            a duplicate row of a different film entirely.
-    Need:   Which Phantom is it?
-
-[ ] U034 | Image 17 | Rows: Doctor Zhivago, Battlefield Earth, Transformers, Howards End
-    | Field: Label
-    Where: image 17 items 2, 3, 5 and 12.
-    In CSV: Warner Bros. / Universal / Paramount / Optimum Home Entertainment respectively.
-    Doubt:  Four DVD spines where the publisher logo at the top was too small or too dark
-            to read with confidence. Howards End's "ODK" catalogue prefix in particular is
-            one I can't place at all.
-    Need:   Publisher on each. Low stakes individually, but four rows.
-
-[ ] U035 | Image 18 | Rows: 8 Game of Thrones rows | Field: Blu-ray
-    Where: the 4K Game of Thrones: The Complete Collection box, photographed face-on.
-    In CSV: 4K ticked, Blu-ray left EMPTY.
-    Doubt:  This set is, as far as I know, UHD discs throughout with no separate 1080p
-            Blu-rays — unlike almost every other 4K release in your collection. If it does
-            include Blu-rays, eight rows need a second tick.
-    Need:   Are there any plain Blu-ray discs in the box?
-
-[ ] U036 | Image 19 | Row: The Lord of the Rings: The Two Towers | Field: Name
-    Where: 7th from left, ornate brown-and-gold spine, EBR5195, New Line.
-    In CSV: plain title, no cut named.
-    Doubt:  The elaborate packaging is characteristic of the Extended Edition. If it is,
-            the row should read "(Extended Edition)" with Year "2002 / 2003" under the
-            cuts rule. Also worth noting you appear to own only this one film of the three.
-    Need:   Theatrical or Extended?
-
-[ ] U037 | Image 19 | Row: Midsommar | Fields: Label, Name
-    Where: 8th from left, red/pink A24 spine, "weltkino" at the top, no BBFC certificate.
-    In CSV: Weltkino, plain title.
-    Doubt:  No BBFC badge means this is an import, and Weltkino's German release is the
-            one that carries the Director's Cut. If yours is that edition the row needs
-            "(Director's Cut)" and Year "2019 / 2019".
-    Need:   Which cut is on the disc.
-
-[ ] U038 | Image 20 | Rows: 5 The Wire rows | Field: Collection
-    Where: items 5-9, five HBO season boxes that appear to stand inside a black outer case.
-    In CSV: Collection "Wire, The: The Complete Series" on all five.
-    Doubt:  Each season carries its own catalogue number, which usually means separate
-            purchases — but there is what looks like a slipcase around them in the photo.
-            Under the "physical box only" rule, separate purchases mean the Collection cell
-            should be empty on all five.
-    Need:   Is there an outer box, or are those five separate sets standing together?
-
-[ ] U039 | Image 20 | Rows: 3 Tom Hanks triple rows | Fields: Collection, Label
-    Where: 2nd from left, grey DVD spine listing The Terminal / Catch Me If You Can /
-           Cast Away, 830 2496.
-    In CSV: Collection is the three titles run together; Label DreamWorks.
-    Doubt:  Same as U032 — no set name visible, so the Collection value is a placeholder.
-            The three films sit across DreamWorks, Paramount and Fox originally, so the
-            label on the box is the one that matters and I could not read it.
-    Need:   Box name and publisher.
-
-[ ] U040 | Image 20 | Rows: 8 Tim Burton rows | Field: contents
-    Where: rightmost, black WB boxset, "THE TIM BURTON COLLECTION".
-    In CSV: the 8-film set — Pee-wee's Big Adventure, Beetlejuice, Batman, Batman Returns,
-            Mars Attacks!, Corpse Bride, Charlie and the Chocolate Factory, Sweeney Todd.
-    Doubt:  Warner issued both an 8-film "The Tim Burton Collection" and a later 9-film
-            version. The spine matches the 8-film name, but no titles are printed on the
-            face shown.
-    Need:   Disc count or the title list from the back. Note this box also gives you second
-            copies of Batman and Batman Returns, which you already hold on 4K — those rows
-            are marked as such.
 
 [ ] U041 | Image 22 | Row: none — NOT CATALOGUED | Field: identification
     Where: 2nd from left, a grey/white StudioCanal spine almost entirely hidden between
@@ -278,7 +170,8 @@ OPEN
             also points to the Extended Editions, which under the cuts rule would need
             "(Extended Edition)" in the name and a second year. This supersedes U036, which
             raised the same question when only Two Towers had been seen.
-    Need:   Is there an outer box, and are these the Extended cuts?
+    Need:   Is there an outer box? (The cut half is settled - U036 confirms all three are
+            Extended Editions, and the rows now say so.)
 
 [ ] U056 | Image 31 | Row: Zack Snyder's Justice League | Field: Year
     Where: 5th from left, black 4K spine, DC + WB.
@@ -316,7 +209,68 @@ OPEN
     Need:   Your preference. The same question will come up for other B&W variants
             (Logan Noir, Mad Max: Fury Road Black & Chrome).
 
+[ ] U060 | Image 17 | Row: Howards End | Field: Label
+    Where: rightmost, cream spine, catalogue ODK26901, cast listed down the side
+           (Hopkins / Redgrave / Bonham Carter / Thompson).
+    In CSV: Optimum Home Entertainment - a guess, unchanged.
+    Doubt:  Carried forward from U034, the one of those four that searching could not
+            settle. The known editions are Columbia TriStar (1999), Home Vision's Merchant
+            Ivory Collection (2004) and Criterion, none of which uses an ODK prefix.
+    Need:   The publisher named on the back of the case.
+
 RESOLVED
+
+[x] U028 | The Die Hard films | One DVD box set. Collection "Die Hard Trilogy" stands on
+    all three rows.
+
+[x] U029 | The James Bond Collection | Spectre is NOT in the box, so this is the 23-film
+    edition ending at Skyfall. The Spectre row has been deleted.
+
+[x] U030 | 3D | Promoted from a note to a real column. The schema is now
+    4K / Blu-ray / 3D / DVD, and the nine 3D discs are ticked: Ready Player One, Avatar
+    and the seven Marvel titles. Blu-ray stays ticked alongside on all nine, since UK 3D
+    packages carry the 2D disc as well - say so if any of yours is 3D-only.
+
+[x] U031 | Marvel labels | Disney. All seven rows changed. Buena Vista (Spy Kids) and
+    Touchstone (Roger Rabbit) are left as they are - those were Disney's own publishing
+    labels at the time, so they name a real publisher rather than a production company.
+
+[x] U033 | The Phantom of the Opera | It is the live staging, not either film. Row is now
+    "Phantom of the Opera at the Royal Albert Hall, The" (2011), directed by Nick Morris
+    and Laurence Connor, Universal - which explains the Universal mark on the spine.
+
+[x] U034 | Four unread DVD labels | Doctor Zhivago stays Warner Bros. (the WB shield is on
+    the spine, and Warner handles the MGM library in the UK). Transformers stays Paramount
+    (the DSL prefix is DreamWorks, whose catalogue Paramount publishes). Battlefield Earth
+    corrected to Entertainment In Video. Howards End did not resolve - searching turned up
+    Columbia TriStar, Home Vision and Criterion editions but nothing matching the ODK
+    prefix, so it is carried forward as U060.
+
+[x] U035 | Game of Thrones | 4K only. The rows were already correct - 4K ticked, Blu-ray
+    empty on all eight seasons.
+
+[x] U036 | The Lord of the Rings | All three are Extended Editions. Rows renamed with
+    "(Extended Edition)" and Years "2001 / 2002", "2002 / 2003", "2003 / 2004".
+    The separate question of whether they came in one box is still open as U055.
+
+[x] U037 | Midsommar | Looked up: the Weltkino German release is a three-disc set
+    (1 BD-100, 2 BD-50) carrying BOTH cuts - the theatrical on the 4K disc and the
+    Director's Cut on a Blu-ray. You were right. It is now two rows: "Midsommar" (4K +
+    Blu-ray, theatrical) and "Midsommar (Director's Cut)" (Blu-ray). Label corrected to
+    Weltkino. The Director's Cut year is left as plain 2019 since the longer version came
+    out the same year - the same case as Sin City, still open as U027.
+
+[x] U038 | The Wire | One box set. Collection "Wire, The: The Complete Series" stands on
+    all five seasons.
+
+[x] U039 | The silver Tom Hanks box | Searched: the set is marketed simply as
+    "The Terminal / Catch Me If You Can / Cast Away" with no collective name, so the
+    Collection value already matches what the box is actually called. Noted on the rows.
+    The publisher is still inferred as DreamWorks - the catalogue number reads like a
+    Universal one, which fits DreamWorks discs of that era being distributed by Universal
+    in the UK.
+
+[x] U040 | The Tim Burton Collection | The 8-film version, as entered. No change.
 
 [x] U001 | Parasite | Curzon release is 4K + Blu-ray, and includes the black-and-white
     version. Both format columns ticked; the B&W version noted in Notes (see U059).

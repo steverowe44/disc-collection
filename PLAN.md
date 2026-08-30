@@ -19,7 +19,7 @@ Keep the BOM when rewriting the file.
 Exact header row, in order:
 
 ```
-Collection,Name,Year,TV,Film,4K,Blu-ray,DVD,Label,Director,Notes
+Collection,Name,Year,TV,Film,4K,Blu-ray,3D,DVD,Label,Director,Notes
 ```
 
 | Column | Rule |
@@ -31,6 +31,7 @@ Collection,Name,Year,TV,Film,4K,Blu-ray,DVD,Label,Director,Notes
 | `Film` | `✓` if the release is a film. Else empty. |
 | `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
 | `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
+| `3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
 | `DVD` | `✓` if the package contains a DVD. Else empty. |
 | `Label` | The company that produced/published the disc: `Arrow`, `Criterion`, `Second Sight`, `Lionsgate`, `Warner Bros.`, `88 Films`, `Eureka`, `Indicator`, `StudioCanal`, `Shout! Factory`, etc. Distributor of *this* release, not the production company of the film. |
 | `Director` | Film: the director. TV: the **showrunner for that season**. Multiple names separated by `; ` (never a bare comma). |
@@ -40,7 +41,7 @@ There is deliberately **no** disc-release-year column and **no** cut column.
 
 ### The `✓` rule (important)
 
-`TV`, `Film`, `4K`, `Blu-ray`, `DVD` are **independent boolean columns**.
+`TV`, `Film`, `4K`, `Blu-ray`, `3D`, `DVD` are **independent boolean columns**.
 
 - True  → the single Unicode character `✓` (U+2713).
 - False → **completely empty cell**. Never `✗`, `x`, `N`, `0`, `-`, or a space.
@@ -229,6 +230,9 @@ disambiguation.
   see Léon (DC on 4K, theatrical on BD) and Cinema Paradiso (theatrical on 4K, DC on BD).
 - **Alternate presentations** (black-and-white versions, Logan Noir, Black & Chrome) are
   noted in Notes, not given their own row — unlike re-edits. Open question, U059.
+- **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray:
+  Léon, Cinema Paradiso, Midsommar. Each cut is a row, and its format ticks follow the
+  disc it actually sits on — so one row can be 4K-only and its sibling Blu-ray-only.
 - **Identical duplicates** are recorded once. Genuinely different releases of the same film
   still get separate rows.
 
@@ -257,9 +261,9 @@ Answers established once and reused. Add to this list rather than re-researching
 | Paramount | Catalogue tells format: `PHE` = DVD era, `53xxxxx` = 4K UHD, `83xxxxx` = Blu-ray. | Batch 3 |
 | 20th Century Fox | UK discs carry an `F1-OGB` / `WW-BOGB` catalogue prefix. | Batch 3 |
 | Boxsets photographed face-on | Film titles are often NOT on the face shown, so contents must be looked up or asked for — Bond, Herzog, Coen and Hitchcock all needed this. Shoot the BACK of a boxset where possible. | Batch 3 |
-| Disney / Marvel / Touchstone (UK) | Catalogue prefixes `BIY`, `BUY`, `BUQ`, usually with an `SC1A`/`SC3A` suffix. Spine shows the studio brand, not the publisher. | Batch 4 |
+| Disney / Marvel (UK) | Catalogue prefixes `BIY`, `BUY`, `BUQ`, often with an `SC1A`/`SC3A` suffix. A spine reading MARVEL or MARVEL STUDIOS gets Label **Disney** — that is a production company, not a publisher. Buena Vista and Touchstone stay as printed: those really were Disney's publishing labels. | U031 |
 | Warner "Premium Collection" | A numbered Blu-ray line (King Kong no. 11, Barry Lyndon no. 90). Numbered but NOT a box set — Collection stays empty, note the number instead. | Batch 4 |
-| 3D Blu-rays | Spine reads "Blu-ray 3D". Tick Blu-ray; record the 3D in Notes (no 3D column exists — see U030). | Batch 4 |
+| 3D Blu-rays | Spine reads "Blu-ray 3D". Tick **both** `Blu-ray` and `3D` — the 2D disc is normally in the package as well. | U030 |
 | Non-disc items | Games and other non-film discs on the same shelves (e.g. a Wii game in image 16) are transcribed but never given a CSV row. | Batch 4 |
 | BFI | Catalogue prefix tells format: `BFIB` = Blu-ray, `BFIU` = 4K UHD, `BFID` = DVD. Some releases are dual-format with both logos at the foot — check rather than assume. | Batch 6 |
 | Anime Limited | Catalogue prefix `ANI`, "AL FILM" roundel on the spine. | Batch 6 |
