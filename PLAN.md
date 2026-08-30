@@ -11,8 +11,8 @@ This document is the spec. Read it before adding or editing any row in `collecti
 | `PLAN.md` | This spec — rules for filling the CSV. |
 | `UNCERTAINTIES.txt` | Running log of every guessed field, one tickable item per doubt. |
 
-`collection.csv` is UTF-8 **with BOM** so that Excel renders the `✓` character correctly.
-Keep the BOM when rewriting the file.
+`collection.csv` is UTF-8 **with BOM** so that Excel renders accented titles correctly —
+`Léon`, `Sátántangó`, `Häxan`, `Almodóvar`, `Nausicaä`. Keep the BOM when rewriting the file.
 
 ## Columns
 
