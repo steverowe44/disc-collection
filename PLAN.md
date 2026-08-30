@@ -18,11 +18,12 @@ Keep the BOM when rewriting the file.
 Exact header row, in order:
 
 ```
-Name,Year,TV,Film,4K,Blu-ray,DVD,Label,Director,Collection,Notes
+Collection,Name,Year,TV,Film,4K,Blu-ray,DVD,Label,Director,Notes
 ```
 
 | Column | Rule |
 |---|---|
+| `Collection` | Name of the box set or TV series this row belongs to. **Left empty** when the release is standalone — most rows. Quote it if it contains a comma. |
 | `Name` | Title with the leading article moved to the end, comma-separated: `Departed, The` / `Thing, The`. Alternate cuts go in the name in parentheses: `Blade Runner (Final Cut)`. TV seasons: `Sopranos, The: Season 3`. Because this field contains commas, it **must be quoted** in the CSV. |
 | `Year` | Year the film / TV season **originally released** (theatrical or first broadcast). For an alternate cut, `original / cut` — e.g. Apocalypse Now Redux is `1979 / 2001`. A theatrical cut is just the original year. |
 | `TV` | `✓` if the release is a TV show or season. Else empty. |
@@ -32,7 +33,6 @@ Name,Year,TV,Film,4K,Blu-ray,DVD,Label,Director,Collection,Notes
 | `DVD` | `✓` if the package contains a DVD. Else empty. |
 | `Label` | The company that produced/published the disc: `Arrow`, `Criterion`, `Second Sight`, `Lionsgate`, `Warner Bros.`, `88 Films`, `Eureka`, `Indicator`, `StudioCanal`, `Shout! Factory`, etc. Distributor of *this* release, not the production company of the film. |
 | `Director` | Film: the director. TV: the **showrunner for that season**. Multiple names separated by `; ` (never a bare comma). |
-| `Collection` | Name of the box set this row belongs to, if any. Empty for standalone releases. |
 | `Notes` | Free text. Anything the schema doesn't cover — packaging, edition, condition, who borrowed it, uncertainty about a field. Quote it if it contains a comma. |
 
 There is deliberately **no** disc-release-year column and **no** cut column.
