@@ -17,43 +17,25 @@ tick the item, move it to RESOLVED with the answer, commit.
 OPEN
 ----
 
-[ ] U027 | Image 13 | Row: Sin City (Recut & Extended) | Field: Year
-    Where: 7th from left, black spine, "Recut & Extended" printed, 01ABUA 0072501.
-    In CSV: Year "2005", cut named in the title, note in the Notes column.
-    Doubt:  A policy question. The recut appeared the same year as the theatrical release,
-            so the cuts rule's "original / cut" format would read "2005 / 2005", which looks
-            like an error rather than information. I used the single year instead.
-    Need:   Your preference for same-year recuts. Also: the label is a guess — "01ABUA"
-            suggests Buena Vista, which is what I entered.
-
-[ ] U032 | Image 16 | Row: 3 Pride & Prejudice rows | Fields: Collection, Label
-    Where: leftmost, green DVD spine listing Pride & Prejudice / Atonement /
-           Sense and Sensibility, 8288508.
-    In CSV: Collection recorded as the three titles run together; Label Universal.
-    Doubt:  The box has no title beyond the three film names, so the Collection value is a
-            placeholder rather than a real set name. Also: Sense and Sensibility could be
-            Ang Lee's 1995 film or the 2008 BBC serial — I assumed the film.
-    Need:   Any name printed on the box, and confirmation that it's the 1995 film.
-
-[ ] U044 | Image 23 | Row: True Detective: Season 1 | Field: Name
-    Where: 4th from left, blue HBO spine, between Dr. Strangelove and the white BFI
-           Kurosawa box.
-    In CSV: Season 1 (2014), showrunner Nic Pizzolatto.
-    Doubt:  The spine says only "TRUE DETECTIVE" with no season number. Season 1 is the
-            likely guess for a Blu-ray of that vintage, but if it's a later season both
-            the year and the showrunner change — and if it's a multi-season set it needs
-            one row per season.
-    Need:   Which season, or how many.
-
-[ ] U045 | Image 24 | Row: Die Nibelungen | Field: row count
-    Where: 9th from left, dark red Eureka spine, Masters of Cinema #46, EKA70026.
-    In CSV: one row, with both parts noted in the Notes column.
-    Doubt:  Die Nibelungen is two features — Siegfried and Kriemhild's Revenge, both 1924.
-            Strictly the box-set rule would make that two rows. I kept it as one because
-            it is a single work released in two parts rather than a collection.
-    Need:   Your preference. Same question would apply to any other two-part feature.
+(none — every item raised so far has been answered.)
 
 RESOLVED
+
+[x] U027 | Same-year recuts | Keep a single year - never write "2005 / 2005". The cut is
+    identified by the name alone when both versions share a year. Affects Sin City,
+    Logan (Noir) and Midsommar (Director's Cut); all three were already written that way,
+    and it is now a rule in PLAN.md. Checked: no row in the file carries a duplicated year.
+
+[x] U032 | The Austen triple | Photo supplied. The three high-budget features, so
+    Sense and Sensibility is Ang Lee's 1995 film, as entered - not the BBC serial. The box
+    carries no name beyond the three titles, same as the Tom Hanks set, so the Collection
+    value already matches what is printed. Noted on the rows.
+
+[x] U044 | True Detective | Season 1 only, Blu-ray. The row was already correct.
+
+[x] U045 | Die Nibelungen | Two separate entries. Now "Die Nibelungen: Siegfried" and
+    "Die Nibelungen: Kriemhild's Revenge", both 1924, both Blu-ray, under Collection
+    "Die Nibelungen". A two-part feature is treated as two films, not one row.
 
 [x] U055 | The Lord of the Rings | Treated as a collection. All three rows now carry
     Collection "Lord of the Rings, The: The Motion Picture Trilogy", noted as the early-2010s

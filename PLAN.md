@@ -240,6 +240,10 @@ disambiguation.
   imitates — the Miyazaki set passes for a Disney release and is not one.
 - **A box can mix formats across films.** The Riddick Collection carries two films on
   Blu-ray and one on DVD, so the ticks differ row to row inside one Collection.
+- **Same-year recuts keep a single year.** Never write `2005 / 2005` — when a cut appeared
+  in the same year as the original, the name alone distinguishes it (`Sin City (Recut &
+  Extended)`, `Logan (Noir)`).
+- **A two-part feature is two rows**, under one Collection — see Die Nibelungen.
 - **Identical duplicates** are recorded once. Genuinely different releases of the same film
   still get separate rows.
 
