@@ -227,4 +227,10 @@ Answers established once and reused. Add to this list rather than re-researching
 | 20th Century Fox (BUG-prefix 4K) | UHD + BD combo; two BBFC badges on the spine indicate the two discs. | Batch 1 |
 | Arrow Video | Brands UHD spines with a visible "4K Ultra HD" banner. **No banner ⇒ Blu-ray only.** | Batch 1, unconfirmed (U005) |
 | Criterion | Spines carry a number but **no format marking**, and DVD and BD editions share the number. Never inferable from a photo — always ask. | Batch 1 |
+| Curzon Artificial Eye | Catalogue prefix `ART`. Confirmed by The Handmaiden (ART2168D) in image 06. | Batch 2 |
+| StudioCanal | Catalogue prefix `OPT`. `OPTU` = 4K UHD release, `OPTBD` = Blu-ray. Reliable format tell. | Batch 2 |
+| Arrow Video / Academy | Catalogue prefix `FCD` across both imprints. | Batch 2 |
+| Eureka (Masters of Cinema) | Catalogue prefix `EKA`. | Batch 2 |
+| Second Sight | Catalogue prefix `2NDBR`, circled "(2)" logo on the spine. | Batch 2 |
+| BFI | Dual-format as standard — one package carries both the Blu-ray and the DVD, both logos printed at the foot. | Batch 2 |
 | BBFC badges | The number of certificate badges at the foot of a spine tends to equal the disc count. Useful cross-check for combo packs. | Batch 1 |

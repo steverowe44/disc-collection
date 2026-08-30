@@ -44,7 +44,9 @@ OPEN
              - Anatomy of a Murder, no. 600 (image 05, leftmost)
              - Young Mr. Lincoln, no. 320 (image 05, 2nd)
              - Hearts and Minds, no. 156 (image 05, 3rd, red)
+             - Stalker, no. 888 (image 08, 8th, grey)
     In CSV: Blu-ray for all except Young Mr. Lincoln, which I put down as DVD.
+            (Stalker added from batch 2 - also guessed Blu-ray.)
     Doubt:  Criterion spines carry no format marking, and most of these titles exist in both
             a DVD and a Blu-ray edition with the SAME spine number. This is a pure guess
             on six rows.
@@ -122,6 +124,70 @@ OPEN
     Need:   Either a re-shoot of those two edges, or confirmation that they're covered
             by another image in the set.
 
+
+[ ] U012 | Image 08 | Row: Berserk | Field: Label
+    Where: 3rd from left, brown spine, "BERSERK / COMPLETE SERIES", catalogue MBR7007,
+           between the blue South Park case and the green-vined mother!.
+    In CSV: MVM Entertainment.
+    Doubt:  MBR is not a prefix I can place with confidence. The UK Blu-ray of the 1997
+            series has been handled by more than one anime label.
+    Need:   The label logo on the back or foot of the case.
+
+[ ] U013 | Image 10 | Row: The Death of Stalin | Field: Label
+    Where: 9th from left, white spine with red lettering, between the black Godzilla
+           and the green Rosemary's Baby.
+    In CSV: Concorde Home Entertainment.
+    Doubt:  "CONCORDE HOME ENTERTAINMENT" is clearly printed at the top of the spine, but
+            Concorde is a German distributor and the case carries a BBFC 15 - a UK
+            certificate. That pairing is odd enough that I may be misreading the wordmark.
+    Need:   Confirm the distributor name, and whether this is a UK or an import disc.
+
+[ ] U014 | Image 10 | Row: Hundreds of Beavers | Field: Label
+    Where: 2nd from left, white spine, catalogue LFO0728, next to Pulp Fiction.
+    In CSV: Lightbulb Film Distribution.
+    Doubt:  Inferred from the lightbulb device at the top of the spine plus the "LFO"
+            catalogue prefix. I did not read the company name itself.
+    Need:   The distributor named on the back of the case.
+
+[ ] U015 | Image 09 | Rows: 4 Hitchcock rows | Field: contents
+    Where: the black ALFRED HITCHCOCK CLASSICS COLLECTION boxset, 2nd from right,
+           Universal, 832 211 1.
+    In CSV: Rear Window (1954), Vertigo (1958), Psycho (1960), The Birds (1963).
+    Doubt:  No film titles are printed on the face I can see. Those four are the contents
+            of Universal's Volume 1 4K set, which is what this looks like - but Universal
+            also issued a Volume 2 with a different four films.
+    Need:   The film titles from the back of the box. If it is Volume 2, all four rows
+            are wrong.
+
+[ ] U016 | Image 08 | Row: Léon (Director's Cut) | Field: Year
+    Where: 11th from left, StudioCanal, black spine with a red-tinted face,
+           "DIRECTOR'S CUT" printed on the spine, OPTU4335.
+    In CSV: "1994 / 1996".
+    Doubt:  The cut itself is certain - it's printed on the spine. The second year is my
+            dating of the longer version's release, which I am not certain of. Also worth
+            knowing whether the theatrical cut is on the disc too: if it is, that's a
+            second row under the cuts rule.
+    Need:   Which cuts are on the disc, and ideally the date the long version is given.
+
+[ ] U017 | Images 06, 08, 09, 10 | Field: completeness
+    Where: image 06 - a case at the right edge, past the Star Wars box.
+           image 08 - a 4K case at the right edge, past No Country for Old Men.
+           image 09 - a case behind/right of Spider-Man, and one at the right edge.
+           image 10 - a dark boxset reading "SEASONS..." plus 2-3 spines cut off at the
+                      LEFT edge, before Pulp Fiction.
+    In CSV: nothing - not catalogued.
+    Doubt:  Same as U011: discs visible at the frame edge that can't be identified.
+    Need:   Confirmation these are covered elsewhere in the set, or a re-shoot.
+
+[ ] U018 | Image 06 | Rows: Star Wars Episodes IV, V, VI | Field: Name
+    Where: the STAR WARS: THE COMPLETE SAGA Blu-ray box, rightmost.
+    In CSV: plain names, with a note that these discs carry the Special Edition versions.
+    Doubt:  This is a policy question, not a reading error. The 2011 Blu-rays contain the
+            altered Special Editions, not the 1977/1980/1983 theatrical cuts. Under the
+            cuts rule that arguably makes them "Star Wars: Episode IV - A New Hope
+            (Special Edition)" with Year "1977 / 1997".
+    Need:   Your call. It only matters if you ever add the theatrical cuts, at which point
+            the two would need telling apart.
 
 RESOLVED
 --------
