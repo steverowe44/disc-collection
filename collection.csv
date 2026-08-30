@@ -1,8 +1,8 @@
 ﻿Collection,Name,Year,TV,Film,4K,Blu-ray,DVD,Label,Director,Notes
 ,"Adventures of Sharkboy and Lavagirl in 3-D, The",2005,,✓,,,✓,Sony Pictures,Robert Rodriguez,
-,Parasite,2019,,✓,,✓,,Curzon Artificial Eye,Bong Joon-ho,
+,Parasite,2019,,✓,✓,✓,,Curzon Artificial Eye,Bong Joon-ho,Includes the black-and-white version
 ,Knives Out,2019,,✓,,✓,,Lionsgate,Rian Johnson,
-,Kingdom of Heaven,2005,,✓,✓,✓,,20th Century Fox,Ridley Scott,
+,Kingdom of Heaven (Director's Cut),2005 / 2006,,✓,✓,✓,,20th Century Fox,Ridley Scott,4K disc
 Che,Che: Part One,2008,,✓,,✓,,Optimum Home Entertainment,Steven Soderbergh,
 Che,Che: Part Two,2008,,✓,,✓,,Optimum Home Entertainment,Steven Soderbergh,
 ,Rushmore,1998,,✓,,✓,,Criterion,Wes Anderson,
@@ -11,7 +11,7 @@ Tetsuo,Tetsuo II: Body Hammer,1992,,✓,,✓,,Third Window Films,Shinya Tsukamot
 ,Master and Commander: The Far Side of the World,2003,,✓,✓,✓,,20th Century Fox,Peter Weir,
 ,Jaws,1975,,✓,✓,✓,,Universal,Steven Spielberg,
 ,One Flew Over the Cuckoo's Nest,1975,,✓,✓,✓,,Warner Bros.,Miloš Forman,
-,Green Room,2015,,✓,,✓,,Second Sight,Jeremy Saulnier,
+,Creep,2014,,✓,,✓,,Second Sight,Patrick Brice,"Second Sight standard edition, 2NDBR4237"
 ,"Pianist, The",2002,,✓,✓,✓,,StudioCanal,Roman Polanski,
 ,Fantastic Mr. Fox,2009,,✓,,,✓,20th Century Fox,Wes Anderson,
 ,Asteroid City,2023,,✓,,✓,,Universal,Wes Anderson,
@@ -24,8 +24,8 @@ Tetsuo,Tetsuo II: Body Hammer,1992,,✓,,✓,,Third Window Films,Shinya Tsukamot
 ,Godzilla: King of the Monsters,2019,,✓,✓,✓,,Warner Bros.,Michael Dougherty,
 ,Lawrence of Arabia,1962,,✓,,✓,,Sony Pictures,David Lean,
 ,"Princess Bride, The",1987,,✓,,✓,,Lionsgate,Rob Reiner,
-,"Lighthouse, The",2019,,✓,,✓,,Arrow Video,Robert Eggers,
-,12 Monkeys,1995,,✓,,✓,,Arrow Video,Terry Gilliam,
+,"Lighthouse, The",2019,,✓,✓,,,Arrow Video,Robert Eggers,
+,12 Monkeys,1995,,✓,✓,,,Arrow Video,Terry Gilliam,
 ,2001: A Space Odyssey,1968,,✓,✓,✓,,Warner Bros.,Stanley Kubrick,
 ,Jane Eyre,2006,✓,,,,✓,BBC,Susanna White,BBC miniseries; written by Sandy Welch
 Universal Monsters: The Essential Collection,Dracula,1931,,✓,,✓,,Universal,Tod Browning,
@@ -40,7 +40,7 @@ Universal Monsters: The Essential Collection,Creature from the Black Lagoon,1954
 ,Scream,1996,,✓,✓,✓,,Paramount,Wes Craven,
 ,Mad Max: Fury Road,2015,,✓,✓,✓,,Warner Bros.,George Miller,
 ,Rio Grande,1950,,✓,,✓,,Eureka,John Ford,
-,"Silence of the Lambs, The",1991,,✓,,✓,,Arrow Video,Jonathan Demme,
+,"Silence of the Lambs, The",1991,,✓,✓,,,Arrow Video,Jonathan Demme,
 ,"Third Man, The",1949,,✓,,✓,,StudioCanal,Carol Reed,
 ,"Departed, The",2006,,✓,,✓,,Warner Bros.,Martin Scorsese,
 ,"Night of the Hunter, The",1955,,✓,,✓,,Criterion,Charles Laughton,
@@ -61,13 +61,13 @@ Dragon Ball Z Movie Collection 1-13 + TV Specials,Dragon Ball Z: Fusion Reborn,1
 Dragon Ball Z Movie Collection 1-13 + TV Specials,Dragon Ball Z: Wrath of the Dragon,1995,,✓,,✓,,Manga Entertainment,Mitsuo Hashimoto,
 Dragon Ball Z Movie Collection 1-13 + TV Specials,Dragon Ball Z: Bardock - The Father of Goku,1990,✓,,,✓,,Manga Entertainment,Mitsuo Hashimoto,TV special
 Dragon Ball Z Movie Collection 1-13 + TV Specials,"Dragon Ball Z: History of Trunks, The",1993,✓,,,✓,,Manga Entertainment,Yoshihiro Ueda,TV special
-,"Last Emperor, The",1987,,✓,,✓,,Arrow Video,Bernardo Bertolucci,
+,"Last Emperor, The",1987,,✓,✓,,,Arrow Video,Bernardo Bertolucci,Standard Edition (theatrical cut); the Limited Edition would add a Blu-ray - see U057
 ,Blade Runner (Final Cut),1982 / 2007,,✓,✓,✓,,Warner Bros.,Ridley Scott,
 ,"Hateful Eight, The",2015,,✓,,✓,,Entertainment In Video,Quentin Tarantino,
 ,Full Metal Jacket,1987,,✓,✓,✓,,Warner Bros.,Stanley Kubrick,
 ,Us,2019,,✓,✓,✓,,Universal,Jordan Peele,
 ,Event Horizon,1997,,✓,✓,✓,,Paramount,Paul W. S. Anderson,
-,Das Cabinet des Dr. Caligari,1920,,✓,✓,✓,,Eureka,Robert Wiene,
+,Das Cabinet des Dr. Caligari,1920,,✓,✓,,,Eureka,Robert Wiene,
 ,Paprika,2006,,✓,,✓,,Manga Entertainment,Satoshi Kon,
 ,Unforgiven,1992,,✓,✓,✓,,Warner Bros.,Clint Eastwood,
 ,Shin Godzilla,2016,,✓,,✓,,Manga Entertainment,Hideaki Anno; Shinji Higuchi,
@@ -92,9 +92,9 @@ Dragon Ball Movie Trilogy,Dragon Ball Super: Broly,2018,,✓,,✓,,Manga Enterta
 Star Wars: The Complete Saga,Star Wars: Episode I - The Phantom Menace,1999,,✓,,✓,,20th Century Fox,George Lucas,
 Star Wars: The Complete Saga,Star Wars: Episode II - Attack of the Clones,2002,,✓,,✓,,20th Century Fox,George Lucas,
 Star Wars: The Complete Saga,Star Wars: Episode III - Revenge of the Sith,2005,,✓,,✓,,20th Century Fox,George Lucas,
-Star Wars: The Complete Saga,Star Wars: Episode IV - A New Hope,1977,,✓,,✓,,20th Century Fox,George Lucas,Special Edition version on this disc
-Star Wars: The Complete Saga,Star Wars: Episode V - The Empire Strikes Back,1980,,✓,,✓,,20th Century Fox,Irvin Kershner,Special Edition version on this disc
-Star Wars: The Complete Saga,Star Wars: Episode VI - Return of the Jedi,1983,,✓,,✓,,20th Century Fox,Richard Marquand,Special Edition version on this disc
+Star Wars: The Complete Saga,Star Wars: Episode IV - A New Hope (Special Edition),1977 / 1997,,✓,,✓,,20th Century Fox,George Lucas,
+Star Wars: The Complete Saga,Star Wars: Episode V - The Empire Strikes Back (Special Edition),1980 / 1997,,✓,,✓,,20th Century Fox,Irvin Kershner,
+Star Wars: The Complete Saga,Star Wars: Episode VI - Return of the Jedi (Special Edition),1983 / 1997,,✓,,✓,,20th Century Fox,Richard Marquand,
 ,Doctor Who: Series 2,2006,✓,,,,✓,BBC,Russell T Davies,
 ,Doctor Who: Series 3,2007,✓,,,,✓,BBC,Russell T Davies,
 ,Doctor Who: Series 4,2008,✓,,,,✓,BBC,Russell T Davies,
@@ -116,7 +116,8 @@ Almodóvar: The Collection Vol. 2,"Flower of My Secret, The",1995,,✓,,,✓,Opt
 ,Stalker,1979,,✓,,✓,,Criterion,Andrei Tarkovsky,
 ,"Blair Witch Project, The",1999,,✓,,✓,,Second Sight,Daniel Myrick; Eduardo Sánchez,
 ,Godzilla vs. Kong,2021,,✓,✓,✓,,Warner Bros.,Adam Wingard,
-,Léon (Director's Cut),1994 / 1996,,✓,✓,✓,,StudioCanal,Luc Besson,
+,Léon,1994,,✓,,✓,,StudioCanal,Luc Besson,"Theatrical cut, on the Blu-ray in the same package"
+,Léon (Director's Cut),1994 / 1996,,✓,✓,,,StudioCanal,Luc Besson,"Director's Cut, on the 4K disc"
 ,No Country for Old Men,2007,,✓,,✓,,Miramax,Joel Coen; Ethan Coen,
 ,Goodfellas,1990,,✓,✓,✓,,Warner Bros.,Martin Scorsese,
 ,"Running Man, The",1987,,✓,✓,✓,,Paramount,Paul Michael Glaser,
@@ -140,7 +141,7 @@ Alfred Hitchcock Classics Collection,"Birds, The",1963,,✓,✓,✓,,Universal,A
 ,"Sorrow and the Pity, The",1969,,✓,,✓,,Arrow Academy,Marcel Ophüls,Documentary
 ,Gomorrah,2008,,✓,,✓,,Optimum Home Entertainment,Matteo Garrone,
 ,Godzilla,2014,,✓,✓,✓,,Warner Bros.,Gareth Edwards,
-,"Death of Stalin, The",2017,,✓,,✓,,Concorde Home Entertainment,Armando Iannucci,
+,"Death of Stalin, The",2017,,✓,,✓,,Concorde Home Entertainment,Armando Iannucci,German release; English version on the disc
 ,Rosemary's Baby,1968,,✓,✓,✓,,Paramount,Roman Polanski,
 ,"Fifth Element, The",1997,,✓,✓,✓,,StudioCanal,Luc Besson,
 ,Never Let Me Go,2010,,✓,,✓,,20th Century Fox,Mark Romanek,
@@ -176,9 +177,10 @@ Alfred Hitchcock Classics Collection,"Birds, The",1963,,✓,✓,✓,,Universal,A
 ,"Revenant, The",2015,,✓,,✓,,20th Century Fox,Alejandro G. Iñárritu,
 ,"Extraordinary Adventures of Adèle Blanc-Sec, The",2010,,✓,,✓,,Optimum Home Entertainment,Luc Besson,
 ,Star Trek Beyond,2016,,✓,✓,✓,,Paramount,Justin Lin,
-,Apocalypse Now,1979,,✓,,✓,,StudioCanal,Francis Ford Coppola,Theatrical cut; in the Final Cut 4K package
-,Apocalypse Now (Redux),1979 / 2001,,✓,,✓,,StudioCanal,Francis Ford Coppola,In the Final Cut 4K package
-,Apocalypse Now (Final Cut),1979 / 2019,,✓,✓,✓,,StudioCanal,Francis Ford Coppola,
+Apocalypse Now: Final Cut,Apocalypse Now,1979,,✓,✓,✓,,StudioCanal,Francis Ford Coppola,Theatrical cut
+Apocalypse Now: Final Cut,Apocalypse Now (Redux),1979 / 2001,,✓,✓,✓,,StudioCanal,Francis Ford Coppola,
+Apocalypse Now: Final Cut,Apocalypse Now (Final Cut),1979 / 2019,,✓,✓,✓,,StudioCanal,Francis Ford Coppola,
+Apocalypse Now: Final Cut,Hearts of Darkness: A Filmmaker's Apocalypse,1991,,✓,,✓,,StudioCanal,Fax Bahr; George Hickenlooper; Eleanor Coppola,Documentary; Blu-ray only
 ,"400 Blows, The",1959,,✓,,✓,,BFI,François Truffaut,
 Irish Folklore Trilogy,"Secret of Kells, The",2009,,✓,,✓,,StudioCanal,Tomm Moore; Nora Twomey,
 Irish Folklore Trilogy,Song of the Sea,2014,,✓,,✓,,StudioCanal,Tomm Moore,
@@ -192,7 +194,7 @@ Six Gothic Tales,"Raven, The",1963,,✓,,✓,,Arrow Video,Roger Corman,
 Six Gothic Tales,"Haunted Palace, The",1963,,✓,,✓,,Arrow Video,Roger Corman,
 Six Gothic Tales,"Tomb of Ligeia, The",1964,,✓,,✓,,Arrow Video,Roger Corman,
 ,V for Vendetta,2005,,✓,✓,✓,,Warner Bros.,James McTeigue,
-,Mussolini: Son of the Century,2024,✓,,✓,✓,,Dazzler Media,Joe Wright,
+,Mussolini: Son of the Century,2024,✓,,✓,,,Dazzler Media,Joe Wright,
 Blackadder Remastered: The Ultimate Edition,"Black Adder, The",1983,✓,,,,✓,BBC,Richard Curtis; Rowan Atkinson,
 Blackadder Remastered: The Ultimate Edition,Blackadder II,1986,✓,,,,✓,BBC,Richard Curtis; Ben Elton,
 Blackadder Remastered: The Ultimate Edition,Blackadder the Third,1987,✓,,,,✓,BBC,Richard Curtis; Ben Elton,
@@ -200,13 +202,18 @@ Blackadder Remastered: The Ultimate Edition,Blackadder Goes Forth,1989,✓,,,,�
 Resident Evil Trilogy,Resident Evil,2002,,✓,,,✓,Sony Pictures,Paul W. S. Anderson,
 Resident Evil Trilogy,Resident Evil: Apocalypse,2004,,✓,,,✓,Sony Pictures,Alexander Witt,
 Resident Evil Trilogy,Resident Evil: Extinction,2007,,✓,,,✓,Sony Pictures,Russell Mulcahy,
-,Kingdom of Heaven (Director's Cut),2005 / 2006,,✓,,,✓,20th Century Fox,Ridley Scott,4-disc Director's Cut DVD
-"Naked Gun Trilogy, The","Naked Gun: From the Files of Police Squad!, The",1988,,✓,,,✓,Paramount,David Zucker,PHE1136
-"Naked Gun Trilogy, The","Naked Gun 2 1/2: The Smell of Fear, The",1991,,✓,,,✓,Paramount,David Zucker,PHE1136
-"Naked Gun Trilogy, The",Naked Gun 33 1/3: The Final Insult,1994,,✓,,,✓,Paramount,Peter Segal,PHE1136
+,Kingdom of Heaven (Director's Cut),2005 / 2006,,✓,,,✓,20th Century Fox,Ridley Scott,4-disc Director's Cut DVD; second copy
+"Naked Gun Trilogy, The","Naked Gun: From the Files of Police Squad!, The",1988,,✓,,,✓,Paramount,David Zucker,
+"Naked Gun Trilogy, The","Naked Gun 2 1/2: The Smell of Fear, The",1991,,✓,,,✓,Paramount,David Zucker,
+"Naked Gun Trilogy, The",Naked Gun 33 1/3: The Final Insult,1994,,✓,,,✓,Paramount,Peter Segal,
 ,"Darjeeling Limited, The",2007,,✓,,,✓,20th Century Fox,Wes Anderson,
 ,Sin City (Recut & Extended),2005,,✓,,,✓,Buena Vista,Frank Miller; Robert Rodriguez,Recut & Extended edition
 ,Jackie Brown,1997,,✓,,,✓,Lionsgate,Quentin Tarantino,Miramax title
+Superman: Animated Collection,Superman: Doomsday,2007,,✓,,,✓,Warner Bros.,Lauren Montgomery; Bruce Timm; Brandon Vietti,
+Superman: Animated Collection,Superman/Batman: Public Enemies,2009,,✓,,,✓,Warner Bros.,Sam Liu,
+Superman: Animated Collection,Superman/Batman: Apocalypse,2010,,✓,,,✓,Warner Bros.,Lauren Montgomery,
+Superman: Animated Collection,Superman vs. The Elite,2012,,✓,,,✓,Warner Bros.,Michael Chang,
+Superman: Animated Collection,Superman: Unbound,2013,,✓,,,✓,Warner Bros.,James Tucker,
 Die Hard Trilogy,Die Hard,1988,,✓,,,✓,20th Century Fox,John McTiernan,
 Die Hard Trilogy,Die Hard 2,1990,,✓,,,✓,20th Century Fox,Renny Harlin,
 Die Hard Trilogy,Die Hard with a Vengeance,1995,,✓,,,✓,20th Century Fox,John McTiernan,
@@ -229,7 +236,7 @@ Die Hard Trilogy,Die Hard with a Vengeance,1995,,✓,,,✓,20th Century Fox,John
 "Werner Herzog Collection, The",Fitzcarraldo,1982,,✓,,✓,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Cobra Verde,1987,,✓,,✓,,BFI,Werner Herzog,
 ,12 Angry Men,1957,,✓,,✓,,Criterion,Sidney Lumet,
-,Dogma,1999,,✓,✓,✓,,Visions Home Video,Kevin Smith,
+,Dogma,1999,,✓,✓,,,Visions Home Video,Kevin Smith,Vertigo Releasing sub-label; single-disc 4K
 ,"Great Dictator, The",1940,,✓,,✓,,Criterion,Charlie Chaplin,
 ,"City of Lost Children, The",1995,,✓,✓,✓,,StudioCanal,Marc Caro; Jean-Pierre Jeunet,
 ,Mulholland Dr.,2001,,✓,✓,✓,,StudioCanal,David Lynch,
@@ -243,9 +250,6 @@ Die Hard Trilogy,Die Hard with a Vengeance,1995,,✓,,,✓,20th Century Fox,John
 "Coen Brothers' Collection, The (Universal)",Barton Fink,1991,,✓,,,✓,Universal,Joel Coen; Ethan Coen,
 "Coen Brothers' Collection, The (Universal)","Hudsucker Proxy, The",1994,,✓,,,✓,Universal,Joel Coen; Ethan Coen,
 "Coen Brothers' Collection, The (Universal)","Big Lebowski, The",1998,,✓,,,✓,Universal,Joel Coen; Ethan Coen,
-"Naked Gun Trilogy, The","Naked Gun: From the Files of Police Squad!, The",1988,,✓,,,✓,Paramount,David Zucker,Second copy; PHE0983
-"Naked Gun Trilogy, The","Naked Gun 2 1/2: The Smell of Fear, The",1991,,✓,,,✓,Paramount,David Zucker,Second copy; PHE0983
-"Naked Gun Trilogy, The",Naked Gun 33 1/3: The Final Insult,1994,,✓,,,✓,Paramount,Peter Segal,Second copy; PHE0983
 ,Witness for the Prosecution,1957,,✓,,,✓,MGM,Billy Wilder,
 ,Grease,1978,,✓,,,✓,Paramount,Randal Kleiser,
 ,Carol,2015,,✓,,,✓,StudioCanal,Todd Haynes,
@@ -315,7 +319,7 @@ The Terminal / Catch Me If You Can / Cast Away,Cast Away,2000,,✓,,,✓,DreamWo
 "Wire, The: The Complete Series","Wire, The: Season 3",2004,✓,,,,✓,HBO,David Simon,
 "Wire, The: The Complete Series","Wire, The: Season 4",2006,✓,,,,✓,HBO,David Simon,
 "Wire, The: The Complete Series","Wire, The: Season 5",2008,✓,,,,✓,HBO,David Simon,
-"Tim Burton Collection, The","Pee-wee's Big Adventure",1985,,✓,,,✓,Warner Bros.,Tim Burton,
+"Tim Burton Collection, The",Pee-wee's Big Adventure,1985,,✓,,,✓,Warner Bros.,Tim Burton,
 "Tim Burton Collection, The",Beetlejuice,1988,,✓,,,✓,Warner Bros.,Tim Burton,
 "Tim Burton Collection, The",Batman,1989,,✓,,,✓,Warner Bros.,Tim Burton,Second copy; 4K also held
 "Tim Burton Collection, The",Batman Returns,1992,,✓,,,✓,Warner Bros.,Tim Burton,Second copy; 4K also held
@@ -354,7 +358,7 @@ Rocky: Ultimate Knockout Collection,Rocky III,1982,,✓,✓,✓,,Warner Bros.,Sy
 Rocky: Ultimate Knockout Collection,Rocky IV,1985,,✓,✓,✓,,Warner Bros.,Sylvester Stallone,
 Rocky: Ultimate Knockout Collection,Rocky V,1990,,✓,✓,✓,,Warner Bros.,John G. Avildsen,
 Rocky: Ultimate Knockout Collection,Rocky Balboa,2006,,✓,✓,✓,,Warner Bros.,Sylvester Stallone,
-,Drive,2011,,✓,,✓,,Second Sight,Nicolas Winding Refn,
+,Drive,2011,,✓,✓,✓,,Second Sight,Nicolas Winding Refn,
 ,"Lobster, The",2015,,✓,,✓,,Lionsgate,Yorgos Lanthimos,
 ,Casino,1995,,✓,✓,✓,,Universal,Martin Scorsese,
 ,"Godfather Coda, The: The Death of Michael Corleone",1990 / 2020,,✓,✓,✓,,Paramount,Francis Ford Coppola,Recut of The Godfather Part III
@@ -380,7 +384,7 @@ Akira Kurosawa Samurai Collection,Sanjuro,1962,,✓,,✓,,BFI,Akira Kurosawa,
 ,"Dark Knight, The",2008,,✓,✓,✓,,Warner Bros.,Christopher Nolan,
 ,Phantom of the Paradise,1974,,✓,,✓,,Arrow Video,Brian De Palma,
 ,Die Nibelungen,1924,,✓,,✓,,Eureka,Fritz Lang,Both parts: Siegfried and Kriemhild's Revenge
-,Raging Bull,1980,,✓,,✓,,Criterion,Martin Scorsese,
+,Raging Bull,1980,,✓,✓,✓,,Criterion,Martin Scorsese,
 ,Network,1976,,✓,,✓,,Arrow Academy,Sidney Lumet,
 ,War for the Planet of the Apes,2017,,✓,✓,✓,,20th Century Fox,Matt Reeves,
 ,Ghost in the Shell,1995,,✓,✓,✓,,Lionsgate,Mamoru Oshii,Second copy; Manga Blu-ray also held
@@ -395,19 +399,20 @@ Akira Kurosawa Samurai Collection,Sanjuro,1962,,✓,,✓,,BFI,Akira Kurosawa,
 ,Birdman,2014,,✓,,✓,,20th Century Fox,Alejandro G. Iñárritu,Rental copy
 ,"Shining, The",1980,,✓,✓,✓,,Warner Bros.,Stanley Kubrick,
 ,Highlander,1986,,✓,✓,✓,,StudioCanal,Russell Mulcahy,
-,Videodrome,1983,,✓,,✓,,Arrow Video,David Cronenberg,
+,Videodrome,1983,,✓,✓,,,Arrow Video,David Cronenberg,
 ,Evangelion: 3.0+1.11 Thrice Upon a Time,2021,,✓,,✓,,Anime Limited,Hideaki Anno,
 ,"Matrix, The",1999,,✓,✓,✓,,Warner Bros.,Lana Wachowski; Lilly Wachowski,
-,Cinema Paradiso,1988,,✓,,✓,,Arrow Academy,Giuseppe Tornatore,
+,Cinema Paradiso,1988,,✓,✓,,,Arrow Academy,Giuseppe Tornatore,"Theatrical cut, on the 4K disc"
+,Cinema Paradiso (Director's Cut),1988 / 2002,,✓,,✓,,Arrow Academy,Giuseppe Tornatore,On the Blu-ray disc in the same package
 ,"Lord of the Rings, The: The Fellowship of the Ring",2001,,✓,,✓,,Entertainment In Video,Peter Jackson,
 ,"Last Temptation of Christ, The",1988,,✓,,✓,,Criterion,Martin Scorsese,
 ,"Last of Us, The: Season 1",2023,✓,,✓,✓,,HBO,Craig Mazin; Neil Druckmann,
 Yojimbo / Sanjuro,Yojimbo,1961,,✓,✓,✓,,BFI,Akira Kurosawa,Second copy; also in the BFI Samurai Collection
 Yojimbo / Sanjuro,Sanjuro,1962,,✓,✓,✓,,BFI,Akira Kurosawa,Second copy; also in the BFI Samurai Collection
 ,Exorcist III,1990,,✓,,✓,,Arrow Video,William Peter Blatty,
-,Guillermo del Toro's Pinocchio,2022,,✓,,✓,,Criterion,Guillermo del Toro; Mark Gustafson,
+,Guillermo del Toro's Pinocchio,2022,,✓,✓,✓,,Criterion,Guillermo del Toro; Mark Gustafson,
 ,BlacKkKlansman,2018,,✓,,✓,,Universal,Spike Lee,
-,Dune,1984,,✓,,✓,,Arrow Video,David Lynch,
+,Dune,1984,,✓,✓,✓,,Arrow Video,David Lynch,"Limited Edition, 4K + Blu-ray"
 Twin Peaks: The Entire Mystery,Twin Peaks: Season 1,1990,✓,,,✓,,Paramount,David Lynch; Mark Frost,
 Twin Peaks: The Entire Mystery,Twin Peaks: Season 2,1990,✓,,,✓,,Paramount,David Lynch; Mark Frost,
 Twin Peaks: The Entire Mystery,Twin Peaks: Fire Walk with Me,1992,,✓,,✓,,Paramount,David Lynch,
@@ -456,11 +461,11 @@ Straight Shooting & Hell Bent,Hell Bent,1918,,✓,,✓,,Eureka,John Ford,
 ,"Act of Killing, The",2012,,✓,,✓,,Dogwoof,Joshua Oppenheimer,Documentary
 ,Inside Llewyn Davis,2013,,✓,,✓,,StudioCanal,Joel Coen; Ethan Coen,
 ,"Deer Hunter, The",1978,,✓,✓,✓,,StudioCanal,Michael Cimino,
-,"Return of the Living Dead, The",1985,,✓,,✓,,Arrow Video,Dan O'Bannon,
+,"Return of the Living Dead, The",1985,,✓,✓,,,Arrow Video,Dan O'Bannon,"Two discs, but the Blu-ray carries bonus features only"
 ,"Wizard of Oz, The",1939,,✓,✓,✓,,Warner Bros.,Victor Fleming,
 ,Häxan,1922,,✓,,✓,,Radiance Films,Benjamin Christensen,
 ,Carlito's Way,1993,,✓,✓,✓,,Universal,Brian De Palma,
-,Akira Kurosawa's Dreams,1990,,✓,,✓,,Criterion,Akira Kurosawa,
+,Akira Kurosawa's Dreams,1990,,✓,✓,✓,,Criterion,Akira Kurosawa,
 ,A Clockwork Orange,1971,,✓,✓,✓,,Warner Bros.,Stanley Kubrick,
 ,Spider-Man 3,2007,,✓,,✓,,Sony Pictures,Sam Raimi,
 ,Chernobyl,2019,✓,,✓,✓,,HBO,Craig Mazin,5-part miniseries

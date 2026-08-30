@@ -215,6 +215,23 @@ disambiguation.
   full frame, at ~1.45× the tokens. Use only on images whose spines can't be read — not by
   default. PIL is not installed; PowerShell / System.Drawing does the cropping.
 
+### Standing rules added from resolved uncertainties
+
+- **Formats:** assume **Blu-ray at least** for any disc unless told otherwise. Tick 4K only
+  when it is confirmed, and check per title whether a 4K package also holds a Blu-ray —
+  it varies by label AND by year within a label.
+- **Bonus-only Blu-rays don't count.** If a 4K package's second disc carries extras rather
+  than the feature, leave the Blu-ray column empty and say so in Notes
+  (The Return of the Living Dead).
+- **TV without a showrunner:** use the **director**. British serials rarely have one.
+- **Cuts split across discs:** where one package puts different cuts on different discs,
+  each cut is its own row and the format ticks follow the disc that cut sits on —
+  see Léon (DC on 4K, theatrical on BD) and Cinema Paradiso (theatrical on 4K, DC on BD).
+- **Alternate presentations** (black-and-white versions, Logan Noir, Black & Chrome) are
+  noted in Notes, not given their own row — unlike re-edits. Open question, U059.
+- **Identical duplicates** are recorded once. Genuinely different releases of the same film
+  still get separate rows.
+
 ## Label conventions (learned)
 
 Answers established once and reused. Add to this list rather than re-researching.
@@ -225,7 +242,11 @@ Answers established once and reused. Add to this list rather than re-researching
 | Warner Bros. | 4K catalogue releases ship UHD + BD. Spine shows only "4K ULTRA HD"; the BD is not printed but is standard. | Batch 1 |
 | Paramount | 4K releases print "Ultra HD Blu-ray" plus an "N-DISC SET" count — the count confirms a BD is present. | Batch 1 |
 | 20th Century Fox (BUG-prefix 4K) | UHD + BD combo; two BBFC badges on the spine indicate the two discs. | Batch 1 |
-| Arrow Video | Brands UHD spines with a visible "4K Ultra HD" banner. **No banner ⇒ Blu-ray only.** | Batch 1, unconfirmed (U005) |
+| Arrow Video | The spine banner is NOT reliable — several 4K releases show none. Assume Blu-ray at least; ask before ticking 4K. | Corrected, U005 |
+| Arrow Video 4K | Recent UK 4K releases (2022 on) are **single-disc UHD, no Blu-ray**: Lighthouse, 12 Monkeys, Silence of the Lambs, Videodrome, Last Emperor SE. Older ones still bundled a BD: Dune 1984 (2021), Cinema Paradiso (2020). Verify per title. | U005 |
+| Criterion 4K | Always a UHD + Blu-ray combo — no Criterion 4K is UHD-only. Safe to tick both. | U003 |
+| Eureka (MoC) 4K | UHD-only, at least for Caligari. Do not assume a bundled Blu-ray. | U009 |
+| Second Sight 4K | UHD + Blu-ray (Drive verified). | U005 |
 | Criterion | Spines carry a number but **no format marking**, and DVD and BD editions share the number. Never inferable from a photo — always ask. | Batch 1 |
 | Curzon Artificial Eye | Catalogue prefix `ART`. Confirmed by The Handmaiden (ART2168D) in image 06. | Batch 2 |
 | StudioCanal | Catalogue prefix `OPT`. `OPTU` = 4K UHD release, `OPTBD` = Blu-ray. Reliable format tell. | Batch 2 |

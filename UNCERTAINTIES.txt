@@ -17,271 +17,6 @@ tick the item, move it to RESOLVED with the answer, commit.
 OPEN
 ----
 
-[ ] U001 | Image 01 | Row: Parasite | Field: 4K
-    Where: 2nd from left, teal-and-black spine, between Sharkboy and Lavagirl (DVD)
-           and the yellow Knives Out.
-    In CSV: Blu-ray only.
-    Doubt:  A catalogue number ending "ART1050UHD" is legible at the foot of that area of
-            the shelf, but I can't tell whether it belongs to the Parasite spine or the
-            Knives Out spine next to it. "ART" is an Artificial Eye prefix, so if it is
-            Parasite's, this is the 4K UHD edition and the 4K column is wrong.
-    Need:   Does the Parasite case say "4K Ultra HD" anywhere, and is there a 4K disc in it?
-
-[ ] U002 | Image 01 | Row: Kingdom of Heaven | Field: Name / Year
-    Where: 4th from left, black spine with a landscape photo, "Ultra HD Blu-ray" banner,
-           between Knives Out and the Che double.
-    In CSV: "Kingdom of Heaven", 2005.
-    Doubt:  The 4K release is widely the Director's Cut rather than the theatrical version.
-            If that's what's in the case, the row should be "Kingdom of Heaven (Director's Cut)"
-            with Year "2005 / 2006" per the cuts rule.
-    Need:   Does the back of the case say Director's Cut, and is the theatrical cut also included?
-
-[ ] U003 | Images 01, 02, 03, 05 | Rows: six Criterion titles | Field: Blu-ray vs DVD
-    Where: the Criterion spines - all recognisable by the "C" logo and a spine number.
-             - Rushmore, no. 65 (image 01, 6th, cream/red)
-             - The Life Aquatic, no. 300 (image 02, 3rd, pale blue/green)
-             - The Night of the Hunter, no. 541 (image 03, 10th, white)
-             - Anatomy of a Murder, no. 600 (image 05, leftmost)
-             - Young Mr. Lincoln, no. 320 (image 05, 2nd)
-             - Hearts and Minds, no. 156 (image 05, 3rd, red)
-             - Stalker, no. 888 (image 08, 8th, grey)
-             - 12 Angry Men, no. 591 (image 14, 2nd, tan)
-             - The Great Dictator, no. 565 (image 14, 4th, red/pink)
-             - Dr. Strangelove, number not visible (image 23, 3rd, grey)
-             - True Stories, no. 951 (image 23, 7th, red/white)
-             - Stagecoach, no. 516 (image 24, 6th, cream/orange)
-             - Raging Bull, no. 1134 (image 24, 10th, grey)
-             - The Last Temptation of Christ, no. 70 (image 26, 5th, red/pink)
-             - Guillermo del Toro's Pinocchio, no. 120? (image 26, 9th, dark blue)
-             - It's a Mad, Mad, Mad, Mad World, no. 692 (image 27, 2nd, white)
-             - Akira Kurosawa's Dreams, no. 842 (image 30, 11th, white)
-    In CSV: Blu-ray for all except Young Mr. Lincoln, which I put down as DVD.
-            (Stalker added from batch 2 - also guessed Blu-ray.)
-    Doubt:  Criterion spines carry no format marking, and most of these titles exist in both
-            a DVD and a Blu-ray edition with the SAME spine number. This is a pure guess
-            on six rows.
-    Need:   Six quick answers - DVD or Blu-ray for each. Faster for you to read off the
-            shelf than for me to research edition by edition.
-
-[ ] U004 | Image 01 | Row: Green Room | Field: Name
-    Where: 11th from left, second-to-last. Dark blue-black spine with a scratchy/streaked
-           texture, Second Sight's circled "(2)" logo at the top, catalogue 2NDBR4237.
-           Sits between One Flew Over the Cuckoo's Nest (teal) and The Pianist (brown).
-    In CSV: Green Room (2015, Jeremy Saulnier).
-    Doubt:  The title is set in a handwritten cursive font I could only partly resolve -
-            it reads as "Green" plus a second word. Second Sight's Green Room fits the
-            artwork, but the guess rests on the typography, not on reading the words.
-    Need:   Just confirm the title on that spine.
-
-[ ] U005 | Images 02, 03, 04 | Rows: five Arrow Video titles | Field: 4K
-    Where: JSA: Joint Security Area (image 02, 4th, red/orange)
-           The Lighthouse (image 02, 10th, grey/black)
-           12 Monkeys (image 02, 11th, white/red)
-           The Silence of the Lambs (image 03, 7th, black with moth)
-           The Game (image 18, left, blue, FCD1916)
-           The Vengeance Trilogy x3 (image 22, in the black box, FCD1970-1/2/3)
-           The Holy Mountain (image 25, 7th, orange, FCD2169)
-           Videodrome (image 25, 13th, black, FCD2356)
-           Cinema Paradiso (image 26, 3rd, FCD2054)
-           The Exorcist III (image 26, 8th, FCD2026)
-           Dune 1984 (image 26, 11th, orange/tan)
-           Heathers (image 27, 3rd, FCD1786)
-           The Return of the Living Dead (image 30, 7th, FCD2836)
-           Drive — Second Sight, not Arrow, but same question (image 22, 10th)
-           The Last Emperor (image 04, 3rd, red)
-    In CSV: Blu-ray only for all five.
-    Doubt:  Arrow has since put out 4K editions of several of these. None of the five spines
-            shows a "4K Ultra HD" banner, and Arrow does brand its UHD spines, so this is
-            reasonably safe - but it is five rows resting on one assumption.
-    Need:   A glance along that run: any of them 4K?
-
-[ ] U006 | Image 02 | Row: Palestine 36 | Fields: Blu-ray, Director
-    Where: 5th from left, grey/silver spine reading "A CURZON FILM", "2025" at the foot,
-           between the red Arrow JSA and the black Mummy Trilogy.
-    In CSV: Blu-ray, Curzon, Annemarie Jacir, 2025.
-    Doubt:  No format marking legible on the spine, and this is recent enough that I can't
-            confirm the disc specs from knowledge.
-    Need:   Blu-ray or 4K? (Director and year I'm confident about.)
-
-[ ] U007 | Image 03 | Row: Jane Eyre | Field: Director
-    Where: leftmost, white BBC DVD box, BBCDVD2249.
-    In CSV: Susanna White, with a note that Sandy Welch wrote it.
-    Doubt:  A 2006 BBC serial has no showrunner in the American sense. Susanna White
-            directed all four episodes; Sandy Welch adapted it and is arguably the
-            authoring voice.
-    Need:   Your call on which name you want in that column for British serials -
-            director or writer. Whichever you pick becomes the standing rule.
-
-[ ] U008 | Image 04 | Rows: 15 Dragon Ball Z rows | Field: Director
-    Where: 2nd from left, tall white boxset spine, Blu-ray, MANB83630.
-    In CSV: per-film directors (Nishio, Hashimoto, Yamauchi, Ueda) and per-film years.
-    Doubt:  Titles and the boxset contents are confirmed from blu-ray.com. The individual
-            year and director attributions are from knowledge and were NOT verified film
-            by film - 15 rows, so worth a note even though I'm fairly confident.
-    Need:   Nothing from you. Flagged so it can be verified in one pass later if it matters.
-
-[ ] U009 | Image 04 | Row: Das Cabinet des Dr. Caligari | Field: Blu-ray
-    Where: 9th from left, orange-and-black Eureka spine, Masters of Cinema no. 92, EKA70509,
-           between Event Horizon and the pink Paprika.
-    In CSV: 4K and Blu-ray both ticked.
-    Doubt:  The "Ultra HD Blu-ray" marking at the foot is clear, so the 4K is certain.
-            Whether Eureka bundled a separate 1080p Blu-ray in this package is an assumption.
-    Need:   How many discs in the case?
-
-[ ] U010 | Image 05 | Rows: Angel seasons 1-5 | Fields: Label, Director
-    Where: the large ANGEL: THE COMPLETE COLLECTION boxset, photographed face-on.
-    In CSV: Label 20th Century Fox; showrunner David Greenwalt for seasons 1-4
-            (with Jeffrey Bell added on 4) and Jeffrey Bell for season 5.
-    Doubt:  No label logo is visible on the face shown, so Fox is inferred, not read.
-            The Greenwalt-to-Bell handover during season 4 is also approximate.
-    Need:   The label from the spine or back of the box.
-
-[ ] U011 | Images 04, 05 | Field: completeness
-    Where: image 04 has a partial case at the right edge of the frame; image 05 has
-           roughly three spines cut off at the left edge, behind Anatomy of a Murder.
-    In CSV: nothing - these were not catalogued.
-    Doubt:  There are discs in these two frames I can see the edge of but cannot identify.
-    Need:   Either a re-shoot of those two edges, or confirmation that they're covered
-            by another image in the set.
-
-
-[ ] U012 | Image 08 | Row: Berserk | Field: Label
-    Where: 3rd from left, brown spine, "BERSERK / COMPLETE SERIES", catalogue MBR7007,
-           between the blue South Park case and the green-vined mother!.
-    In CSV: MVM Entertainment.
-    Doubt:  MBR is not a prefix I can place with confidence. The UK Blu-ray of the 1997
-            series has been handled by more than one anime label.
-    Need:   The label logo on the back or foot of the case.
-
-[ ] U013 | Image 10 | Row: The Death of Stalin | Field: Label
-    Where: 9th from left, white spine with red lettering, between the black Godzilla
-           and the green Rosemary's Baby.
-    In CSV: Concorde Home Entertainment.
-    Doubt:  "CONCORDE HOME ENTERTAINMENT" is clearly printed at the top of the spine, but
-            Concorde is a German distributor and the case carries a BBFC 15 - a UK
-            certificate. That pairing is odd enough that I may be misreading the wordmark.
-    Need:   Confirm the distributor name, and whether this is a UK or an import disc.
-
-[ ] U014 | Image 10 | Row: Hundreds of Beavers | Field: Label
-    Where: 2nd from left, white spine, catalogue LFO0728, next to Pulp Fiction.
-    In CSV: Lightbulb Film Distribution.
-    Doubt:  Inferred from the lightbulb device at the top of the spine plus the "LFO"
-            catalogue prefix. I did not read the company name itself.
-    Need:   The distributor named on the back of the case.
-
-[ ] U015 | Image 09 | Rows: 4 Hitchcock rows | Field: contents
-    Where: the black ALFRED HITCHCOCK CLASSICS COLLECTION boxset, 2nd from right,
-           Universal, 832 211 1.
-    In CSV: Rear Window (1954), Vertigo (1958), Psycho (1960), The Birds (1963).
-    Doubt:  No film titles are printed on the face I can see. Those four are the contents
-            of Universal's Volume 1 4K set, which is what this looks like - but Universal
-            also issued a Volume 2 with a different four films.
-    Need:   The film titles from the back of the box. If it is Volume 2, all four rows
-            are wrong.
-
-[ ] U016 | Image 08 | Row: Léon (Director's Cut) | Field: Year
-    Where: 11th from left, StudioCanal, black spine with a red-tinted face,
-           "DIRECTOR'S CUT" printed on the spine, OPTU4335.
-    In CSV: "1994 / 1996".
-    Doubt:  The cut itself is certain - it's printed on the spine. The second year is my
-            dating of the longer version's release, which I am not certain of. Also worth
-            knowing whether the theatrical cut is on the disc too: if it is, that's a
-            second row under the cuts rule.
-    Need:   Which cuts are on the disc, and ideally the date the long version is given.
-
-[ ] U017 | Images 06, 08, 09, 10 | Field: completeness
-    Where: image 06 - a case at the right edge, past the Star Wars box.
-           image 08 - a 4K case at the right edge, past No Country for Old Men.
-           image 09 - a case behind/right of Spider-Man, and one at the right edge.
-           image 10 - a dark boxset reading "SEASONS..." plus 2-3 spines cut off at the
-                      LEFT edge, before Pulp Fiction.
-    In CSV: nothing - not catalogued.
-    Doubt:  Same as U011: discs visible at the frame edge that can't be identified.
-    Need:   Confirmation these are covered elsewhere in the set, or a re-shoot.
-
-[ ] U018 | Image 06 | Rows: Star Wars Episodes IV, V, VI | Field: Name
-    Where: the STAR WARS: THE COMPLETE SAGA Blu-ray box, rightmost.
-    In CSV: plain names, with a note that these discs carry the Special Edition versions.
-    Doubt:  This is a policy question, not a reading error. The 2011 Blu-rays contain the
-            altered Special Editions, not the 1977/1980/1983 theatrical cuts. Under the
-            cuts rule that arguably makes them "Star Wars: Episode IV - A New Hope
-            (Special Edition)" with Year "1977 / 1997".
-    Need:   Your call. It only matters if you ever add the theatrical cuts, at which point
-            the two would need telling apart.
-
-[ ] U019 | Image 13 | Row: none — NOT CATALOGUED | Field: identification
-    Where: 5th from left, a thin dark-blue DVD case wedged between the orange Naked Gun
-           Trilogy and the green Darjeeling Limited. Cartoon artwork — a red or pink
-           character and what looks like a teddy bear. Partial text reading "…OF 2014"
-           and a small retailer sticker at the foot.
-    In CSV: nothing. No row was created.
-    Doubt:  The spine is too narrow and too obscured to read a title. Guessing would put a
-            wrong film in the list.
-    Need:   What is it? One row will be added once identified.
-
-[ ] U020 | Image 13 | Row: none — NOT CATALOGUED | Field: contents
-    Where: 9th from left, dark red/black spine reading "SUPERMAN — 5 DVD ANIMATED
-            COLLECTION", Warner, between Jackie Brown and the white Die Hard pack.
-    In CSV: nothing. No rows were created.
-    Doubt:  "5 DVD Animated Collection" could be five animated Superman features
-            (Doomsday, All-Star Superman, Public Enemies, Apocalypse, vs The Elite) or a
-            season set of the 1996 animated series. Those give completely different rows —
-            five films versus a TV season — so guessing is not viable.
-    Need:   The titles listed on the back of the box.
-
-[ ] U021 | Image 12 | Rows: the three Apocalypse Now rows | Field: contents
-    Where: leftmost, dark red StudioCanal box, "Apocalypse Now: Final Cut", OPTUC4275.
-    In CSV: three rows — Apocalypse Now (theatrical), (Redux), and (Final Cut) — on the
-            basis that this package carries all three cuts, with the 4K disc holding the
-            Final Cut and the Blu-rays holding the other two.
-    Doubt:  The cuts rule says one row per cut, so if this box only contains the Final Cut,
-            two of those three rows should be deleted. The spine only names the Final Cut.
-    Need:   How many cuts are actually in the box, and which discs they sit on. This one
-            decides three rows — and it is the exact case you used as the example.
-
-[ ] U022 | Image 12 | Rows: six Corman/Poe rows | Field: Collection
-    Where: the red slipbox holding three Arrow cases, FCD1967-A/B/C, between the Blade
-           Runner Blu-ray and V for Vendetta.
-    In CSV: Collection recorded as "Six Gothic Tales".
-    Doubt:  The six films are certain — each inner case names two of them on its spine.
-            The outer box's own title is not visible in the frame, so the Collection value
-            is my reconstruction of Arrow's set name rather than something I read.
-    Need:   The title printed on the red box.
-
-[ ] U023 | Image 12 | Row: Mussolini: Son of the Century | Fields: Label, Year, 4K
-    Where: rightmost, black spine, white "D" in a blue square at the top, catalogue
-           beginning "DAZ".
-    In CSV: Dazzler Media, 2024, 4K and Blu-ray both ticked, TV, Joe Wright.
-    Doubt:  The label is inferred from the "DAZ" prefix and a "D" logo, not read. The year
-            straddles a 2024 festival premiere and a 2025 broadcast. The format markings
-            on this spine were the hardest to resolve in the frame.
-    Need:   Label from the back, and whether there's a 4K disc in the case.
-
-[ ] U024 | Image 14 | Row: Dogma | Field: Label
-    Where: 3rd from left, gold spine, catalogue VIS0019, between 12 Angry Men and
-           The Great Dictator.
-    In CSV: Visions Home Video.
-    Doubt:  "VISIONS//" and "HOME VIDEO" are both legible, so I am fairly confident of the
-            wordmark — but this is a label I can't corroborate, and Dogma's rights history
-            makes its recent 4K release an unusual one.
-    Need:   Confirm the distributor name as printed.
-
-[ ] U025 | Image 15 | Rows: four Coen rows | Field: contents
-    Where: 3rd from left, cream Universal spine, "THE COEN BROTHERS' COLLECTION", 822 6413.
-    In CSV: Blood Simple, Barton Fink, The Hudsucker Proxy, The Big Lebowski.
-    Doubt:  A lookup gives those four for the 4-disc Universal set, but an 8-film version
-            of this collection also exists. If yours is the 8-film set, four rows are missing.
-    Need:   How many discs, and the titles on the back.
-
-[ ] U026 | Images 13 and 15 | Rows: six Naked Gun rows | Field: duplicate check
-    Where: image 13, 4th from left — orange spine with a Leslie Nielsen portrait, PHE1136.
-           image 15, 4th from left — pink and blue spine with three cover thumbnails, PHE0983.
-    In CSV: both entered, giving six rows — three films x two copies.
-    Doubt:  Different artwork and different catalogue numbers, so these read as two genuinely
-            different releases rather than one box shot twice. Worth one confirmation since
-            it is three rows either way.
-    Need:   Do you own two Naked Gun trilogy sets?
-
 [ ] U027 | Image 13 | Row: Sin City (Recut & Extended) | Field: Year
     Where: 7th from left, black spine, "Recut & Extended" printed, 01ABUA 0072501.
     In CSV: Year "2005", cut named in the title, note in the Notes column.
@@ -553,10 +288,127 @@ OPEN
             should just be 2021. Same question would apply to The Godfather Coda.
     Need:   Your preference.
 
+[ ] U057 | Image 04 | Row: The Last Emperor | Field: Blu-ray / row count
+    Where: 3rd from left, red Arrow spine, FCD2424.
+    In CSV: 4K only, theatrical cut, on the assumption this is Arrow's Standard Edition.
+    Doubt:  Arrow put out two UK 4K editions. The Standard Edition (May 2023) is a single
+            4K disc carrying the theatrical cut - verified. The Limited Edition (Feb 2023)
+            adds a Blu-ray holding the longer television version, which under the cuts rule
+            would need a SECOND row. The photo shows a standard-depth case, which is why I
+            went with the Standard Edition.
+    Need:   One disc or two?
+
+[ ] U058 | Image 26 | Row: Cinema Paradiso (Director's Cut) | Field: Year
+    Where: 3rd from left, black Arrow Academy spine, FCD2054.
+    In CSV: Year "1988 / 2002".
+    Doubt:  The two-cut split is verified - Arrow's 4K carries the theatrical on the UHD
+            disc and the director's cut on the Blu-ray. The 2002 date for the longer
+            version is my dating and was not confirmed by the lookup.
+    Need:   Nothing urgent; flagged so the year isn't taken as verified.
+
+[ ] U059 | Image 01 | Row: Parasite | Field: row count
+    Where: 2nd from left, teal/black Curzon spine.
+    In CSV: one row, 4K + Blu-ray, with the black-and-white version noted in Notes.
+    Doubt:  A policy question thrown up by your answer. The black-and-white version is an
+            alternate presentation rather than a re-edit, so I did not give it its own row
+            the way a director's cut would get one. If you'd rather see it listed, it
+            becomes "Parasite (Black and White Version)" with Year "2019 / 2020".
+    Need:   Your preference. The same question will come up for other B&W variants
+            (Logan Noir, Mad Max: Fury Road Black & Chrome).
+
 RESOLVED
+
+[x] U001 | Parasite | Curzon release is 4K + Blu-ray, and includes the black-and-white
+    version. Both format columns ticked; the B&W version noted in Notes (see U059).
+
+[x] U002 | Kingdom of Heaven | The 4K is the Director's Cut. Row renamed
+    "Kingdom of Heaven (Director's Cut)", Year "2005 / 2006". The 4-disc DVD copy from
+    image 13 is the same cut and is now marked as the second copy.
+
+[x] U003 | Criterion formats | All are Blu-ray at least. Raging Bull, Guillermo del Toro's
+    Pinocchio and Akira Kurosawa's Dreams are additionally 4K. Checked as asked: none of
+    those three is 4K-only - every Criterion 4K release is a UHD + Blu-ray combo, and all
+    three were confirmed individually. All twelve Criterion rows are now correct.
+
+[x] U004 | The Second Sight cursive spine | It is CREEP, catalogue 2NDBR4237 confirmed.
+    Note: the film is Patrick Brice's Creep of 2014, not 2017 - 2017 is Creep 2. The disc
+    itself came out in December 2024, which may be the 2017 you were thinking of, but the
+    Year column tracks the film. Row corrected to Creep, 2014, Patrick Brice.
+
+[x] U005 | Arrow and Second Sight formats | Standing rule adopted: Blu-ray at least, unless
+    told otherwise. The nine titles named are now 4K, and each was checked for a bundled
+    Blu-ray:
+      4K ONLY  - The Lighthouse, 12 Monkeys, The Silence of the Lambs, Videodrome,
+                 The Last Emperor (Standard Edition - see U057)
+      4K + BD  - Dune (1984, Limited Edition), Drive (Second Sight)
+      SPLIT    - Cinema Paradiso: theatrical on the 4K, director's cut on the Blu-ray,
+                 so it is now two rows (see U058)
+      BONUS BD - The Return of the Living Dead ships two discs, but the Blu-ray carries
+                 bonus features only, so the Blu-ray column is left empty and the fact
+                 noted. Say the word if you'd rather that counted as a Blu-ray.
+    Arrow's recent UK 4K releases are UHD-only as a rule; the older ones (Dune 1984,
+    Cinema Paradiso 2020) still bundled a Blu-ray. Recorded in PLAN.md.
+
+[x] U006 | Palestine 36 | Blu-ray. Row was already correct.
+
+[x] U007 | Jane Eyre / British serials | Use the director. Susanna White stands, and this
+    is now the standing rule for serials with no showrunner.
+
+[x] U008 | Dragon Ball Z directors | Left as entered; accuracy not a concern here.
+
+[x] U009 | Das Cabinet des Dr. Caligari | Checked: Eureka's Masters of Cinema Limited
+    Edition is a single BD-100 - 4K only, no Blu-ray. Blu-ray column cleared.
+
+[x] U010 | Angel | Label confirmed as 20th Century Fox. Row was already correct.
+
+[x] U011 | Frame edges, images 04 and 05 | Doubles, disregarded. Shin Godzilla already held.
+
+[x] U012 | Berserk | MVM Entertainment. Row was already correct.
+
+[x] U013 | The Death of Stalin | German release, English version on the disc. Label stands
+    as Concorde Home Entertainment, with the note added.
+
+[x] U014 | Hundreds of Beavers | Lightbulb Film Distribution. Row was already correct.
+
+[x] U015 | The Alfred Hitchcock Classics Collection | Volume 1. Rear Window, Vertigo,
+    Psycho, The Birds - as entered.
+
+[x] U016 | Leon | Looked up rather than asked, as you'd expect. StudioCanal's OPTU4335
+    carries the Director's Cut on the 4K disc AND the theatrical cut on the Blu-ray, so it
+    is now two rows: "Leon" (1994, Blu-ray) and "Leon (Director's Cut)" (1994 / 1996, 4K).
+
+[x] U017 | Frame edges, images 06/08/09/10 | The Big Fish 4K at the edge of image 09 was
+    already catalogued from that frame. The rest disregarded.
+
+[x] U018 | Star Wars | Episodes IV, V and VI renamed "(Special Edition)" with Years
+    "1977 / 1997", "1980 / 1997" and "1983 / 1997". Episodes I-III left as they are.
+
+[x] U019 | The unreadable thin blue DVD in image 13 | Disregarded, no row.
+
+[x] U020 | Superman animated set | The five animated features. Rows added for
+    Superman: Doomsday (2007), Superman/Batman: Public Enemies (2009),
+    Superman/Batman: Apocalypse (2010), Superman vs. The Elite (2012) and
+    Superman: Unbound (2013), under Collection "Superman: Animated Collection".
+
+[x] U021 | Apocalypse Now | Final Cut, Theatrical and Redux are all 4K + Blu-ray; Hearts of
+    Darkness is Blu-ray only. Four rows now, all carrying the box name in Collection -
+    the documentary makes the package a genuine box set rather than a run of cuts.
+
+[x] U022 | The red Arrow box | Confirmed as Arrow's Six Gothic Tales (2014). The six films
+    entered - Fall of the House of Usher, Pit and the Pendulum, Tales of Terror, The Raven,
+    The Haunted Palace, The Tomb of Ligeia - match the set exactly. No change needed.
+
+[x] U023 | Mussolini: Son of the Century | Dazzler, 4K only. Blu-ray column cleared.
+
+[x] U024 | Dogma | Searched rather than asked. Visions Home Video, a Vertigo Releasing
+    sub-label launched with this disc. Single-disc 4K, so the Blu-ray column is cleared.
+
+[x] U025 | The Coen Brothers' Collection (Universal) | The 4-film version, as entered.
+
+[x] U026 | The two Naked Gun trilogy sets | Identical, so only one is recorded. The three
+    duplicate rows have been deleted.
 --------
 
-(none yet)
 
 
 ITEM FORMAT
