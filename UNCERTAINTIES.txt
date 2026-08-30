@@ -45,6 +45,8 @@ OPEN
              - Young Mr. Lincoln, no. 320 (image 05, 2nd)
              - Hearts and Minds, no. 156 (image 05, 3rd, red)
              - Stalker, no. 888 (image 08, 8th, grey)
+             - 12 Angry Men, no. 591 (image 14, 2nd, tan)
+             - The Great Dictator, no. 565 (image 14, 4th, red/pink)
     In CSV: Blu-ray for all except Young Mr. Lincoln, which I put down as DVD.
             (Stalker added from batch 2 - also guessed Blu-ray.)
     Doubt:  Criterion spines carry no format marking, and most of these titles exist in both
@@ -188,6 +190,105 @@ OPEN
             (Special Edition)" with Year "1977 / 1997".
     Need:   Your call. It only matters if you ever add the theatrical cuts, at which point
             the two would need telling apart.
+
+[ ] U019 | Image 13 | Row: none — NOT CATALOGUED | Field: identification
+    Where: 5th from left, a thin dark-blue DVD case wedged between the orange Naked Gun
+           Trilogy and the green Darjeeling Limited. Cartoon artwork — a red or pink
+           character and what looks like a teddy bear. Partial text reading "…OF 2014"
+           and a small retailer sticker at the foot.
+    In CSV: nothing. No row was created.
+    Doubt:  The spine is too narrow and too obscured to read a title. Guessing would put a
+            wrong film in the list.
+    Need:   What is it? One row will be added once identified.
+
+[ ] U020 | Image 13 | Row: none — NOT CATALOGUED | Field: contents
+    Where: 9th from left, dark red/black spine reading "SUPERMAN — 5 DVD ANIMATED
+            COLLECTION", Warner, between Jackie Brown and the white Die Hard pack.
+    In CSV: nothing. No rows were created.
+    Doubt:  "5 DVD Animated Collection" could be five animated Superman features
+            (Doomsday, All-Star Superman, Public Enemies, Apocalypse, vs The Elite) or a
+            season set of the 1996 animated series. Those give completely different rows —
+            five films versus a TV season — so guessing is not viable.
+    Need:   The titles listed on the back of the box.
+
+[ ] U021 | Image 12 | Rows: the three Apocalypse Now rows | Field: contents
+    Where: leftmost, dark red StudioCanal box, "Apocalypse Now: Final Cut", OPTUC4275.
+    In CSV: three rows — Apocalypse Now (theatrical), (Redux), and (Final Cut) — on the
+            basis that this package carries all three cuts, with the 4K disc holding the
+            Final Cut and the Blu-rays holding the other two.
+    Doubt:  The cuts rule says one row per cut, so if this box only contains the Final Cut,
+            two of those three rows should be deleted. The spine only names the Final Cut.
+    Need:   How many cuts are actually in the box, and which discs they sit on. This one
+            decides three rows — and it is the exact case you used as the example.
+
+[ ] U022 | Image 12 | Rows: six Corman/Poe rows | Field: Collection
+    Where: the red slipbox holding three Arrow cases, FCD1967-A/B/C, between the Blade
+           Runner Blu-ray and V for Vendetta.
+    In CSV: Collection recorded as "Six Gothic Tales".
+    Doubt:  The six films are certain — each inner case names two of them on its spine.
+            The outer box's own title is not visible in the frame, so the Collection value
+            is my reconstruction of Arrow's set name rather than something I read.
+    Need:   The title printed on the red box.
+
+[ ] U023 | Image 12 | Row: Mussolini: Son of the Century | Fields: Label, Year, 4K
+    Where: rightmost, black spine, white "D" in a blue square at the top, catalogue
+           beginning "DAZ".
+    In CSV: Dazzler Media, 2024, 4K and Blu-ray both ticked, TV, Joe Wright.
+    Doubt:  The label is inferred from the "DAZ" prefix and a "D" logo, not read. The year
+            straddles a 2024 festival premiere and a 2025 broadcast. The format markings
+            on this spine were the hardest to resolve in the frame.
+    Need:   Label from the back, and whether there's a 4K disc in the case.
+
+[ ] U024 | Image 14 | Row: Dogma | Field: Label
+    Where: 3rd from left, gold spine, catalogue VIS0019, between 12 Angry Men and
+           The Great Dictator.
+    In CSV: Visions Home Video.
+    Doubt:  "VISIONS//" and "HOME VIDEO" are both legible, so I am fairly confident of the
+            wordmark — but this is a label I can't corroborate, and Dogma's rights history
+            makes its recent 4K release an unusual one.
+    Need:   Confirm the distributor name as printed.
+
+[ ] U025 | Image 15 | Rows: four Coen rows | Field: contents
+    Where: 3rd from left, cream Universal spine, "THE COEN BROTHERS' COLLECTION", 822 6413.
+    In CSV: Blood Simple, Barton Fink, The Hudsucker Proxy, The Big Lebowski.
+    Doubt:  A lookup gives those four for the 4-disc Universal set, but an 8-film version
+            of this collection also exists. If yours is the 8-film set, four rows are missing.
+    Need:   How many discs, and the titles on the back.
+
+[ ] U026 | Images 13 and 15 | Rows: six Naked Gun rows | Field: duplicate check
+    Where: image 13, 4th from left — orange spine with a Leslie Nielsen portrait, PHE1136.
+           image 15, 4th from left — pink and blue spine with three cover thumbnails, PHE0983.
+    In CSV: both entered, giving six rows — three films x two copies.
+    Doubt:  Different artwork and different catalogue numbers, so these read as two genuinely
+            different releases rather than one box shot twice. Worth one confirmation since
+            it is three rows either way.
+    Need:   Do you own two Naked Gun trilogy sets?
+
+[ ] U027 | Image 13 | Row: Sin City (Recut & Extended) | Field: Year
+    Where: 7th from left, black spine, "Recut & Extended" printed, 01ABUA 0072501.
+    In CSV: Year "2005", cut named in the title, note in the Notes column.
+    Doubt:  A policy question. The recut appeared the same year as the theatrical release,
+            so the cuts rule's "original / cut" format would read "2005 / 2005", which looks
+            like an error rather than information. I used the single year instead.
+    Need:   Your preference for same-year recuts. Also: the label is a guess — "01ABUA"
+            suggests Buena Vista, which is what I entered.
+
+[ ] U028 | Image 13 | Rows: three Die Hard rows | Field: Collection
+    Where: rightmost, white spine showing three stacked "BRUCE WILLIS / DIE HARD" blocks,
+           F1-OGB 25985TDVD.
+    In CSV: Collection "Die Hard Trilogy" on all three.
+    Doubt:  One catalogue number across the three titles says boxset, but it could equally
+            be three slim cases standing together. If they're separate purchases the
+            Collection cell should be empty on all three.
+    Need:   One box or three cases?
+
+[ ] U029 | Image 11 | Rows: 24 James Bond rows | Field: contents
+    Where: the black MGM 007 boxset, leftmost, WW-BOGB.1 5698607010.
+    In CSV: 24 films, Dr. No (1962) through Spectre (2015).
+    Doubt:  No titles are printed on the visible face. The set was issued both as a 23-film
+            edition ending at Skyfall and as a 24-film edition including Spectre. I went
+            with 24 on the strength of the catalogue number's era.
+    Need:   Is Spectre in the box? If not, delete that row.
 
 RESOLVED
 --------

@@ -233,4 +233,7 @@ Answers established once and reused. Add to this list rather than re-researching
 | Eureka (Masters of Cinema) | Catalogue prefix `EKA`. | Batch 2 |
 | Second Sight | Catalogue prefix `2NDBR`, circled "(2)" logo on the spine. | Batch 2 |
 | BFI | Dual-format as standard — one package carries both the Blu-ray and the DVD, both logos printed at the foot. | Batch 2 |
+| Paramount | Catalogue tells format: `PHE` = DVD era, `53xxxxx` = 4K UHD, `83xxxxx` = Blu-ray. | Batch 3 |
+| 20th Century Fox | UK discs carry an `F1-OGB` / `WW-BOGB` catalogue prefix. | Batch 3 |
+| Boxsets photographed face-on | Film titles are often NOT on the face shown, so contents must be looked up or asked for — Bond, Herzog, Coen and Hitchcock all needed this. Shoot the BACK of a boxset where possible. | Batch 3 |
 | BBFC badges | The number of certificate badges at the foot of a spine tends to equal the disc count. Useful cross-check for combo packs. | Batch 1 |
