@@ -240,4 +240,8 @@ Answers established once and reused. Add to this list rather than re-researching
 | Warner "Premium Collection" | A numbered Blu-ray line (King Kong no. 11, Barry Lyndon no. 90). Numbered but NOT a box set — Collection stays empty, note the number instead. | Batch 4 |
 | 3D Blu-rays | Spine reads "Blu-ray 3D". Tick Blu-ray; record the 3D in Notes (no 3D column exists — see U030). | Batch 4 |
 | Non-disc items | Games and other non-film discs on the same shelves (e.g. a Wii game in image 16) are transcribed but never given a CSV row. | Batch 4 |
+| BFI | Catalogue prefix tells format: `BFIB` = Blu-ray, `BFIU` = 4K UHD, `BFID` = DVD. Some releases are dual-format with both logos at the foot — check rather than assume. | Batch 6 |
+| Anime Limited | Catalogue prefix `ANI`, "AL FILM" roundel on the spine. | Batch 6 |
+| Radiance Films | Numbered spine line, label name printed at the foot. | Batch 6 |
+| Manga Entertainment | Catalogue prefix `MAN` / `MANB`. | Batch 6 |
 | BBFC badges | The number of certificate badges at the foot of a spine tends to equal the disc count. Useful cross-check for combo packs. | Batch 1 |

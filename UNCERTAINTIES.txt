@@ -51,6 +51,10 @@ OPEN
              - True Stories, no. 951 (image 23, 7th, red/white)
              - Stagecoach, no. 516 (image 24, 6th, cream/orange)
              - Raging Bull, no. 1134 (image 24, 10th, grey)
+             - The Last Temptation of Christ, no. 70 (image 26, 5th, red/pink)
+             - Guillermo del Toro's Pinocchio, no. 120? (image 26, 9th, dark blue)
+             - It's a Mad, Mad, Mad, Mad World, no. 692 (image 27, 2nd, white)
+             - Akira Kurosawa's Dreams, no. 842 (image 30, 11th, white)
     In CSV: Blu-ray for all except Young Mr. Lincoln, which I put down as DVD.
             (Stalker added from batch 2 - also guessed Blu-ray.)
     Doubt:  Criterion spines carry no format marking, and most of these titles exist in both
@@ -78,6 +82,11 @@ OPEN
            The Vengeance Trilogy x3 (image 22, in the black box, FCD1970-1/2/3)
            The Holy Mountain (image 25, 7th, orange, FCD2169)
            Videodrome (image 25, 13th, black, FCD2356)
+           Cinema Paradiso (image 26, 3rd, FCD2054)
+           The Exorcist III (image 26, 8th, FCD2026)
+           Dune 1984 (image 26, 11th, orange/tan)
+           Heathers (image 27, 3rd, FCD1786)
+           The Return of the Living Dead (image 30, 7th, FCD2836)
            Drive — Second Sight, not Arrow, but same question (image 22, 10th)
            The Last Emperor (image 04, 3rd, red)
     In CSV: Blu-ray only for all five.
@@ -468,6 +477,81 @@ OPEN
     Doubt:  None — recording the decision so it isn't revisited. Games sharing the shelves
             are transcribed but never given rows.
     Need:   Nothing, unless you want games tracked too, in which case say so.
+
+[ ] U049 | Image 28 | Row: none — NOT CATALOGUED | Field: contents
+    Where: 2nd from left, white DVD boxset reading "ICONS — ORSON WELLES", 8280115,
+           between Van Helsing and the BFI Battleship Potemkin.
+    In CSV: nothing. No rows were created.
+    Doubt:  A Universal "Icons" range set, but no film titles are printed on the face
+            shown and I can't establish which Welles films are in it. Could be anywhere
+            from three to six rows.
+    Need:   The titles from the back of the box.
+
+[ ] U050 | Image 28 | Row: True History of the Kelly Gang | Field: Name
+    Where: 5th from left, Curzon Artificial Eye spine, ART22580, between the teal
+           Fast & Furious box and the dark red Total Recall.
+    In CSV: True History of the Kelly Gang (2019, Justin Kurzel).
+    Doubt:  The Curzon branding and catalogue number are clear; the title itself is not.
+            I could only partly resolve the lettering and fitted the likeliest Curzon
+            release to it. This is a weaker guess than most in this file.
+    Need:   The title on that spine.
+
+[ ] U051 | Image 29 | Row: Dune: Part Two | Fields: Name, Year
+    Where: 3rd from left, RED/ORANGE 4K spine, Legendary + WB, between Schindler's List
+           and the white RoboCop Trilogy.
+    In CSV: Dune: Part Two (2024).
+    Doubt:  The spine reads only "DUNE" with no "Part Two". A dark-spined Dune 4K is
+            already recorded from image 23, and this one is a different colour — Part Two's
+            packaging is orange/red, which is why I went that way. But it could equally be
+            a second copy of Dune (2021).
+    Need:   Which Dune is it?
+
+[ ] U052 | Image 30 | Row: Batman (second copy) | Fields: Name, Year
+    Where: 2nd from left, black 4K spine, DC + WB, between the blue Cowboy Bebop
+           Complete Series and the grey Cowboy Bebop: The Movie.
+    In CSV: Batman (1989, Tim Burton), marked as a second copy.
+    Doubt:  A Batman 4K is already recorded from image 08 and the two spines look alike.
+            Since you confirmed the photos don't overlap, this is either a genuine second
+            copy or it is Matt Reeves's The Batman (2022) — the spine reads "BATMAN" with
+            no "THE", which is why I didn't go that way. Those are different films, so
+            this row is either a duplicate or entirely wrong.
+    Need:   Which Batman is on that shelf.
+
+[ ] U053 | Image 31 | Row: Requiem for a Dream | Fields: Label, 4K
+    Where: 9th from left, shrink-wrapped blue/silver spine, between Scarface and the
+           brown Radiance O-bi, o-ba.
+    In CSV: Lionsgate, Blu-ray only.
+    Doubt:  The publisher mark at the top of the spine is obscured by shrink wrap and I
+            could not read it. There is also a 4K edition of this film in circulation.
+    Need:   Publisher, and whether there's a 4K disc.
+
+[ ] U054 | Image 32 | Rows: 3 Riddick rows | Field: contents / DVD
+    Where: 5th from left, grey Universal spine, "RIDDICK COLLECTION", 829 682 8.
+    In CSV: Pitch Black, The Chronicles of Riddick, Riddick — Blu-ray only.
+    Doubt:  Titles aren't on the face shown. Some editions of this set also carry the
+            animated "Dark Fury", which would be a fourth row. The spine shows BOTH a
+            Blu-ray and a DVD logo, so the DVD column may need ticking on all three.
+    Need:   Titles and disc formats from the back.
+
+[ ] U055 | Images 26 and 29 | Rows: 3 Lord of the Rings rows | Field: Collection, Name
+    Where: Fellowship EBR5194 (image 26, 4th), Two Towers EBR5195 (image 19, 7th),
+           Return of the King EBR5196 (image 29, 5th). All the same ornate packaging,
+           consecutive catalogue numbers.
+    In CSV: three separate rows, Collection empty, no cut named.
+    Doubt:  Consecutive numbers and identical packaging suggest these came as a trilogy
+            box, which would mean a Collection value on all three. The elaborate packaging
+            also points to the Extended Editions, which under the cuts rule would need
+            "(Extended Edition)" in the name and a second year. This supersedes U036, which
+            raised the same question when only Two Towers had been seen.
+    Need:   Is there an outer box, and are these the Extended cuts?
+
+[ ] U056 | Image 31 | Row: Zack Snyder's Justice League | Field: Year
+    Where: 5th from left, black 4K spine, DC + WB.
+    In CSV: Year "2017 / 2021", treated as a cut of Justice League (2017).
+    Doubt:  Defensible either way — it is a recut of the 2017 film, but it is also released
+            and widely treated as its own title. If you'd rather it stood alone the Year
+            should just be 2021. Same question would apply to The Godfather Coda.
+    Need:   Your preference.
 
 RESOLVED
 --------
