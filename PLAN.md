@@ -11,8 +11,8 @@ This document is the spec. Read it before adding or editing any row in `collecti
 | `PLAN.md` | This spec — rules for filling the CSV. |
 | `UNCERTAINTIES.txt` | Running log of every guessed field, one tickable item per doubt. |
 
-`collection.csv` is UTF-8 **with BOM** so that Excel renders accented titles correctly —
-`Léon`, `Sátántangó`, `Häxan`, `Almodóvar`, `Nausicaä`. Keep the BOM when rewriting the file.
+`collection.csv` is UTF-8 **with BOM** so that Excel renders the `✓` character correctly.
+Keep the BOM when rewriting the file.
 
 ## Columns
 
@@ -28,30 +28,24 @@ Collection,Name,Year,Type,4K,Blu-ray,3D,DVD,Label,Director,Notes
 | `Name` | Title with the leading article moved to the end, comma-separated: `Departed, The` / `Thing, The`. Alternate cuts go in the name in parentheses: `Blade Runner (Final Cut)`. TV seasons: `Sopranos, The: Season 3`. Because this field contains commas, it **must be quoted** in the CSV. |
 | `Year` | Year the film / TV season **originally released** (theatrical or first broadcast). For an alternate cut, `original / cut` — e.g. Apocalypse Now Redux is `1979 / 2001`. A theatrical cut is just the original year. |
 | `Type` | Exactly one of the strings `TV` or `Film`. **Not a tick column** — never empty, never both. |
-| `4K` | `TRUE` if the package contains a 4K UHD disc. Else **empty** — never `FALSE`. |
-| `Blu-ray` | `TRUE` if the package contains a Blu-ray disc. Else **empty** — never `FALSE`. |
-| `3D` | `TRUE` if the package contains a **3D Blu-ray** disc. Else **empty**. Nearly always `TRUE` alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
-| `DVD` | `TRUE` if the package contains a DVD. Else **empty** — never `FALSE`. |
+| `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
+| `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
+| `3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
+| `DVD` | `✓` if the package contains a DVD. Else empty. |
 | `Label` | The company that produced/published the disc: `Arrow`, `Criterion`, `Second Sight`, `Lionsgate`, `Warner Bros.`, `88 Films`, `Eureka`, `Indicator`, `StudioCanal`, `Shout! Factory`, etc. Distributor of *this* release, not the production company of the film. |
 | `Director` | Film: the director. TV: the **showrunner for that season**, or the director where a serial has no showrunner. Multiple names separated by `; ` (never a bare comma). Beyond three or so names, give the one with main credit followed by `& more` — e.g. `Charles Band & more` for the seven-director Dungeonmaster. |
 | `Notes` | Free text. Anything the schema doesn't cover — packaging, edition, condition, who borrowed it, uncertainty about a field. Quote it if it contains a comma. |
 
 There is deliberately **no** disc-release-year column and **no** cut column.
 
-### The boolean rule (important)
+### The `✓` rule (important)
 
-`4K`, `Blu-ray`, `3D` and `DVD` are **independent boolean columns**. `Type` is not one of
-them — it is a plain string, `TV` or `Film`.
+`4K`, `Blu-ray`, `3D` and `DVD` are **independent boolean columns**. `Type` is not one of them — it is a plain string, `TV` or `Film`.
 
-- True  → the literal string `TRUE`.
-- False → a **completely empty cell**. Never `FALSE`, `✓`, `✗`, `x`, `N`, `0`, `-`, or a space.
+- True  → the single Unicode character `✓` (U+2713).
+- False → **completely empty cell**. Never `✗`, `x`, `N`, `0`, `-`, or a space.
 
-Leaving false cells empty rather than writing `FALSE` keeps the file readable and lets a
-spreadsheet count a column with a plain `COUNTA`. Spreadsheets read `TRUE` as a real boolean,
-so the columns sort and filter properly.
-
-A release containing both a 4K and a Blu-ray gets `TRUE` in **both** the `4K` and `Blu-ray`
-columns.
+A release containing both a 4K and a Blu-ray gets `✓` in **both** the `4K` and `Blu-ray` columns.
 
 ## Rules
 
