@@ -158,3 +158,73 @@ spine and gets no CSV row until it's identified.
 
 Releases Stephen doesn't own yet get added the same way, to the same standard —
 look up the release, fill every column, commit as its own batch.
+
+## Working method — accuracy per token
+
+The cost asymmetry that shapes everything below, measured on this collection:
+
+- Images are ~1500px, ~1,600 tokens each. A full pass over all 32 costs ~50k tokens. **Cheap.**
+- Fetching a release page per title would cost 600k–1.5M tokens across the collection.
+  **20–30× the cost of every photo combined.** This is the only lever that matters.
+- Asking Stephen costs ~50 tokens and he answers by looking at a shelf. **Cheapest of all.**
+
+### 1. Transcribe once, never re-read
+
+Each image is read **exactly once**. Everything legible goes straight into `transcripts.txt`:
+title, position, spine colour, neighbours, format markings, visible label logo. All later work
+runs off that text, which is free to revisit. An image is only re-read when a specific doubt
+needs new pixels.
+
+### 2. Resolve by class, not by title
+
+Most doubt is per-*label*, not per-*film*. "Do Arrow's 4K releases include the Blu-ray?" is one
+question that settles thirty rows. So: gather the batch's doubts, group by label, resolve the
+**pattern** once, apply it everywhere it fits, then record it under *Label conventions* below so
+it is never researched twice. This turns O(titles) research into O(labels).
+
+### 3. Three verification tiers
+
+| Tier | When | Action |
+|---|---|---|
+| 0 | Mainstream title, obvious label, format legible on the spine | Fill from knowledge, no lookup |
+| 1 | Boutique release, or a label whose convention isn't established yet | One batched search |
+| 2 | Genuinely competing editions of the same film | Fetch the blu-ray.com page |
+
+Default is **Tier 0 aggressively**: fill confident rows without verification and log anything
+shaky. The safety net is that every guess is visible in `UNCERTAINTIES.txt`, not hidden.
+Uniform effort across all rows is the thing to avoid — it burns the budget on the 70% that was
+never in doubt.
+
+### 4. Prefer asking over researching
+
+For anything **physically visible on the case** — which label, whether a 4K case also holds a
+Blu-ray, which cut — an `UNCERTAINTIES.txt` item beats any amount of web research. Research is
+for what Stephen can't see without unwrapping: original release years, directors, edition
+disambiguation.
+
+### 5. Mechanical hygiene
+
+- Append rows with **one heredoc per batch**, never a stream of single-row edits.
+- Never `cat` the whole CSV once it is long — `grep` / `tail` for specific checks.
+- Never echo CSV content back into chat; report counts and exceptions only.
+- Batch **in shelf order** so adjacent images share labels and box sets and the conventions
+  in §2 compound within a batch.
+- **No subagents.** Each starts cold and re-derives context that already exists in session.
+- Reserve lever: at 1500px a wide shelf shot gives ~35px per spine. These images sit just above
+  the downscale threshold, so splitting one into halves preserves *more* real detail than the
+  full frame, at ~1.45× the tokens. Use only on images whose spines can't be read — not by
+  default. PIL is not installed; PowerShell / System.Drawing does the cropping.
+
+## Label conventions (learned)
+
+Answers established once and reused. Add to this list rather than re-researching.
+
+| Label | Convention | Established |
+|---|---|---|
+| Universal | 4K releases print "ULTRA HD + Blu-ray Disc" on the spine — the BD is included and confirmable by eye. | Batch 1 |
+| Warner Bros. | 4K catalogue releases ship UHD + BD. Spine shows only "4K ULTRA HD"; the BD is not printed but is standard. | Batch 1 |
+| Paramount | 4K releases print "Ultra HD Blu-ray" plus an "N-DISC SET" count — the count confirms a BD is present. | Batch 1 |
+| 20th Century Fox (BUG-prefix 4K) | UHD + BD combo; two BBFC badges on the spine indicate the two discs. | Batch 1 |
+| Arrow Video | Brands UHD spines with a visible "4K Ultra HD" banner. **No banner ⇒ Blu-ray only.** | Batch 1, unconfirmed (U005) |
+| Criterion | Spines carry a number but **no format marking**, and DVD and BD editions share the number. Never inferable from a photo — always ask. | Batch 1 |
+| BBFC badges | The number of certificate badges at the foot of a spine tends to equal the disc count. Useful cross-check for combo packs. | Batch 1 |

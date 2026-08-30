@@ -17,7 +17,110 @@ tick the item, move it to RESOLVED with the answer, commit.
 OPEN
 ----
 
-(none yet)
+[ ] U001 | Image 01 | Row: Parasite | Field: 4K
+    Where: 2nd from left, teal-and-black spine, between Sharkboy and Lavagirl (DVD)
+           and the yellow Knives Out.
+    In CSV: Blu-ray only.
+    Doubt:  A catalogue number ending "ART1050UHD" is legible at the foot of that area of
+            the shelf, but I can't tell whether it belongs to the Parasite spine or the
+            Knives Out spine next to it. "ART" is an Artificial Eye prefix, so if it is
+            Parasite's, this is the 4K UHD edition and the 4K column is wrong.
+    Need:   Does the Parasite case say "4K Ultra HD" anywhere, and is there a 4K disc in it?
+
+[ ] U002 | Image 01 | Row: Kingdom of Heaven | Field: Name / Year
+    Where: 4th from left, black spine with a landscape photo, "Ultra HD Blu-ray" banner,
+           between Knives Out and the Che double.
+    In CSV: "Kingdom of Heaven", 2005.
+    Doubt:  The 4K release is widely the Director's Cut rather than the theatrical version.
+            If that's what's in the case, the row should be "Kingdom of Heaven (Director's Cut)"
+            with Year "2005 / 2006" per the cuts rule.
+    Need:   Does the back of the case say Director's Cut, and is the theatrical cut also included?
+
+[ ] U003 | Images 01, 02, 03, 05 | Rows: six Criterion titles | Field: Blu-ray vs DVD
+    Where: the Criterion spines - all recognisable by the "C" logo and a spine number.
+             - Rushmore, no. 65 (image 01, 6th, cream/red)
+             - The Life Aquatic, no. 300 (image 02, 3rd, pale blue/green)
+             - The Night of the Hunter, no. 541 (image 03, 10th, white)
+             - Anatomy of a Murder, no. 600 (image 05, leftmost)
+             - Young Mr. Lincoln, no. 320 (image 05, 2nd)
+             - Hearts and Minds, no. 156 (image 05, 3rd, red)
+    In CSV: Blu-ray for all except Young Mr. Lincoln, which I put down as DVD.
+    Doubt:  Criterion spines carry no format marking, and most of these titles exist in both
+            a DVD and a Blu-ray edition with the SAME spine number. This is a pure guess
+            on six rows.
+    Need:   Six quick answers - DVD or Blu-ray for each. Faster for you to read off the
+            shelf than for me to research edition by edition.
+
+[ ] U004 | Image 01 | Row: Green Room | Field: Name
+    Where: 11th from left, second-to-last. Dark blue-black spine with a scratchy/streaked
+           texture, Second Sight's circled "(2)" logo at the top, catalogue 2NDBR4237.
+           Sits between One Flew Over the Cuckoo's Nest (teal) and The Pianist (brown).
+    In CSV: Green Room (2015, Jeremy Saulnier).
+    Doubt:  The title is set in a handwritten cursive font I could only partly resolve -
+            it reads as "Green" plus a second word. Second Sight's Green Room fits the
+            artwork, but the guess rests on the typography, not on reading the words.
+    Need:   Just confirm the title on that spine.
+
+[ ] U005 | Images 02, 03, 04 | Rows: five Arrow Video titles | Field: 4K
+    Where: JSA: Joint Security Area (image 02, 4th, red/orange)
+           The Lighthouse (image 02, 10th, grey/black)
+           12 Monkeys (image 02, 11th, white/red)
+           The Silence of the Lambs (image 03, 7th, black with moth)
+           The Last Emperor (image 04, 3rd, red)
+    In CSV: Blu-ray only for all five.
+    Doubt:  Arrow has since put out 4K editions of several of these. None of the five spines
+            shows a "4K Ultra HD" banner, and Arrow does brand its UHD spines, so this is
+            reasonably safe - but it is five rows resting on one assumption.
+    Need:   A glance along that run: any of them 4K?
+
+[ ] U006 | Image 02 | Row: Palestine 36 | Fields: Blu-ray, Director
+    Where: 5th from left, grey/silver spine reading "A CURZON FILM", "2025" at the foot,
+           between the red Arrow JSA and the black Mummy Trilogy.
+    In CSV: Blu-ray, Curzon, Annemarie Jacir, 2025.
+    Doubt:  No format marking legible on the spine, and this is recent enough that I can't
+            confirm the disc specs from knowledge.
+    Need:   Blu-ray or 4K? (Director and year I'm confident about.)
+
+[ ] U007 | Image 03 | Row: Jane Eyre | Field: Director
+    Where: leftmost, white BBC DVD box, BBCDVD2249.
+    In CSV: Susanna White, with a note that Sandy Welch wrote it.
+    Doubt:  A 2006 BBC serial has no showrunner in the American sense. Susanna White
+            directed all four episodes; Sandy Welch adapted it and is arguably the
+            authoring voice.
+    Need:   Your call on which name you want in that column for British serials -
+            director or writer. Whichever you pick becomes the standing rule.
+
+[ ] U008 | Image 04 | Rows: 15 Dragon Ball Z rows | Field: Director
+    Where: 2nd from left, tall white boxset spine, Blu-ray, MANB83630.
+    In CSV: per-film directors (Nishio, Hashimoto, Yamauchi, Ueda) and per-film years.
+    Doubt:  Titles and the boxset contents are confirmed from blu-ray.com. The individual
+            year and director attributions are from knowledge and were NOT verified film
+            by film - 15 rows, so worth a note even though I'm fairly confident.
+    Need:   Nothing from you. Flagged so it can be verified in one pass later if it matters.
+
+[ ] U009 | Image 04 | Row: Das Cabinet des Dr. Caligari | Field: Blu-ray
+    Where: 9th from left, orange-and-black Eureka spine, Masters of Cinema no. 92, EKA70509,
+           between Event Horizon and the pink Paprika.
+    In CSV: 4K and Blu-ray both ticked.
+    Doubt:  The "Ultra HD Blu-ray" marking at the foot is clear, so the 4K is certain.
+            Whether Eureka bundled a separate 1080p Blu-ray in this package is an assumption.
+    Need:   How many discs in the case?
+
+[ ] U010 | Image 05 | Rows: Angel seasons 1-5 | Fields: Label, Director
+    Where: the large ANGEL: THE COMPLETE COLLECTION boxset, photographed face-on.
+    In CSV: Label 20th Century Fox; showrunner David Greenwalt for seasons 1-4
+            (with Jeffrey Bell added on 4) and Jeffrey Bell for season 5.
+    Doubt:  No label logo is visible on the face shown, so Fox is inferred, not read.
+            The Greenwalt-to-Bell handover during season 4 is also approximate.
+    Need:   The label from the spine or back of the box.
+
+[ ] U011 | Images 04, 05 | Field: completeness
+    Where: image 04 has a partial case at the right edge of the frame; image 05 has
+           roughly three spines cut off at the left edge, behind Anatomy of a Murder.
+    In CSV: nothing - these were not catalogued.
+    Doubt:  There are discs in these two frames I can see the edge of but cannot identify.
+    Need:   Either a re-shoot of those two edges, or confirmation that they're covered
+            by another image in the set.
 
 
 RESOLVED
@@ -29,7 +132,7 @@ RESOLVED
 ITEM FORMAT
 -----------
 
-[ ] U001 | Image 04 | Row: "Thief" | Field: Label
+[ ] Unnn | Image NN | Row: "Thief" | Field: Label
     Where: top shelf, third from left, between Heat and The Insider.
            Black spine, red text, standard Blu-ray case.
     In CSV: Arrow
