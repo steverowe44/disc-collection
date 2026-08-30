@@ -19,7 +19,7 @@ Keep the BOM when rewriting the file.
 Exact header row, in order:
 
 ```
-Collection,Name,Year,TV,Film,4K,Blu-ray,3D,DVD,Label,Director,Notes
+Collection,Name,Year,Type,4K,Blu-ray,3D,DVD,Label,Director,Notes
 ```
 
 | Column | Rule |
@@ -27,21 +27,20 @@ Collection,Name,Year,TV,Film,4K,Blu-ray,3D,DVD,Label,Director,Notes
 | `Collection` | Name of the box set or TV series this row belongs to. **Left empty** when the release is standalone — most rows. Quote it if it contains a comma. |
 | `Name` | Title with the leading article moved to the end, comma-separated: `Departed, The` / `Thing, The`. Alternate cuts go in the name in parentheses: `Blade Runner (Final Cut)`. TV seasons: `Sopranos, The: Season 3`. Because this field contains commas, it **must be quoted** in the CSV. |
 | `Year` | Year the film / TV season **originally released** (theatrical or first broadcast). For an alternate cut, `original / cut` — e.g. Apocalypse Now Redux is `1979 / 2001`. A theatrical cut is just the original year. |
-| `TV` | `✓` if the release is a TV show or season. Else empty. |
-| `Film` | `✓` if the release is a film. Else empty. |
+| `Type` | Exactly one of the strings `TV` or `Film`. **Not a tick column** — never empty, never both. |
 | `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
 | `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
 | `3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
 | `DVD` | `✓` if the package contains a DVD. Else empty. |
 | `Label` | The company that produced/published the disc: `Arrow`, `Criterion`, `Second Sight`, `Lionsgate`, `Warner Bros.`, `88 Films`, `Eureka`, `Indicator`, `StudioCanal`, `Shout! Factory`, etc. Distributor of *this* release, not the production company of the film. |
-| `Director` | Film: the director. TV: the **showrunner for that season**. Multiple names separated by `; ` (never a bare comma). |
+| `Director` | Film: the director. TV: the **showrunner for that season**, or the director where a serial has no showrunner. Multiple names separated by `; ` (never a bare comma). Beyond three or so names, give the one with main credit followed by `& more` — e.g. `Charles Band & more` for the seven-director Dungeonmaster. |
 | `Notes` | Free text. Anything the schema doesn't cover — packaging, edition, condition, who borrowed it, uncertainty about a field. Quote it if it contains a comma. |
 
 There is deliberately **no** disc-release-year column and **no** cut column.
 
 ### The `✓` rule (important)
 
-`TV`, `Film`, `4K`, `Blu-ray`, `3D`, `DVD` are **independent boolean columns**.
+`4K`, `Blu-ray`, `3D` and `DVD` are **independent boolean columns**. `Type` is not one of them — it is a plain string, `TV` or `Film`.
 
 - True  → the single Unicode character `✓` (U+2713).
 - False → **completely empty cell**. Never `✗`, `x`, `N`, `0`, `-`, or a space.
