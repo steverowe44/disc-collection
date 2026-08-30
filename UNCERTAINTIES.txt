@@ -47,6 +47,10 @@ OPEN
              - Stalker, no. 888 (image 08, 8th, grey)
              - 12 Angry Men, no. 591 (image 14, 2nd, tan)
              - The Great Dictator, no. 565 (image 14, 4th, red/pink)
+             - Dr. Strangelove, number not visible (image 23, 3rd, grey)
+             - True Stories, no. 951 (image 23, 7th, red/white)
+             - Stagecoach, no. 516 (image 24, 6th, cream/orange)
+             - Raging Bull, no. 1134 (image 24, 10th, grey)
     In CSV: Blu-ray for all except Young Mr. Lincoln, which I put down as DVD.
             (Stalker added from batch 2 - also guessed Blu-ray.)
     Doubt:  Criterion spines carry no format marking, and most of these titles exist in both
@@ -71,6 +75,10 @@ OPEN
            12 Monkeys (image 02, 11th, white/red)
            The Silence of the Lambs (image 03, 7th, black with moth)
            The Game (image 18, left, blue, FCD1916)
+           The Vengeance Trilogy x3 (image 22, in the black box, FCD1970-1/2/3)
+           The Holy Mountain (image 25, 7th, orange, FCD2169)
+           Videodrome (image 25, 13th, black, FCD2356)
+           Drive — Second Sight, not Arrow, but same question (image 22, 10th)
            The Last Emperor (image 04, 3rd, red)
     In CSV: Blu-ray only for all five.
     Doubt:  Arrow has since put out 4K editions of several of these. None of the five spines
@@ -390,6 +398,76 @@ OPEN
     Need:   Disc count or the title list from the back. Note this box also gives you second
             copies of Batman and Batman Returns, which you already hold on 4K — those rows
             are marked as such.
+
+[ ] U041 | Image 22 | Row: none — NOT CATALOGUED | Field: identification
+    Where: 2nd from left, a grey/white StudioCanal spine almost entirely hidden between
+           North by Northwest and the black Arrow Vengeance Trilogy box. Only one
+           character resolves — possibly a "7" or a "1".
+    In CSV: nothing. No row was created.
+    Doubt:  Too little of the spine is visible to name the film.
+    Need:   Pull it out and tell me what it is.
+
+[ ] U042 | Image 21 | Rows: 11 Miyazaki rows | Field: contents
+    Where: the white "THE COLLECTED WORKS OF HAYAO MIYAZAKI" Ghibli boxset, 127617.
+    In CSV: the eleven Miyazaki features, Castle of Cagliostro (1979) through
+            The Wind Rises (2013), all on Blu-ray, label Disney.
+    Doubt:  The eleven features are the standard contents of this set and I'm reasonably
+            confident — but the box also carries shorts and documentaries (On Your Mark,
+            the Ghibli shorts, Kingdom of Dreams and Madness) which have no rows. Whether
+            those deserve rows is your call.
+    Need:   Confirm eleven features, and say whether you want the shorts listed too.
+
+[ ] U043 | Image 22 | Rows: 6 Rocky rows | Field: contents
+    Where: the black-and-red "ROCKY: ULTIMATE KNOCKOUT COLLECTION" 4K box, 9th from left.
+    In CSV: Rocky I-V plus Rocky Balboa, all 4K + Blu-ray.
+    Doubt:  Six films is the standard line-up, but some editions of this set add
+            "Rocky IV: Rocky vs. Drago — The Ultimate Director's Cut", which under the cuts
+            rule would be a seventh row with Year "1985 / 2021". Titles aren't on the face.
+    Need:   Disc count, and whether Rocky vs. Drago is in there.
+
+[ ] U044 | Image 23 | Row: True Detective: Season 1 | Field: Name
+    Where: 4th from left, blue HBO spine, between Dr. Strangelove and the white BFI
+           Kurosawa box.
+    In CSV: Season 1 (2014), showrunner Nic Pizzolatto.
+    Doubt:  The spine says only "TRUE DETECTIVE" with no season number. Season 1 is the
+            likely guess for a Blu-ray of that vintage, but if it's a later season both
+            the year and the showrunner change — and if it's a multi-season set it needs
+            one row per season.
+    Need:   Which season, or how many.
+
+[ ] U045 | Image 24 | Row: Die Nibelungen | Field: row count
+    Where: 9th from left, dark red Eureka spine, Masters of Cinema #46, EKA70026.
+    In CSV: one row, with both parts noted in the Notes column.
+    Doubt:  Die Nibelungen is two features — Siegfried and Kriemhild's Revenge, both 1924.
+            Strictly the box-set rule would make that two rows. I kept it as one because
+            it is a single work released in two parts rather than a collection.
+    Need:   Your preference. Same question would apply to any other two-part feature.
+
+[ ] U046 | Image 24 | Row: Raging Bull | Field: Label
+    Where: 10th from left, grey spine reading "RAGING BULL" with the Criterion "C" and
+           spine no. 1134, MGM logo at the foot.
+    In CSV: Criterion.
+    Doubt:  I read both a Criterion spine and an MGM logo, which is a plausible pairing but
+            not one I can corroborate. If this is an MGM release with different packaging,
+            the label is wrong.
+    Need:   Confirm it's a Criterion.
+
+[ ] U047 | Images 22, 24, 25 | Rows: Phantom of the Paradise, The Lobster, Ghost in the
+    Shell 4K, 1917 | Field: Label
+    Where: Phantom of the Paradise — image 24, 8th, "SE 15116" at the foot.
+           The Lobster — image 22, 11th, both an Element Distribution logo and LIONSGATE.
+           Ghost in the Shell 4K — image 25, 1st, small logo at the foot read as Lionsgate.
+           1917 — image 25, 6th, eOne logo but a Universal-style catalogue number.
+    In CSV: Arrow Video / Lionsgate / Lionsgate / Entertainment One respectively.
+    Doubt:  Four spines carrying either two publisher marks or a mark I couldn't resolve.
+    Need:   Publisher on each.
+
+[ ] U048 | Image 21 | Rows: none | Field: note only
+    Where: image 21 items 5-8 (PS4 and PS5 games) and image 16 item 2 (a Wii game).
+    In CSV: nothing, deliberately.
+    Doubt:  None — recording the decision so it isn't revisited. Games sharing the shelves
+            are transcribed but never given rows.
+    Need:   Nothing, unless you want games tracked too, in which case say so.
 
 RESOLVED
 --------
