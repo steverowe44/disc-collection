@@ -53,87 +53,6 @@ OPEN
             it is a single work released in two parts rather than a collection.
     Need:   Your preference. Same question would apply to any other two-part feature.
 
-[ ] U046 | Image 24 | Row: Raging Bull | Field: Label
-    Where: 10th from left, grey spine reading "RAGING BULL" with the Criterion "C" and
-           spine no. 1134, MGM logo at the foot.
-    In CSV: Criterion.
-    Doubt:  I read both a Criterion spine and an MGM logo, which is a plausible pairing but
-            not one I can corroborate. If this is an MGM release with different packaging,
-            the label is wrong.
-    Need:   Confirm it's a Criterion.
-
-[ ] U047 | Images 22, 24, 25 | Rows: Phantom of the Paradise, The Lobster, Ghost in the
-    Shell 4K, 1917 | Field: Label
-    Where: Phantom of the Paradise — image 24, 8th, "SE 15116" at the foot.
-           The Lobster — image 22, 11th, both an Element Distribution logo and LIONSGATE.
-           Ghost in the Shell 4K — image 25, 1st, small logo at the foot read as Lionsgate.
-           1917 — image 25, 6th, eOne logo but a Universal-style catalogue number.
-    In CSV: Arrow Video / Lionsgate / Lionsgate / Entertainment One respectively.
-    Doubt:  Four spines carrying either two publisher marks or a mark I couldn't resolve.
-    Need:   Publisher on each.
-
-[ ] U048 | Image 21 | Rows: none | Field: note only
-    Where: image 21 items 5-8 (PS4 and PS5 games) and image 16 item 2 (a Wii game).
-    In CSV: nothing, deliberately.
-    Doubt:  None — recording the decision so it isn't revisited. Games sharing the shelves
-            are transcribed but never given rows.
-    Need:   Nothing, unless you want games tracked too, in which case say so.
-
-[ ] U049 | Image 28 | Row: none — NOT CATALOGUED | Field: contents
-    Where: 2nd from left, white DVD boxset reading "ICONS — ORSON WELLES", 8280115,
-           between Van Helsing and the BFI Battleship Potemkin.
-    In CSV: nothing. No rows were created.
-    Doubt:  A Universal "Icons" range set, but no film titles are printed on the face
-            shown and I can't establish which Welles films are in it. Could be anywhere
-            from three to six rows.
-    Need:   The titles from the back of the box.
-
-[ ] U050 | Image 28 | Row: True History of the Kelly Gang | Field: Name
-    Where: 5th from left, Curzon Artificial Eye spine, ART22580, between the teal
-           Fast & Furious box and the dark red Total Recall.
-    In CSV: True History of the Kelly Gang (2019, Justin Kurzel).
-    Doubt:  The Curzon branding and catalogue number are clear; the title itself is not.
-            I could only partly resolve the lettering and fitted the likeliest Curzon
-            release to it. This is a weaker guess than most in this file.
-    Need:   The title on that spine.
-
-[ ] U051 | Image 29 | Row: Dune: Part Two | Fields: Name, Year
-    Where: 3rd from left, RED/ORANGE 4K spine, Legendary + WB, between Schindler's List
-           and the white RoboCop Trilogy.
-    In CSV: Dune: Part Two (2024).
-    Doubt:  The spine reads only "DUNE" with no "Part Two". A dark-spined Dune 4K is
-            already recorded from image 23, and this one is a different colour — Part Two's
-            packaging is orange/red, which is why I went that way. But it could equally be
-            a second copy of Dune (2021).
-    Need:   Which Dune is it?
-
-[ ] U052 | Image 30 | Row: Batman (second copy) | Fields: Name, Year
-    Where: 2nd from left, black 4K spine, DC + WB, between the blue Cowboy Bebop
-           Complete Series and the grey Cowboy Bebop: The Movie.
-    In CSV: Batman (1989, Tim Burton), marked as a second copy.
-    Doubt:  A Batman 4K is already recorded from image 08 and the two spines look alike.
-            Since you confirmed the photos don't overlap, this is either a genuine second
-            copy or it is Matt Reeves's The Batman (2022) — the spine reads "BATMAN" with
-            no "THE", which is why I didn't go that way. Those are different films, so
-            this row is either a duplicate or entirely wrong.
-    Need:   Which Batman is on that shelf.
-
-[ ] U053 | Image 31 | Row: Requiem for a Dream | Fields: Label, 4K
-    Where: 9th from left, shrink-wrapped blue/silver spine, between Scarface and the
-           brown Radiance O-bi, o-ba.
-    In CSV: Lionsgate, Blu-ray only.
-    Doubt:  The publisher mark at the top of the spine is obscured by shrink wrap and I
-            could not read it. There is also a 4K edition of this film in circulation.
-    Need:   Publisher, and whether there's a 4K disc.
-
-[ ] U054 | Image 32 | Rows: 3 Riddick rows | Field: contents / DVD
-    Where: 5th from left, grey Universal spine, "RIDDICK COLLECTION", 829 682 8.
-    In CSV: Pitch Black, The Chronicles of Riddick, Riddick — Blu-ray only.
-    Doubt:  Titles aren't on the face shown. Some editions of this set also carry the
-            animated "Dark Fury", which would be a fourth row. The spine shows BOTH a
-            Blu-ray and a DVD logo, so the DVD column may need ticking on all three.
-    Need:   Titles and disc formats from the back.
-
 [ ] U055 | Images 26 and 29 | Rows: 3 Lord of the Rings rows | Field: Collection, Name
     Where: Fellowship EBR5194 (image 26, 4th), Two Towers EBR5195 (image 19, 7th),
            Return of the King EBR5196 (image 29, 5th). All the same ornate packaging,
@@ -193,6 +112,45 @@ OPEN
     Need:   The publisher named on the back of the case.
 
 RESOLVED
+
+[x] U046 | Raging Bull | Criterion, as entered. No change.
+
+[x] U047 | Four unresolved publishers | Phantom of the Paradise corrected to Scream Factory.
+    The Lobster stays Lionsgate. The Ghost in the Shell 4K corrected to Manga Entertainment.
+    1917 looked up: eOne (Entertainment One) handled the UK release, so that row was already
+    right.
+
+[x] U048 | Games | Not catalogued, and never will be. Five games across images 16 and 21
+    stay in transcripts.txt only.
+
+[x] U049 | The Orson Welles box | Photo supplied: "ICONS - ORSON WELLES - 4 Film Collection".
+    Four rows added under Collection "Icons: Orson Welles" - Citizen Kane (1941),
+    Waterloo (1970), The Lady from Shanghai (1947) and A Man for All Seasons (1966), all DVD,
+    label Universal (the ICONS range is a Universal Pictures UK line; the same four films
+    were earlier issued as "Screen Legends: Orson Welles"). Citizen Kane is marked a second
+    copy - you already hold the 4K.
+
+[x] U050 | The Curzon spine, image 28 | The Killing of a Sacred Deer (2017, Yorgos
+    Lanthimos), Curzon Artificial Eye, Blu-ray. My True History of the Kelly Gang guess was
+    wrong; row corrected.
+
+[x] U051 | The red Dune spine | Dune: Part Two, 4K only. Blu-ray cleared.
+
+[x] U052 | The two Batman 4Ks | Image 08 is Matt Reeves's The Batman (2022) - row rebuilt as
+    "Batman, The", 2022, Matt Reeves. Image 30 is the 1989 Tim Burton film. Both are
+    4K + Blu-ray. So they were never duplicates of each other; the only real duplicate is
+    the 1989 film, held on 4K and again on DVD inside the Tim Burton box.
+
+[x] U053 | Requiem for a Dream | Looked up: Momentum Pictures handled the UK Blu-ray.
+    Blu-ray only, as you said. Worth knowing - the UK disc runs 101:25, which is the
+    Director's Cut rather than the theatrical. Recorded in Notes rather than in the title,
+    because the recut came out the same year and that is the open question in U027.
+
+[x] U054 | The Riddick Collection | Pitch Black and The Chronicles of Riddick on Blu-ray,
+    Dark Fury on DVD. Riddick (2013) is not in the set, so that row has been replaced by
+    "Chronicles of Riddick, The: Dark Fury" (2004, Peter Chung) - the animated one, DVD only.
+    This is the first row in the collection where a box mixes Blu-ray and DVD across
+    different films.
 
 [x] U041 | The obscured StudioCanal spine, image 22 | It is '71 (2014, Yann Demange),
     the Northern Ireland film. StudioCanal, Blu-ray only. Row added in shelf position,

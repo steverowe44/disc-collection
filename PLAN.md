@@ -237,6 +237,8 @@ disambiguation.
   spreadsheets do not swallow the leading character.
 - **Bootlegs** get Label `Unofficial` and a note. Never record the label the packaging
   imitates — the Miyazaki set passes for a Disney release and is not one.
+- **A box can mix formats across films.** The Riddick Collection carries two films on
+  Blu-ray and one on DVD, so the ticks differ row to row inside one Collection.
 - **Identical duplicates** are recorded once. Genuinely different releases of the same film
   still get separate rows.
 
