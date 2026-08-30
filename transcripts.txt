@@ -229,3 +229,77 @@ IMAGE 15 — 10 items, left to right. All DVD.
 08. As Above, So Below | UNIVERSAL + LEGENDARY | 830 161 8 | BBFC 15 x2 | black
 09. Four Weddings and a Funeral | MGM lion at top | BBFC 15 | white
 10. Downfall | MOMENTUM PICTURES | dts | MP409D | BBFC 15 | black
+
+================================================================
+IMAGE 16 — 12 items, left to right. Mostly 3D Blu-rays.
+================================================================
+01. Pride & Prejudice / Atonement / Sense and Sensibility | DVD VIDEO | 8288508 | BBFC 15 x2 | green
+02. [NOT A DISC RELEASE] DJ Hero — Nintendo Wii game, white case. Excluded from the CSV.
+03. Ready Player One 3D | "Blu-ray 3D" | WB | BBFC 12 x2 | blue
+04. Guardians of the Galaxy | "Blu-ray 3D" | MARVEL | Z1B BUY0219100 | BBFC 12 x2 | dark red
+05. Avengers: Age of Ultron | "Blu-ray 3D" | MARVEL | BIY 0424209 SC3B | BBFC 12
+06. Doctor Strange | "Blu-ray 3D" | MARVEL STUDIOS | BIY 0462802 SC3A | BBFC 12
+07. Avengers: Infinity War | "Blu-ray 3D" | MARVEL STUDIOS | BIY 0489006 SC3A | BBFC 12
+08. Ant-Man | "Blu-ray 3D" | MARVEL | BBFC 12 | pink/red
+09. Captain America: Civil War | "Blu-ray 3D" | MARVEL | BBFC 12 | red
+10. Marvel's Avengers 3D | "Blu-ray 3D" | MARVEL | BIY 0317402 SC3A | BBFC 12 | dark red
+11. James Cameron's Avatar | "Blu-ray 3D" | 20th FOX + LIGHTSTORM | 39803BT | BBFC 12 x2
+12. Spider-Man 2 | BBFC 12 | Blu-ray | blue
+
+================================================================
+IMAGE 17 — 12 items, left to right. All DVD.
+================================================================
+01. Jaws 2 / Jaws 3 / Jaws The Revenge | DVD VIDEO | 8272810 | BBFC 12 | black
+02. Doctor Zhivago | Z1 65571 | WB shield at foot | DVD VIDEO | white/red
+03. Battlefield Earth | BBFC 12 | DVD | red/orange
+04. E.T. The Extra-Terrestrial | UNIVERSAL | 905 216 9 | BBFC U/G | dark blue, moon artwork
+05. Transformers | DSL1533 | BBFC 12 x2 | cream/white
+06. Cloverfield | Paramount | PHE9599 | BBFC 15 x2 | black
+07. Gone Girl | BBFC 15 | blue/grey
+08. THE MARX BROTHERS COLLECTION | UNIVERSAL | 021 200 6 | BBFC U
+    | spine lists: Animal Crackers / Monkey Business / Horse Feathers / Duck Soup
+09. The Phantom of the Opera | UNIVERSAL at top | black spine, white mask artwork | see U033
+10. 28 Weeks Later | 20th FOX | BBFC 18 x2 | red/orange
+11. Being John Malkovich | UNIVERSAL | 820 368 3 | BBFC 15 | black
+12. Howards End | ODK26901 | BBFC PG | cream | cast listed: Hopkins / Redgrave /
+    Bonham Carter / Thompson
+
+================================================================
+IMAGE 18 — 2 items.
+================================================================
+01. The Game | UNIVERSAL | FCD1916 (Arrow prefix) | BBFC 18 | blue | no 4K banner
+02. GAME OF THRONES: THE COMPLETE COLLECTION | "4K ULTRA HD" | HBO | BBFC 18
+    | photographed face-on; disc breakdown not visible
+
+================================================================
+IMAGE 19 — 11 items, left to right. Partial cases at right edge.
+================================================================
+01. Heat | "ULTRA HD Blu-ray" | SC1B BUQ4013201 | BBFC 15 | 20th FOX + REGENCY | black
+02. Barry Lyndon | "PREMIUM COLLECTION" / "1975" / no. 90 | WB | BBFC PG | Blu-ray | white
+03. Faust | EUREKA! | "A FILM BY F. W. MURNAU" | Masters of Cinema #78 | EKA70141 | red
+04. Nosferatu | EUREKA! | "F. W. MURNAU" | Masters of Cinema #70 | EKA70115 | BBFC PG | blue
+05. The Iron Giant | "SIGNATURE EDITION" printed on spine | Blu-ray Disc | WB | BBFC 12
+06. Fear and Loathing in Las Vegas | ARROW VIDEO | FCD2025 | UNIVERSAL | orange
+07. The Lord of the Rings: The Two Towers | EBR5195 | BBFC 12 x2 | NEW LINE | ornate brown/gold
+08. Midsommar | "weltkino" at top | A24 | DF1227 | red/pink | no BBFC badge — import
+09. Who Framed Roger Rabbit | Touchstone Pictures | SC1A BUQ4008701 | BBFC PG x2 | black
+10. Scott Pilgrim vs. the World | "ULTRA HD Blu-ray" | UNIVERSAL | 827 670 9 | BBFC 12 x2
+11. Pacific Rim | "4K ULTRA HD" | WARNER BROS + LEGENDARY | BBFC 12 x2 | black
+
+================================================================
+IMAGE 20 — 10 items, left to right. All DVD. Items 5-9 appear to sit in a black outer box.
+================================================================
+01. Sleepers | DVD 047 802 2 | thin black spine
+02. The Terminal / Catch Me If You Can / Cast Away | DVD VIDEO | 830 2496 | BBFC 12 x2 | grey
+03. 3000 Miles to Graceland | Z1 21188 | BBFC 18 | WB | black
+04. THE COEN BROTHERS COLLECTION | 20th FOX | PF008 3661701000 | BBFC 18 x2
+    | spine lists: Fargo / Raising Arizona / Miller's Crossing | orange/white
+    NOTE: name collides with the Universal Coen set in image 15 — both Collection values
+    have been suffixed (Fox) / (Universal) to keep them apart
+05. The Wire: The Complete First Season  | HBO VIDEO | Z1 25394  | BBFC 18 | grey
+06. The Wire: The Complete Second Season | HBO VIDEO | Z1 72559  | BBFC 15 | green
+07. The Wire: The Complete Third Season  | HBO VIDEO | Z1 82569  | BBFC 15 | blue
+08. The Wire: The Complete Fourth Season | HBO VIDEO | Z1 Y17342 | BBFC 18 | red
+09. The Wire: The Complete Fifth Season  | HBO VIDEO | Z1 Y22338 | BBFC 15 | black
+10. THE TIM BURTON COLLECTION | WB | BBFC 18 | DVD VIDEO | black boxset
+    | film titles NOT printed on the visible face

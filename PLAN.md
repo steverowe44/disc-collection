@@ -236,4 +236,8 @@ Answers established once and reused. Add to this list rather than re-researching
 | Paramount | Catalogue tells format: `PHE` = DVD era, `53xxxxx` = 4K UHD, `83xxxxx` = Blu-ray. | Batch 3 |
 | 20th Century Fox | UK discs carry an `F1-OGB` / `WW-BOGB` catalogue prefix. | Batch 3 |
 | Boxsets photographed face-on | Film titles are often NOT on the face shown, so contents must be looked up or asked for — Bond, Herzog, Coen and Hitchcock all needed this. Shoot the BACK of a boxset where possible. | Batch 3 |
+| Disney / Marvel / Touchstone (UK) | Catalogue prefixes `BIY`, `BUY`, `BUQ`, usually with an `SC1A`/`SC3A` suffix. Spine shows the studio brand, not the publisher. | Batch 4 |
+| Warner "Premium Collection" | A numbered Blu-ray line (King Kong no. 11, Barry Lyndon no. 90). Numbered but NOT a box set — Collection stays empty, note the number instead. | Batch 4 |
+| 3D Blu-rays | Spine reads "Blu-ray 3D". Tick Blu-ray; record the 3D in Notes (no 3D column exists — see U030). | Batch 4 |
+| Non-disc items | Games and other non-film discs on the same shelves (e.g. a Wii game in image 16) are transcribed but never given a CSV row. | Batch 4 |
 | BBFC badges | The number of certificate badges at the foot of a spine tends to equal the disc count. Useful cross-check for combo packs. | Batch 1 |
