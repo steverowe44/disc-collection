@@ -27,7 +27,7 @@ Collection,Name,Year,Type,4K,Blu-ray,3D,DVD,Label,Director,Notes
 | `Collection` | Name of the box set or TV series this row belongs to. **Left empty** when the release is standalone — most rows. Quote it if it contains a comma. |
 | `Name` | Title with the leading article moved to the end, comma-separated: `Departed, The` / `Thing, The`. Alternate cuts go in the name in parentheses: `Blade Runner (Final Cut)`. TV seasons: `Sopranos, The: Season 3`. Because this field contains commas, it **must be quoted** in the CSV. |
 | `Year` | Year the film / TV season **originally released** (theatrical or first broadcast). For an alternate cut, `original / cut` — e.g. Apocalypse Now Redux is `1979 / 2001`. A theatrical cut is just the original year. |
-| `Type` | Exactly one of the strings `TV` or `Film`. **Not a tick column** — never empty, never both. |
+| `Type` | Exactly one of the strings `TV` or `Film`. **Not a tick column** — never empty, never both. `TV` means an **episodic show** — a season, a serial, a miniseries. A one-off made for television (a TV film, a TV special, a filmed stage production) is a **`Film`**, however it was first broadcast. |
 | `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
 | `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
 | `3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
@@ -71,6 +71,24 @@ One row **per season**, always — including complete-series sets.
 - Single-season release → one row, `Collection` empty unless it came in a larger set.
 - `Year` = the year that **season** first aired.
 - `Director` = that season's showrunner.
+
+### TV vs Film
+
+`TV` is for **shows**. If it has episodes — a season, a serial, a miniseries — it is `TV`,
+one row per season.
+
+Everything else is `Film`, including things that never saw a cinema:
+
+| Example | Type | Why |
+|---|---|---|
+| Jane Eyre (2006), Chernobyl, Pride and Prejudice (1995) | `TV` | Multi-episode serials |
+| Mansfield Park, Northanger Abbey, Emma (ITV) | `Film` | One-off TV films |
+| Medea (1988) | `Film` | Danish TV film |
+| Dragon Ball Z: Bardock, The History of Trunks | `Film` | One-off TV specials |
+| The Phantom of the Opera at the Royal Albert Hall | `Film` | Filmed stage production |
+
+Where a `Film` row was made for television, say so in `Notes` — it explains an odd-looking
+year or director without needing a separate column.
 
 ### Multiple cuts
 
