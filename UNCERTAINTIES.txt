@@ -4,7 +4,7 @@ UNCERTAINTIES — OPEN ITEMS
 Every field that went into collection.csv as a guess rather than a fact gets logged here,
 with the image number and enough physical detail to find the disc on the shelf.
 
-  [ ] = open, needs Stephen's eyes
+  [ ] = open, needs the owner's eyes
   [x] = resolved (moved to the RESOLVED section, kept for history — never deleted)
 
 Each item has a stable ID (U001, U002...) so commits can reference it:

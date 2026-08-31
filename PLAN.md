@@ -1,6 +1,6 @@
 # Physical Disc Collection — Working Plan
 
-Living record of Stephen's physical 4K UHD / Blu-ray / DVD collection.
+Living record of a personal 4K UHD / Blu-ray / DVD collection.
 This document is the spec. Read it before adding or editing any row in `collection.csv`.
 
 ## Files
@@ -100,6 +100,18 @@ three rows: `Apocalypse Now`, `Apocalypse Now (Redux)`, `Apocalypse Now (Final C
 - This applies whether the cuts came in one package or were bought separately.
   If one disc holds several cuts, that's still one row per cut.
 
+### Language versions
+
+Two tiers, with **Nosferatu the Vampyre as the bar**:
+
+- **Its own row** when the second version is distinct enough to count as a different film:
+  separately shot with a different cast and crew (`Drácula`, 1931, filmed at night on the
+  same sets by George Melford), or reshot scene by scene with distinct performances
+  (Herzog's `Nosferatu the Vampyre`, German and English).
+- **No row** for anything less distinct than that — dubs, alternate audio tracks, export
+  versions that are only re-edited or re-narrated. Eureka's `M` carries an English version;
+  it does not get a row.
+
 ### Duplicate films
 
 Multiple copies of the same film are **separate rows**, always. Never merge, never dedupe.
@@ -116,7 +128,7 @@ Do not re-sort the file — it makes diffs unreadable. Sorting is the viewer's j
 
 ## Workflow
 
-1. Stephen posts images of shelves / spines / individual cases in chat.
+1. The owner posts images of shelves / spines / individual cases in chat.
    **Each image has an image number written in its bottom-right corner.**
 2. Read every title visible in the image.
 3. For each release, determine the fields above. What the image can't tell us
@@ -167,7 +179,7 @@ Always: image number, physical position and neighbours, what went in the CSV, wh
 is, and what would settle it. Same format whether the doubt is title, label, cut, year, or
 disc contents.
 
-When Stephen answers an item: correct `collection.csv`, tick the item, move it to the
+When the owner answers an item: correct `collection.csv`, tick the item, move it to the
 RESOLVED section with the answer, and commit referencing the ID
 (`Resolve U004: Thief is StudioCanal, not Arrow`). Resolved items are never deleted.
 
@@ -176,7 +188,7 @@ spine and gets no CSV row until it's identified.
 
 ### Future additions
 
-Releases Stephen doesn't own yet get added the same way, to the same standard —
+Releases not yet owned get added the same way, to the same standard —
 look up the release, fill every column, commit as its own batch.
 
 ## Working method — accuracy per token
@@ -186,7 +198,7 @@ The cost asymmetry that shapes everything below, measured on this collection:
 - Images are ~1500px, ~1,600 tokens each. A full pass over all 32 costs ~50k tokens. **Cheap.**
 - Fetching a release page per title would cost 600k–1.5M tokens across the collection.
   **20–30× the cost of every photo combined.** This is the only lever that matters.
-- Asking Stephen costs ~50 tokens and he answers by looking at a shelf. **Cheapest of all.**
+- Asking the owner costs ~50 tokens, answered by looking at a shelf. **Cheapest of all.**
 
 ### 1. Transcribe once, never re-read
 
@@ -219,7 +231,7 @@ never in doubt.
 
 For anything **physically visible on the case** — which label, whether a 4K case also holds a
 Blu-ray, which cut — an `UNCERTAINTIES.txt` item beats any amount of web research. Research is
-for what Stephen can't see without unwrapping: original release years, directors, edition
+for what can't be seen without unwrapping: original release years, directors, edition
 disambiguation.
 
 ### 5. Mechanical hygiene
@@ -250,7 +262,7 @@ disambiguation.
 - **Alternate presentations get their own row**, same as re-edits: a black-and-white
   version is a row (`Parasite (Black and White Version)`, `Logan (Noir)`), with format
   ticks following the disc it sits on.
-- **Häxan is a one-off exception**, agreed with Stephen: that Radiance disc carries four
+- **Häxan is a one-off exception**, agreed with the owner: that Radiance disc carries four
   versions and is recorded as a single row. It sets no precedent — every other disc gets a
   row per cut.
 - **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray:
