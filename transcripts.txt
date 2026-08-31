@@ -518,3 +518,30 @@ Futurama: The Complete Collection | 20th Century Fox | DVD | seasons 1-4 only
 Rambo Trilogy | StudioCanal | German release | 6 discs (3 x 4K UHD + 3 x Blu-ray)
     Titles as Stephen specified: Rambo: First Blood / Rambo: First Blood Part II /
     Rambo III. The German packaging calls the first film simply "Rambo".
+
+================================================================
+ALTERNATE-CUT AUDIT — boutique labels, no photo involved
+================================================================
+Scope: all 169 rows on boutique labels (BFI 31, Arrow 30+7, StudioCanal 29, Curzon 24,
+Criterion 17, Eureka 13, Second Sight 4, Radiance 3, others). Shortlisted the titles known
+to exist in more than one version, then verified each against release listings.
+
+CONFIRMED and added as rows:
+  Battle Royale (Arrow 4K)        theatrical + director's cut
+  The Handmaiden (Curzon SE)      146-min theatrical + 168-min extended, on two BD50s
+  It's a Mad... World (Criterion) 159-min general release + 197-min roadshow reconstruction
+  Lady Vengeance (Arrow)          colour + Fade to Black and White
+  Faust (Eureka MoC)              German domestic cut + export version (shot on a 2nd camera)
+  Häxan (Radiance)                1922 original + 1968 Witchcraft Through the Ages
+
+OPEN QUESTION — language versions, deliberately NOT added:
+  Nosferatu the Vampyre (BFI) carries German and English versions; Herzog shot each scene
+  twice, so they are distinct performances rather than a dub. Adding it would set a
+  precedent that also catches M (Eureka), the Spanish Dracula, and others. Left for Stephen.
+
+CHECKED, single version, no row needed: The Holy Mountain, Videodrome, Withnail & I,
+Heathers, The Game, 12 Monkeys, The Silence of the Lambs, The Lighthouse, Fear and Loathing,
+Return of the Living Dead, the six Corman/Poe titles, the five Empire Pictures titles.
+
+NOT REACHED — plausible but unverified: The Third Man (UK and US cuts differ in narration),
+Dune 1984, Highlander, Nosferatu 1922 (Eureka), M (Eureka).
