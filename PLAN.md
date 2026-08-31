@@ -100,16 +100,6 @@ three rows: `Apocalypse Now`, `Apocalypse Now (Redux)`, `Apocalypse Now (Final C
 - This applies whether the cuts came in one package or were bought separately.
   If one disc holds several cuts, that's still one row per cut.
 
-### How many cuts to list
-
-Give a cut its own row when it is a **distinct, named version** a collector would think of
-separately — a director's cut, an extended cut, a black-and-white version.
-
-Where a disc carries **many** versions — restorations, tints, variant scores, alternate
-narrations — list only the **principal cut** and say so in `Notes`. Häxan's Radiance disc
-holds four; it gets one row. The aim is a usable shelf record, not a disc-by-disc
-technical inventory.
-
 ### Duplicate films
 
 Multiple copies of the same film are **separate rows**, always. Never merge, never dedupe.
@@ -260,6 +250,9 @@ disambiguation.
 - **Alternate presentations get their own row**, same as re-edits: a black-and-white
   version is a row (`Parasite (Black and White Version)`, `Logan (Noir)`), with format
   ticks following the disc it sits on.
+- **Häxan is a one-off exception**, agreed with Stephen: that Radiance disc carries four
+  versions and is recorded as a single row. It sets no precedent — every other disc gets a
+  row per cut.
 - **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray:
   Léon, Cinema Paradiso, Midsommar. Each cut is a row, and its format ticks follow the
   disc it actually sits on — so one row can be 4K-only and its sibling Blu-ray-only.
