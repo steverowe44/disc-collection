@@ -103,6 +103,8 @@ three rows: `Apocalypse Now`, `Apocalypse Now (Redux)`, `Apocalypse Now (Final C
 ### Duplicate films
 
 Multiple copies of the same film are **separate rows**, always. Never merge, never dedupe.
+Do **not** annotate them — no "second copy", no "4K also held". The rows speak for
+themselves and the cross-references only go stale.
 Example: a *Blade Runner (Final Cut)* 4K+BD combo and a *Blade Runner (Final Cut)*
 Blu-ray steelbook are two independent rows.
 Where two rows would otherwise read identically, use `Label` and `Notes` to tell them apart.
