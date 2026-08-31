@@ -100,6 +100,16 @@ three rows: `Apocalypse Now`, `Apocalypse Now (Redux)`, `Apocalypse Now (Final C
 - This applies whether the cuts came in one package or were bought separately.
   If one disc holds several cuts, that's still one row per cut.
 
+### How many cuts to list
+
+Give a cut its own row when it is a **distinct, named version** a collector would think of
+separately — a director's cut, an extended cut, a black-and-white version.
+
+Where a disc carries **many** versions — restorations, tints, variant scores, alternate
+narrations — list only the **principal cut** and say so in `Notes`. Häxan's Radiance disc
+holds four; it gets one row. The aim is a usable shelf record, not a disc-by-disc
+technical inventory.
+
 ### Duplicate films
 
 Multiple copies of the same film are **separate rows**, always. Never merge, never dedupe.
