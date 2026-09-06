@@ -19,7 +19,7 @@ Keep the BOM when rewriting the file.
 Exact header row, in order:
 
 ```
-Collection,Name,Year,Type,4K,Blu-ray,3D,DVD,Label,Director,Notes
+Collection,Name,Year,Type,4K,Blu-ray,Blu-ray 3D,DVD,Label,Director,Notes
 ```
 
 | Column | Rule |
@@ -30,7 +30,7 @@ Collection,Name,Year,Type,4K,Blu-ray,3D,DVD,Label,Director,Notes
 | `Type` | Exactly one of the strings `TV` or `Film`. **Not a tick column** — never empty, never both. `TV` means an **episodic show** — a season, a serial, a miniseries. A one-off made for television (a TV film, a TV special, a filmed stage production) is a **`Film`**, however it was first broadcast. |
 | `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
 | `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
-| `3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
+| `Blu-ray 3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
 | `DVD` | `✓` if the package contains a DVD. Else empty. |
 | `Label` | The company that produced/published the disc: `Arrow`, `Criterion`, `Second Sight`, `Lionsgate`, `Warner Bros.`, `88 Films`, `Eureka`, `Indicator`, `StudioCanal`, `Shout! Factory`, etc. Distributor of *this* release, not the production company of the film. |
 | `Director` | Film: the director. TV: the **showrunner for that season**, or the director where a serial has no showrunner. Multiple names separated by `; ` (never a bare comma). Beyond three or so names, give the one with main credit followed by `& more` — e.g. `Charles Band & more` for the seven-director Dungeonmaster. |
@@ -40,7 +40,7 @@ There is deliberately **no** disc-release-year column and **no** cut column.
 
 ### The `✓` rule (important)
 
-`4K`, `Blu-ray`, `3D` and `DVD` are **independent boolean columns**. `Type` is not one of them — it is a plain string, `TV` or `Film`.
+`4K`, `Blu-ray`, `Blu-ray 3D` and `DVD` are **independent boolean columns**. `Type` is not one of them — it is a plain string, `TV` or `Film`.
 
 - True  → the single Unicode character `✓` (U+2713).
 - False → **completely empty cell**. Never `✗`, `x`, `N`, `0`, `-`, or a space.
@@ -308,7 +308,7 @@ Answers established once and reused. Add to this list rather than re-researching
 | Boxsets photographed face-on | Film titles are often NOT on the face shown, so contents must be looked up or asked for — Bond, Herzog, Coen and Hitchcock all needed this. Shoot the BACK of a boxset where possible. | Batch 3 |
 | Disney / Marvel (UK) | Catalogue prefixes `BIY`, `BUY`, `BUQ`, often with an `SC1A`/`SC3A` suffix. A spine reading MARVEL or MARVEL STUDIOS gets Label **Disney** — that is a production company, not a publisher. Buena Vista and Touchstone stay as printed: those really were Disney's publishing labels. | U031 |
 | Warner "Premium Collection" | A numbered Blu-ray line (King Kong no. 11, Barry Lyndon no. 90). Numbered but NOT a box set — Collection stays empty, note the number instead. | Batch 4 |
-| 3D Blu-rays | Spine reads "Blu-ray 3D". Tick **both** `Blu-ray` and `3D` — the 2D disc is normally in the package as well. | U030 |
+| 3D Blu-rays | Spine reads "Blu-ray 3D". Tick **both** `Blu-ray` and `Blu-ray 3D` — the 2D disc is normally in the package as well. | U030 |
 | Non-disc items | Games and other non-film discs on the same shelves (e.g. a Wii game in image 16) are transcribed but never given a CSV row. | Batch 4 |
 | BFI | Catalogue prefix tells format: `BFIB` = Blu-ray, `BFIU` = 4K UHD, `BFID` = DVD. Some releases are dual-format with both logos at the foot — check rather than assume. | Batch 6 |
 | Anime Limited | Catalogue prefix `ANI`, "AL FILM" roundel on the spine. | Batch 6 |
