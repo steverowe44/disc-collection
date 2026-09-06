@@ -16,19 +16,6 @@ This document is the spec. Read it before adding or editing any row in `collecti
 `collection.csv` is UTF-8 **with BOM**, so that Excel renders both the `✓` character and the
 accented titles (`Léon`, `Sátántangó`, `Häxan`, `Almodóvar`). Keep the BOM when rewriting.
 
-## Where things stand
-
-- **537 rows**, across **52 box sets**. Every row has a Year, Label and Director.
-- **All 32 shelf photographs have been processed.** That phase is complete.
-- **60 uncertainties were raised and all 60 are resolved.** `UNCERTAINTIES.txt` has an empty
-  OPEN section; the resolved history is kept below it and is worth reading before
-  re-litigating a decision.
-- The repo has a **public GitHub remote**. Anything committed is public — see *Repository*
-  at the foot of this file.
-
-Day-to-day work is now **additions and corrections**, not bulk photo processing. Both
-workflows are below; use whichever fits.
-
 ## Columns
 
 Exact header row, in order:
