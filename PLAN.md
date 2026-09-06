@@ -9,10 +9,25 @@ This document is the spec. Read it before adding or editing any row in `collecti
 |---|---|
 | `collection.csv` | The collection. Single source of truth. |
 | `PLAN.md` | This spec — rules for filling the CSV. |
-| `UNCERTAINTIES.txt` | Running log of every guessed field, one tickable item per doubt. |
+| `UNCERTAINTIES.txt` | Log of every guessed field. One tickable item per doubt, resolved items kept forever. |
+| `transcripts.txt` | What was actually legible on each shelf photo, before interpretation. Also records where non-photo additions came from. |
+| `images/` | The source photographs. **Untracked and gitignored** — they are photographs of a private home. They were also purged from the whole git history, so they cannot be recovered from an older commit. Keep them locally; never commit them. |
 
-`collection.csv` is UTF-8 **with BOM** so that Excel renders the `✓` character correctly.
-Keep the BOM when rewriting the file.
+`collection.csv` is UTF-8 **with BOM**, so that Excel renders both the `✓` character and the
+accented titles (`Léon`, `Sátántangó`, `Häxan`, `Almodóvar`). Keep the BOM when rewriting.
+
+## Where things stand
+
+- **537 rows**, across **52 box sets**. Every row has a Year, Label and Director.
+- **All 32 shelf photographs have been processed.** That phase is complete.
+- **60 uncertainties were raised and all 60 are resolved.** `UNCERTAINTIES.txt` has an empty
+  OPEN section; the resolved history is kept below it and is worth reading before
+  re-litigating a decision.
+- The repo has a **public GitHub remote**. Anything committed is public — see *Repository*
+  at the foot of this file.
+
+Day-to-day work is now **additions and corrections**, not bulk photo processing. Both
+workflows are below; use whichever fits.
 
 ## Columns
 
@@ -121,12 +136,48 @@ Example: a *Blade Runner (Final Cut)* 4K+BD combo and a *Blade Runner (Final Cut
 Blu-ray steelbook are two independent rows.
 Where two rows would otherwise read identically, use `Label` and `Notes` to tell them apart.
 
+### Standing rules
+
+Each of these came out of a resolved uncertainty. They are settled; do not re-derive them.
+
+- **Formats:** assume **Blu-ray at least** for any disc unless told otherwise. Tick 4K only
+  when it is confirmed, and check per title whether a 4K package also holds a Blu-ray —
+  it varies by label AND by year within a label.
+- **Bonus-only Blu-rays don't count.** If a 4K package's second disc carries extras rather
+  than the feature, leave the Blu-ray column empty and say so in Notes
+  (The Return of the Living Dead).
+- **TV without a showrunner:** use the **director**. British serials rarely have one.
+- **Alternate presentations get their own row**, same as re-edits: a black-and-white
+  version is a row (`Parasite (Black and White Version)`, `Logan (Noir)`), with format
+  ticks following the disc it sits on.
+- **Häxan is a one-off exception**, agreed with the owner: that Radiance disc carries four
+  versions and is recorded as a single row. It sets no precedent — every other disc gets a
+  row per cut.
+- **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray —
+  Léon (DC on 4K, theatrical on BD), Cinema Paradiso (theatrical on 4K, DC on BD),
+  Midsommar. Each cut is its own row, and its format ticks follow the disc it actually sits
+  on, so one row can be 4K-only and its sibling Blu-ray-only.
+- **Quoting:** a `Name` beginning with an apostrophe (e.g. `'71`) is quoted in the CSV so
+  spreadsheets do not swallow the leading character.
+- **Bootlegs** get Label `Unofficial` and a note. Never record the label the packaging
+  imitates — the Miyazaki set passes for a Disney release and is not one.
+- **A box can mix formats across films.** The Riddick Collection carries two films on
+  Blu-ray and one on DVD, so the ticks differ row to row inside one Collection.
+- **Same-year recuts keep a single year.** Never write `2005 / 2005` — when a cut appeared
+  in the same year as the original, the name alone distinguishes it (`Sin City (Recut &
+  Extended)`, `Logan (Noir)`).
+- **A two-part feature is two rows**, under one Collection — see Die Nibelungen.
+- **Identical duplicates** are recorded once. Genuinely different releases of the same film
+  still get separate rows.
+
 ### Sorting
 
 Rows are kept in the order they were added (chronological by entry batch), **not** alphabetically.
 Do not re-sort the file — it makes diffs unreadable. Sorting is the viewer's job.
 
-## Workflow
+## Workflow A — bulk, from photographs
+
+Used for the original 32 images. Still the right process if more shelves are photographed.
 
 1. The owner posts images of shelves / spines / individual cases in chat.
    **Each image has an image number written in its bottom-right corner.**
@@ -186,14 +237,27 @@ RESOLVED section with the answer, and commit referencing the ID
 Never invent a title that isn't legible. An unreadable spine is logged as an unreadable
 spine and gets no CSV row until it's identified.
 
-### Future additions
+## Workflow B — single additions and corrections
 
-Releases not yet owned get added the same way, to the same standard —
-look up the release, fill every column, commit as its own batch.
+The normal mode now. A release is named in chat rather than photographed.
+
+1. **Look it up before writing the row.** With no photo there is no spine to read, so the
+   label, the disc contents and the box's exact contents all have to be verified. Box sets
+   in particular rarely print their contents where a search can see them.
+2. Fill every column to the same standard as a photographed row.
+3. Record in `transcripts.txt` **where the contents came from**, since there is no photo to
+   point back at. There is a section at the end of that file for exactly this.
+4. Commit, and push if the remote is in use.
+
+Corrections work the same way: change the row, say what changed and why in the commit
+message, and never silently drop a fact — if a row is removed, the message should say so.
+
+**Do not annotate duplicates or cross-reference between rows** (no "second copy", no "4K
+also held"). The rows speak for themselves and the pointers go stale.
 
 ## Working method — accuracy per token
 
-The cost asymmetry that shapes everything below, measured on this collection:
+Measured during the photo phase. Kept because the same asymmetry applies to any future batch:
 
 - Images are ~1500px, ~1,600 tokens each. A full pass over all 32 costs ~50k tokens. **Cheap.**
 - Fetching a release page per title would cost 600k–1.5M tokens across the collection.
@@ -247,40 +311,6 @@ disambiguation.
   full frame, at ~1.45× the tokens. Use only on images whose spines can't be read — not by
   default. PIL is not installed; PowerShell / System.Drawing does the cropping.
 
-### Standing rules added from resolved uncertainties
-
-- **Formats:** assume **Blu-ray at least** for any disc unless told otherwise. Tick 4K only
-  when it is confirmed, and check per title whether a 4K package also holds a Blu-ray —
-  it varies by label AND by year within a label.
-- **Bonus-only Blu-rays don't count.** If a 4K package's second disc carries extras rather
-  than the feature, leave the Blu-ray column empty and say so in Notes
-  (The Return of the Living Dead).
-- **TV without a showrunner:** use the **director**. British serials rarely have one.
-- **Cuts split across discs:** where one package puts different cuts on different discs,
-  each cut is its own row and the format ticks follow the disc that cut sits on —
-  see Léon (DC on 4K, theatrical on BD) and Cinema Paradiso (theatrical on 4K, DC on BD).
-- **Alternate presentations get their own row**, same as re-edits: a black-and-white
-  version is a row (`Parasite (Black and White Version)`, `Logan (Noir)`), with format
-  ticks following the disc it sits on.
-- **Häxan is a one-off exception**, agreed with the owner: that Radiance disc carries four
-  versions and is recorded as a single row. It sets no precedent — every other disc gets a
-  row per cut.
-- **A cut per disc.** Several packages put one cut on the 4K and another on the Blu-ray:
-  Léon, Cinema Paradiso, Midsommar. Each cut is a row, and its format ticks follow the
-  disc it actually sits on — so one row can be 4K-only and its sibling Blu-ray-only.
-- **Quoting:** a `Name` beginning with an apostrophe (e.g. `'71`) is quoted in the CSV so
-  spreadsheets do not swallow the leading character.
-- **Bootlegs** get Label `Unofficial` and a note. Never record the label the packaging
-  imitates — the Miyazaki set passes for a Disney release and is not one.
-- **A box can mix formats across films.** The Riddick Collection carries two films on
-  Blu-ray and one on DVD, so the ticks differ row to row inside one Collection.
-- **Same-year recuts keep a single year.** Never write `2005 / 2005` — when a cut appeared
-  in the same year as the original, the name alone distinguishes it (`Sin City (Recut &
-  Extended)`, `Logan (Noir)`).
-- **A two-part feature is two rows**, under one Collection — see Die Nibelungen.
-- **Identical duplicates** are recorded once. Genuinely different releases of the same film
-  still get separate rows.
-
 ## Label conventions (learned)
 
 Answers established once and reused. Add to this list rather than re-researching.
@@ -315,3 +345,38 @@ Answers established once and reused. Add to this list rather than re-researching
 | Radiance Films | Numbered spine line, label name printed at the foot. | Batch 6 |
 | Manga Entertainment | Catalogue prefix `MAN` / `MANB`. | Batch 6 |
 | BBFC badges | The number of certificate badges at the foot of a spine tends to equal the disc count. Useful cross-check for combo packs. | Batch 1 |
+
+## Repository
+
+The project lives in a git repo with a **public GitHub remote**. Two consequences worth
+holding on to:
+
+- **Anything committed is public.** That is why `images/` is untracked and was purged from
+  history — the photographs show a private home. Do not commit them, and do not put
+  personal details into the docs.
+- **Commit metadata is public too**, including the author name and email on every commit.
+  That is separate from the file contents and is not fixed by editing files.
+
+One commit per batch of changes, with a message that says what changed and why. The batch
+history is what makes a bad read revertible, so do not squash unrelated changes together.
+
+### Viewing the CSV
+
+The file is mirrored read-only into Google Sheets with a single formula in A1:
+
+```
+=IMPORTDATA("https://raw.githubusercontent.com/steverowe44/disc-collection/main/collection.csv")
+```
+
+The repo stays the source of truth; the sheet cannot be edited back. Notes on that:
+
+- **Two caches sit in the way of a push showing up.** GitHub's raw CDN holds the old file
+  for a few minutes, and Sheets caches `IMPORTDATA` for about an hour. Force the sheet by
+  deleting the formula and re-pasting it.
+- **Filter views** (Data → Create filter view) sort and filter without touching the data.
+- **A schema change reflows the sheet.** Adding, removing or renaming a column shifts
+  everything to its right, which breaks conditional formatting and filter views anchored to
+  the old positions. Say so when a schema change is pushed.
+- **Do not add columns beside the imported range.** Rows are not purely append-only —
+  resolving a doubt has inserted rows mid-file — so anything parked alongside will
+  silently misalign.
