@@ -94,11 +94,30 @@ Notes on the edges:
 - **A doc is a doc**, whether it runs as one film or as six episodes. `Doc` is not competing
   with `Episodic` and there is no precedence to work out — a documentary takes `Doc` and that
   is the end of it.
-- **`Doc` is not a synonym for non-fiction.** Escape to the Country is non-fiction and is
-  `Episodic`; so are Bake Off, Top Gear and any reality or panel format. A Louis Theroux
-  series or a true-crime docuseries is `Doc`. The test is whether it is a documentary, not
-  whether it is factual — otherwise `Doc` swallows most of daytime television and stops
-  telling you anything.
+- **`Doc` is not a synonym for non-fiction**, and needs a test or it drifts. There is no
+  settled definition of documentary — Grierson's "creative treatment of actuality" is famous
+  and useless for sorting a shelf — so use three questions:
+
+  1. Does it have a **subject** it is about?
+  2. Does it have a **point of view** on that subject?
+  3. Is it a **singular work**, rather than an instance of a repeatable format?
+
+  All three yes → `Doc`. A format with interchangeable episodes → `Episodic`.
+
+  | Title | Type | Why |
+  |---|---|---|
+  | Hearts and Minds, The Act of Killing | `Doc` | One subject, one argument |
+  | Making a Murderer | `Doc` | One case argued across episodes |
+  | Ken Burns, The Vietnam War | `Doc` | One subject sustained over ten episodes |
+  | House Hunters, Pawn Stars, Survivor | `Episodic` | Formats — episode 40 is interchangeable with episode 400 |
+  | Finding Your Roots | `Episodic` | Researched and factual, but still a format with a new subject slotted in weekly |
+
+  **Where it strains:** authored series that are also formats. Cosmos is a singular authored
+  work *and* an episode-per-topic format; strands like Frontline and NOVA are a format whose
+  episodes are each documentaries. The test gives no clean answer — default to `Doc`.
+
+  Where the test disagrees with instinct on a particular disc, instinct wins and the reason
+  goes in `Notes`.
 - **Length is irrelevant.** Shorts are `Film` (or `Doc` if non-fiction). There is no `Short`
   value and there should not be one: length is a continuum with a mushy 35–50 minute band,
   so any threshold is arbitrary and the label stops being reproducible.
