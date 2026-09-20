@@ -29,7 +29,7 @@ Collection,Name,Year,Type,4K,Blu-ray,Blu-ray 3D,DVD,Label,Director,Notes
 | `Collection` | Name of the box set or TV series this row belongs to. **Left empty** when the release is standalone — most rows. Quote it if it contains a comma. |
 | `Name` | Title with the leading article moved to the end, comma-separated: `Departed, The` / `Thing, The`. Alternate cuts go in the name in parentheses: `Blade Runner (Final Cut)`. TV seasons: `Sopranos, The: Season 3`. Because this field contains commas, it **must be quoted** in the CSV. |
 | `Year` | Year the film / TV season **originally released** (theatrical or first broadcast). For an alternate cut, `original / cut` — e.g. Apocalypse Now Redux is `1979 / 2001`. A theatrical cut is just the original year. |
-| `Type` | Exactly one of `Film`, `Episodic`, `Doc`, `Live`. **Not a tick column** — never empty, exactly one value. See *Type* under Rules. |
+| `Type` | Exactly one of `Film`, `Episodic`, `Documentary`, `Live`. **Not a tick column** — never empty, exactly one value. See *Type* under Rules. |
 | `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
 | `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
 | `Blu-ray 3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
@@ -82,15 +82,15 @@ One value per row, never empty.
 |---|---|
 | `Film` | A single self-contained work. The default. |
 | `Episodic` | Has episodes — a season, a serial, a format show. One row per season. |
-| `Doc` | A documentary. |
+| `Documentary` | A documentary. |
 | `Live` | A recorded performance — stage production, concert, stand-up. |
 
 Three things that aren't obvious:
 
 - **`Episodic`, not `TV`.** The criterion is episodes, not how it was broadcast. A one-off
   made for television is a `Film`.
-- **A doc is a doc**, whether it runs as one film or six episodes.
-- **`Doc` is not a synonym for non-fiction.**
+- **A documentary is a documentary**, whether it runs as one film or six episodes.
+- **`Documentary` is not a synonym for non-fiction.**
 
 Everything else is a judgement call, and judgement calls go in `Notes`.
 
