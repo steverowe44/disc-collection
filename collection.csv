@@ -28,7 +28,7 @@ Tetsuo,Tetsuo II: Body Hammer,1992,Film,,✓,,,Third Window Films,Shinya Tsukamo
 ,"Lighthouse, The",2019,Film,✓,,,,Arrow Video,Robert Eggers,
 ,12 Monkeys,1995,Film,✓,,,,Arrow Video,Terry Gilliam,
 ,2001: A Space Odyssey,1968,Film,✓,✓,,,Warner Bros.,Stanley Kubrick,
-,Jane Eyre,2006,TV,,,,✓,BBC,Susanna White,BBC miniseries; written by Sandy Welch
+,Jane Eyre,2006,Episodic,,,,✓,BBC,Susanna White,BBC miniseries; written by Sandy Welch
 Universal Monsters: The Essential Collection,Dracula,1931,Film,,✓,,,Universal,Tod Browning,English-language version
 Universal Monsters: The Essential Collection,Drácula,1931,Film,,✓,,,Universal,George Melford,"Spanish-language version, shot concurrently on the same sets with a different cast"
 Universal Monsters: The Essential Collection,Frankenstein,1931,Film,,✓,,,Universal,James Whale,
@@ -75,12 +75,12 @@ Dragon Ball Z Movie Collection 1-13 + TV Specials,"Dragon Ball Z: History of Tru
 ,Shin Godzilla,2016,Film,,✓,,,Manga Entertainment,Hideaki Anno; Shinji Higuchi,
 ,Anatomy of a Murder,1959,Film,,✓,,,Criterion,Otto Preminger,
 ,Young Mr. Lincoln,1939,Film,,,,✓,Criterion,John Ford,
-,Hearts and Minds,1974,Film,,✓,,,Criterion,Peter Davis,Documentary
-Angel: The Complete Collection,Angel: Season 1,1999,TV,,,,✓,20th Century Fox,David Greenwalt,
-Angel: The Complete Collection,Angel: Season 2,2000,TV,,,,✓,20th Century Fox,David Greenwalt,
-Angel: The Complete Collection,Angel: Season 3,2001,TV,,,,✓,20th Century Fox,David Greenwalt,
-Angel: The Complete Collection,Angel: Season 4,2002,TV,,,,✓,20th Century Fox,David Greenwalt; Jeffrey Bell,
-Angel: The Complete Collection,Angel: Season 5,2003,TV,,,,✓,20th Century Fox,Jeffrey Bell,
+,Hearts and Minds,1974,Doc,,✓,,,Criterion,Peter Davis,
+Angel: The Complete Collection,Angel: Season 1,1999,Episodic,,,,✓,20th Century Fox,David Greenwalt,
+Angel: The Complete Collection,Angel: Season 2,2000,Episodic,,,,✓,20th Century Fox,David Greenwalt,
+Angel: The Complete Collection,Angel: Season 3,2001,Episodic,,,,✓,20th Century Fox,David Greenwalt,
+Angel: The Complete Collection,Angel: Season 4,2002,Episodic,,,,✓,20th Century Fox,David Greenwalt; Jeffrey Bell,
+Angel: The Complete Collection,Angel: Season 5,2003,Episodic,,,,✓,20th Century Fox,Jeffrey Bell,
 ,Spartacus,1960,Film,✓,✓,,,Universal,Stanley Kubrick,
 ,Ran,1985,Film,✓,✓,,,StudioCanal,Akira Kurosawa,
 ,King Kong,1933,Film,,✓,,,Warner Bros.,Merian C. Cooper; Ernest B. Schoedsack,WB Premium Collection no. 11
@@ -98,10 +98,10 @@ Star Wars: The Complete Saga,Star Wars: Episode III - Revenge of the Sith,2005,F
 Star Wars: The Complete Saga,Star Wars: Episode IV - A New Hope (Special Edition),1977 / 1997,Film,,✓,,,20th Century Fox,George Lucas,
 Star Wars: The Complete Saga,Star Wars: Episode V - The Empire Strikes Back (Special Edition),1980 / 1997,Film,,✓,,,20th Century Fox,Irvin Kershner,
 Star Wars: The Complete Saga,Star Wars: Episode VI - Return of the Jedi (Special Edition),1983 / 1997,Film,,✓,,,20th Century Fox,Richard Marquand,
-,Doctor Who: Series 2,2006,TV,,,,✓,BBC,Russell T Davies,
-,Doctor Who: Series 3,2007,TV,,,,✓,BBC,Russell T Davies,
-,Doctor Who: Series 4,2008,TV,,,,✓,BBC,Russell T Davies,
-,Doctor Who: The Complete Specials,2008,TV,,✓,,,BBC,Russell T Davies,The Next Doctor / Planet of the Dead / The Waters of Mars / The End of Time Parts 1-2; 2008-2010
+,Doctor Who: Series 2,2006,Episodic,,,,✓,BBC,Russell T Davies,
+,Doctor Who: Series 3,2007,Episodic,,,,✓,BBC,Russell T Davies,
+,Doctor Who: Series 4,2008,Episodic,,,,✓,BBC,Russell T Davies,
+,Doctor Who: The Complete Specials,2008,Episodic,,✓,,,BBC,Russell T Davies,The Next Doctor / Planet of the Dead / The Waters of Mars / The End of Time Parts 1-2; 2008-2010
 Almodóvar: The Collection Vol. 1,"Pepi, Luci, Bom",1980,Film,,,,✓,Optimum World,Pedro Almodóvar,
 Almodóvar: The Collection Vol. 1,Dark Habits,1983,Film,,,,✓,Optimum World,Pedro Almodóvar,
 Almodóvar: The Collection Vol. 1,What Have I Done to Deserve This?,1984,Film,,,,✓,Optimum World,Pedro Almodóvar,
@@ -112,7 +112,7 @@ Almodóvar: The Collection Vol. 2,Kika,1993,Film,,,,✓,Optimum World,Pedro Almo
 Almodóvar: The Collection Vol. 2,"Flower of My Secret, The",1995,Film,,,,✓,Optimum World,Pedro Almodóvar,
 ,Withnail & I,1987,Film,,✓,,,Arrow Video,Bruce Robinson,
 ,"South Park: Bigger, Longer & Uncut",1999,Film,✓,✓,,,Paramount,Trey Parker,
-,Berserk,1997,TV,,✓,,,MVM Entertainment,Naohito Takahashi,Complete series
+,Berserk,1997,Episodic,,✓,,,MVM Entertainment,Naohito Takahashi,Complete series
 ,mother!,2017,Film,,✓,,,Paramount,Darren Aronofsky,
 ,"Batman, The",2022,Film,✓,✓,,,Warner Bros.,Matt Reeves,
 ,Django Unchained,2012,Film,,✓,,,Sony Pictures,Quentin Tarantino,
@@ -142,7 +142,7 @@ Alfred Hitchcock Classics Collection,"Birds, The",1963,Film,✓,✓,,,Universal,
 ,Ghost Dog: The Way of the Samurai,1999,Film,✓,✓,,,StudioCanal,Jim Jarmusch,
 ,Hiroshima mon amour,1959,Film,,✓,,,Arrow Academy,Alain Resnais,
 ,Scream 3,2000,Film,,✓,,,Lionsgate,Wes Craven,
-,"Sorrow and the Pity, The",1969,Film,,✓,,,Arrow Academy,Marcel Ophüls,Documentary
+,"Sorrow and the Pity, The",1969,Doc,,✓,,,Arrow Academy,Marcel Ophüls,
 ,Gomorrah,2008,Film,,✓,,,Optimum Home Entertainment,Matteo Garrone,
 ,Godzilla,2014,Film,✓,✓,,,Warner Bros.,Gareth Edwards,
 ,"Death of Stalin, The",2017,Film,,✓,,,Concorde Home Entertainment,Armando Iannucci,German release; English version on the disc
@@ -183,7 +183,7 @@ Alfred Hitchcock Classics Collection,"Birds, The",1963,Film,✓,✓,,,Universal,
 Apocalypse Now: Final Cut,Apocalypse Now,1979,Film,✓,✓,,,StudioCanal,Francis Ford Coppola,Theatrical cut
 Apocalypse Now: Final Cut,Apocalypse Now (Redux),1979 / 2001,Film,✓,✓,,,StudioCanal,Francis Ford Coppola,
 Apocalypse Now: Final Cut,Apocalypse Now (Final Cut),1979 / 2019,Film,✓,✓,,,StudioCanal,Francis Ford Coppola,
-Apocalypse Now: Final Cut,Hearts of Darkness: A Filmmaker's Apocalypse,1991,Film,,✓,,,StudioCanal,Fax Bahr; George Hickenlooper; Eleanor Coppola,Documentary; Blu-ray only
+Apocalypse Now: Final Cut,Hearts of Darkness: A Filmmaker's Apocalypse,1991,Doc,,✓,,,StudioCanal,Fax Bahr; George Hickenlooper; Eleanor Coppola,Blu-ray only
 ,"400 Blows, The",1959,Film,,✓,,,BFI,François Truffaut,
 Irish Folklore Trilogy,"Secret of Kells, The",2009,Film,,✓,,,StudioCanal,Tomm Moore; Nora Twomey,
 Irish Folklore Trilogy,Song of the Sea,2014,Film,,✓,,,StudioCanal,Tomm Moore,
@@ -197,11 +197,11 @@ Six Gothic Tales,"Raven, The",1963,Film,,✓,,,Arrow Video,Roger Corman,
 Six Gothic Tales,"Haunted Palace, The",1963,Film,,✓,,,Arrow Video,Roger Corman,
 Six Gothic Tales,"Tomb of Ligeia, The",1964,Film,,✓,,,Arrow Video,Roger Corman,
 ,V for Vendetta,2005,Film,✓,✓,,,Warner Bros.,James McTeigue,
-,Mussolini: Son of the Century,2024,TV,✓,,,,Dazzler Media,Joe Wright,
-Blackadder Remastered: The Ultimate Edition,"Black Adder, The",1983,TV,,,,✓,BBC,Richard Curtis; Rowan Atkinson,
-Blackadder Remastered: The Ultimate Edition,Blackadder II,1986,TV,,,,✓,BBC,Richard Curtis; Ben Elton,
-Blackadder Remastered: The Ultimate Edition,Blackadder the Third,1987,TV,,,,✓,BBC,Richard Curtis; Ben Elton,
-Blackadder Remastered: The Ultimate Edition,Blackadder Goes Forth,1989,TV,,,,✓,BBC,Richard Curtis; Ben Elton,
+,Mussolini: Son of the Century,2024,Episodic,✓,,,,Dazzler Media,Joe Wright,
+Blackadder Remastered: The Ultimate Edition,"Black Adder, The",1983,Episodic,,,,✓,BBC,Richard Curtis; Rowan Atkinson,
+Blackadder Remastered: The Ultimate Edition,Blackadder II,1986,Episodic,,,,✓,BBC,Richard Curtis; Ben Elton,
+Blackadder Remastered: The Ultimate Edition,Blackadder the Third,1987,Episodic,,,,✓,BBC,Richard Curtis; Ben Elton,
+Blackadder Remastered: The Ultimate Edition,Blackadder Goes Forth,1989,Episodic,,,,✓,BBC,Richard Curtis; Ben Elton,
 Resident Evil Trilogy,Resident Evil,2002,Film,,,,✓,Sony Pictures,Paul W. S. Anderson,
 Resident Evil Trilogy,Resident Evil: Apocalypse,2004,Film,,,,✓,Sony Pictures,Alexander Witt,
 Resident Evil Trilogy,Resident Evil: Extinction,2007,Film,,,,✓,Sony Pictures,Russell Mulcahy,
@@ -223,20 +223,20 @@ Die Hard Trilogy,Die Hard with a Vengeance,1995,Film,,,,✓,20th Century Fox,Joh
 "Werner Herzog Collection, The","Unprecedented Defence of the Fortress Deutschkreuz, The",1967,Film,,✓,,,BFI,Werner Herzog,Short
 "Werner Herzog Collection, The",Last Words,1968,Film,,✓,,,BFI,Werner Herzog,Short
 "Werner Herzog Collection, The",Precautions Against Fanatics,1969,Film,,✓,,,BFI,Werner Herzog,Short
-"Werner Herzog Collection, The",Handicapped Future,1971,Film,,✓,,,BFI,Werner Herzog,Documentary
+"Werner Herzog Collection, The",Handicapped Future,1971,Doc,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Fata Morgana,1971,Film,,✓,,,BFI,Werner Herzog,
-"Werner Herzog Collection, The",Land of Silence and Darkness,1971,Film,,✓,,,BFI,Werner Herzog,Documentary
+"Werner Herzog Collection, The",Land of Silence and Darkness,1971,Doc,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The","Aguirre, the Wrath of God",1972,Film,,✓,,,BFI,Werner Herzog,
-"Werner Herzog Collection, The","Great Ecstasy of Woodcarver Steiner, The",1974,Film,,✓,,,BFI,Werner Herzog,Documentary
+"Werner Herzog Collection, The","Great Ecstasy of Woodcarver Steiner, The",1974,Doc,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The","Enigma of Kaspar Hauser, The",1974,Film,,✓,,,BFI,Werner Herzog,
-"Werner Herzog Collection, The",How Much Wood Would a Woodchuck Chuck,1976,Film,,✓,,,BFI,Werner Herzog,Documentary
+"Werner Herzog Collection, The",How Much Wood Would a Woodchuck Chuck,1976,Doc,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Heart of Glass,1976,Film,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Stroszek,1977,Film,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Nosferatu the Vampyre,1979,Film,,✓,,,BFI,Werner Herzog,German-language original
 "Werner Herzog Collection, The",Nosferatu the Vampyre (English Version),1979,Film,,✓,,,BFI,Werner Herzog,"Herzog shot every scene twice; distinct performances, not a dub"
 "Werner Herzog Collection, The",Woyzeck,1979,Film,,✓,,,BFI,Werner Herzog,
-"Werner Herzog Collection, The",Huie's Sermon,1980,Film,,✓,,,BFI,Werner Herzog,Documentary
-"Werner Herzog Collection, The",God's Angry Man,1980,Film,,✓,,,BFI,Werner Herzog,Documentary
+"Werner Herzog Collection, The",Huie's Sermon,1980,Doc,,✓,,,BFI,Werner Herzog,
+"Werner Herzog Collection, The",God's Angry Man,1980,Doc,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Fitzcarraldo,1982,Film,,✓,,,BFI,Werner Herzog,
 "Werner Herzog Collection, The",Cobra Verde,1987,Film,,✓,,,BFI,Werner Herzog,
 ,12 Angry Men,1957,Film,,✓,,,Criterion,Sidney Lumet,
@@ -285,19 +285,19 @@ Jaws Sequels Triple,Jaws: The Revenge,1987,Film,,,,✓,Universal,Joseph Sargent,
 "Marx Brothers Collection, The",Monkey Business,1931,Film,,,,✓,Universal,Norman Z. McLeod,
 "Marx Brothers Collection, The",Horse Feathers,1932,Film,,,,✓,Universal,Norman Z. McLeod,
 "Marx Brothers Collection, The",Duck Soup,1933,Film,,,,✓,Universal,Leo McCarey,
-,"Phantom of the Opera at the Royal Albert Hall, The",2011,Film,,,,✓,Universal,Nick Morris; Laurence Connor,Filmed 25th-anniversary stage production
+,"Phantom of the Opera at the Royal Albert Hall, The",2011,Live,,,,✓,Universal,Nick Morris; Laurence Connor,Filmed 25th-anniversary stage production
 ,28 Weeks Later,2007,Film,,,,✓,20th Century Fox,Juan Carlos Fresnadillo,
 ,Being John Malkovich,1999,Film,,,,✓,Universal,Spike Jonze,
 ,Howards End,1992,Film,,,,✓,Columbia TriStar,James Ivory,Standard UK DVD; publisher not verified
 ,"Game, The",1997,Film,,✓,,,Arrow Video,David Fincher,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 1,2011,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 2,2012,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 3,2013,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 4,2014,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 5,2015,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 6,2016,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 7,2017,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
-Game of Thrones: The Complete Collection,Game of Thrones: Season 8,2019,TV,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 1,2011,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 2,2012,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 3,2013,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 4,2014,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 5,2015,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 6,2016,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 7,2017,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
+Game of Thrones: The Complete Collection,Game of Thrones: Season 8,2019,Episodic,✓,,,,HBO,David Benioff; D. B. Weiss,
 ,Heat,1995,Film,✓,✓,,,20th Century Fox,Michael Mann,
 ,Barry Lyndon,1975,Film,,✓,,,Warner Bros.,Stanley Kubrick,WB Premium Collection no. 90
 ,Faust,1926,Film,,✓,,,Eureka,F. W. Murnau,
@@ -319,11 +319,11 @@ The Terminal / Catch Me If You Can / Cast Away,Cast Away,2000,Film,,,,✓,DreamW
 "Coen Brothers Collection, The (Fox)",Raising Arizona,1987,Film,,,,✓,20th Century Fox,Joel Coen; Ethan Coen,
 "Coen Brothers Collection, The (Fox)",Miller's Crossing,1990,Film,,,,✓,20th Century Fox,Joel Coen; Ethan Coen,
 "Coen Brothers Collection, The (Fox)",Fargo,1996,Film,,,,✓,20th Century Fox,Joel Coen; Ethan Coen,
-"Wire, The: The Complete Series","Wire, The: Season 1",2002,TV,,,,✓,HBO,David Simon,
-"Wire, The: The Complete Series","Wire, The: Season 2",2003,TV,,,,✓,HBO,David Simon,
-"Wire, The: The Complete Series","Wire, The: Season 3",2004,TV,,,,✓,HBO,David Simon,
-"Wire, The: The Complete Series","Wire, The: Season 4",2006,TV,,,,✓,HBO,David Simon,
-"Wire, The: The Complete Series","Wire, The: Season 5",2008,TV,,,,✓,HBO,David Simon,
+"Wire, The: The Complete Series","Wire, The: Season 1",2002,Episodic,,,,✓,HBO,David Simon,
+"Wire, The: The Complete Series","Wire, The: Season 2",2003,Episodic,,,,✓,HBO,David Simon,
+"Wire, The: The Complete Series","Wire, The: Season 3",2004,Episodic,,,,✓,HBO,David Simon,
+"Wire, The: The Complete Series","Wire, The: Season 4",2006,Episodic,,,,✓,HBO,David Simon,
+"Wire, The: The Complete Series","Wire, The: Season 5",2008,Episodic,,,,✓,HBO,David Simon,
 "Tim Burton Collection, The",Pee-wee's Big Adventure,1985,Film,,,,✓,Warner Bros.,Tim Burton,
 "Tim Burton Collection, The",Beetlejuice,1988,Film,,,,✓,Warner Bros.,Tim Burton,
 "Tim Burton Collection, The",Batman,1989,Film,,,,✓,Warner Bros.,Tim Burton,
@@ -371,7 +371,7 @@ Rocky: Ultimate Knockout Collection,Rocky IV (Rocky vs. Drago - The Ultimate Dir
 ,Casino,1995,Film,✓,✓,,,Universal,Martin Scorsese,
 ,"Godfather Coda, The: The Death of Michael Corleone",1990 / 2020,Film,✓,✓,,,Paramount,Francis Ford Coppola,Recut of The Godfather Part III
 ,Dr. Strangelove,1964,Film,,✓,,,Criterion,Stanley Kubrick,
-,True Detective: Season 1,2014,TV,,✓,,,HBO,Nic Pizzolatto,
+,True Detective: Season 1,2014,Episodic,,✓,,,HBO,Nic Pizzolatto,
 Akira Kurosawa Samurai Collection,Seven Samurai,1954,Film,,✓,,,BFI,Akira Kurosawa,
 Akira Kurosawa Samurai Collection,Throne of Blood,1957,Film,,✓,,,BFI,Akira Kurosawa,
 Akira Kurosawa Samurai Collection,"Hidden Fortress, The",1958,Film,,✓,,,BFI,Akira Kurosawa,
@@ -383,7 +383,7 @@ Akira Kurosawa Samurai Collection,Sanjuro,1962,Film,,✓,,,BFI,Akira Kurosawa,
 ,Edge of Tomorrow,2014,Film,✓,✓,,,Warner Bros.,Doug Liman,
 ,Dune,2021,Film,✓,✓,,,Warner Bros.,Denis Villeneuve,
 ,Good Time,2017,Film,,✓,,,Curzon Artificial Eye,Benny Safdie; Josh Safdie,
-,Westworld: Season 1,2016,TV,✓,✓,,,HBO,Jonathan Nolan; Lisa Joy,
+,Westworld: Season 1,2016,Episodic,✓,✓,,,HBO,Jonathan Nolan; Lisa Joy,
 ,Bram Stoker's Dracula,1992,Film,✓,✓,,,Sony Pictures,Francis Ford Coppola,
 ,Blade Runner 2049,2017,Film,✓,✓,,,Sony Pictures,Denis Villeneuve,
 ,Star Trek Into Darkness,2013,Film,✓,✓,,,Paramount,J. J. Abrams,
@@ -415,7 +415,7 @@ Die Nibelungen,Die Nibelungen: Kriemhild's Revenge,1924,Film,,✓,,,Eureka,Fritz
 ,Cinema Paradiso (Director's Cut),1988 / 2002,Film,,✓,,,Arrow Academy,Giuseppe Tornatore,On the Blu-ray disc in the same package
 "Lord of the Rings, The: The Motion Picture Trilogy","Lord of the Rings, The: The Fellowship of the Ring (Extended Edition)",2001 / 2002,Film,,✓,,,Entertainment In Video,Peter Jackson,Early-2010s Extended Edition Blu-ray boxset; outer box no longer held
 ,"Last Temptation of Christ, The",1988,Film,,✓,,,Criterion,Martin Scorsese,
-,"Last of Us, The: Season 1",2023,TV,✓,✓,,,HBO,Craig Mazin; Neil Druckmann,
+,"Last of Us, The: Season 1",2023,Episodic,✓,✓,,,HBO,Craig Mazin; Neil Druckmann,
 Yojimbo / Sanjuro,Yojimbo,1961,Film,✓,✓,,,BFI,Akira Kurosawa,
 Yojimbo / Sanjuro,Sanjuro,1962,Film,✓,✓,,,BFI,Akira Kurosawa,
 ,Exorcist III,1990,Film,,✓,,,Arrow Video,William Peter Blatty,
@@ -423,15 +423,15 @@ Yojimbo / Sanjuro,Sanjuro,1962,Film,✓,✓,,,BFI,Akira Kurosawa,
 ,Guillermo del Toro's Pinocchio,2022,Film,✓,✓,,,Criterion,Guillermo del Toro; Mark Gustafson,
 ,BlacKkKlansman,2018,Film,,✓,,,Universal,Spike Lee,
 ,Dune,1984,Film,✓,✓,,,Arrow Video,David Lynch,"Limited Edition, 4K + Blu-ray"
-Twin Peaks: The Entire Mystery,Twin Peaks: Season 1,1990,TV,,✓,,,Paramount,David Lynch; Mark Frost,
-Twin Peaks: The Entire Mystery,Twin Peaks: Season 2,1990,TV,,✓,,,Paramount,David Lynch; Mark Frost,
+Twin Peaks: The Entire Mystery,Twin Peaks: Season 1,1990,Episodic,,✓,,,Paramount,David Lynch; Mark Frost,
+Twin Peaks: The Entire Mystery,Twin Peaks: Season 2,1990,Episodic,,✓,,,Paramount,David Lynch; Mark Frost,
 Twin Peaks: The Entire Mystery,Twin Peaks: Fire Walk with Me,1992,Film,,✓,,,Paramount,David Lynch,
 ,"It's a Mad, Mad, Mad, Mad World",1963,Film,,✓,,,Criterion,Stanley Kramer,
 ,"It's a Mad, Mad, Mad, Mad World (Roadshow Version)",1963 / 2014,Film,,✓,,,Criterion,Stanley Kramer,197-minute reconstruction of the roadshow cut
 ,Heathers,1988,Film,,✓,,,Arrow Video,Michael Lehmann,
-Avatar: The Legend of Aang - The Complete Series,Avatar: The Legend of Aang - Book 1: Water,2005,TV,,✓,,,Paramount,Michael Dante DiMartino; Bryan Konietzko,
-Avatar: The Legend of Aang - The Complete Series,Avatar: The Legend of Aang - Book 2: Earth,2006,TV,,✓,,,Paramount,Michael Dante DiMartino; Bryan Konietzko,
-Avatar: The Legend of Aang - The Complete Series,Avatar: The Legend of Aang - Book 3: Fire,2007,TV,,✓,,,Paramount,Michael Dante DiMartino; Bryan Konietzko,
+Avatar: The Legend of Aang - The Complete Series,Avatar: The Legend of Aang - Book 1: Water,2005,Episodic,,✓,,,Paramount,Michael Dante DiMartino; Bryan Konietzko,
+Avatar: The Legend of Aang - The Complete Series,Avatar: The Legend of Aang - Book 2: Earth,2006,Episodic,,✓,,,Paramount,Michael Dante DiMartino; Bryan Konietzko,
+Avatar: The Legend of Aang - The Complete Series,Avatar: The Legend of Aang - Book 3: Fire,2007,Episodic,,✓,,,Paramount,Michael Dante DiMartino; Bryan Konietzko,
 ,Evil Dead II,1987,Film,✓,✓,,,StudioCanal,Sam Raimi,
 ,Battle Royale,2000,Film,,✓,,,Arrow Video,Kinji Fukasaku,
 ,Battle Royale (Director's Cut),2000 / 2001,Film,,✓,,,Arrow Video,Kinji Fukasaku,
@@ -457,7 +457,7 @@ Fast & Furious 7-Movie Collection,Furious 7,2015,Film,,✓,,,Universal,James Wan
 ,"ga, ga: Glory to the Heroes",1985,Film,,✓,,,Radiance Films,Piotr Szulkin,
 ,"Three Billboards Outside Ebbing, Missouri",2017,Film,,✓,,,20th Century Fox,Martin McDonagh,
 ,Dredd,2012,Film,,✓,,,Entertainment One,Pete Travis,
-,Pride and Prejudice,1995,TV,,✓,,,BBC,Simon Langton,
+,Pride and Prejudice,1995,Episodic,,✓,,,BBC,Simon Langton,
 ,Schindler's List,1993,Film,✓,✓,,,Universal,Steven Spielberg,25th Anniversary Edition
 ,Dune: Part Two,2024,Film,✓,,,,Warner Bros.,Denis Villeneuve,
 RoboCop Trilogy,RoboCop,1987,Film,,✓,,,MGM,Paul Verhoeven,
@@ -472,11 +472,11 @@ RoboCop Trilogy,RoboCop 3,1993,Film,,✓,,,MGM,Fred Dekker,
 Straight Shooting & Hell Bent,Straight Shooting,1917,Film,,✓,,,Eureka,John Ford,
 Straight Shooting & Hell Bent,Hell Bent,1918,Film,,✓,,,Eureka,John Ford,
 ,M,1931,Film,,✓,,✓,Eureka,Fritz Lang,Dual format (Blu-ray + DVD)
-,Cowboy Bebop,1998,TV,,✓,,,Anime Limited,Shinichirō Watanabe,Complete series
+,Cowboy Bebop,1998,Episodic,,✓,,,Anime Limited,Shinichirō Watanabe,Complete series
 ,Batman,1989,Film,✓,✓,,,Warner Bros.,Tim Burton,
 ,Cowboy Bebop: The Movie,2001,Film,,✓,,,Manga Entertainment,Shinichirō Watanabe,
-,"Act of Killing, The",2012,Film,,✓,,,Dogwoof,Joshua Oppenheimer,Documentary
-,"Act of Killing, The (Director's Cut)",2012,Film,,✓,,,Dogwoof,Joshua Oppenheimer,Documentary; on the same disc
+,"Act of Killing, The",2012,Doc,,✓,,,Dogwoof,Joshua Oppenheimer,
+,"Act of Killing, The (Director's Cut)",2012,Doc,,✓,,,Dogwoof,Joshua Oppenheimer,on the same disc
 ,Inside Llewyn Davis,2013,Film,,✓,,,StudioCanal,Joel Coen; Ethan Coen,
 ,"Deer Hunter, The",1978,Film,✓,✓,,,StudioCanal,Michael Cimino,
 ,"Return of the Living Dead, The",1985,Film,✓,,,,Arrow Video,Dan O'Bannon,"Two discs, but the Blu-ray carries bonus features only"
@@ -486,7 +486,7 @@ Straight Shooting & Hell Bent,Hell Bent,1918,Film,,✓,,,Eureka,John Ford,
 ,Akira Kurosawa's Dreams,1990,Film,✓,✓,,,Criterion,Akira Kurosawa,
 ,A Clockwork Orange,1971,Film,✓,✓,,,Warner Bros.,Stanley Kubrick,
 ,Spider-Man 3,2007,Film,,✓,,,Sony Pictures,Sam Raimi,
-,Chernobyl,2019,TV,✓,✓,,,HBO,Craig Mazin,5-part miniseries
+,Chernobyl,2019,Episodic,✓,✓,,,HBO,Craig Mazin,5-part miniseries
 ,Perfect Blue,1997,Film,,✓,,,Anime Limited,Satoshi Kon,
 ,Delicatessen,1991,Film,✓,✓,,,StudioCanal,Marc Caro; Jean-Pierre Jeunet,
 ,Zack Snyder's Justice League,2021,Film,✓,✓,,,Warner Bros.,Zack Snyder,"Recut of Justice League (2017), treated as its own title"
@@ -521,7 +521,7 @@ Lars von Trier: A Curzon Collection,Breaking the Waves,1996,Film,,✓,,,Curzon,L
 Lars von Trier: A Curzon Collection,"Idiots, The",1998,Film,,✓,,,Curzon,Lars von Trier,
 Lars von Trier: A Curzon Collection,Dancer in the Dark,2000,Film,,✓,,,Curzon,Lars von Trier,
 Lars von Trier: A Curzon Collection,Dogville,2003,Film,,✓,,,Curzon,Lars von Trier,
-Lars von Trier: A Curzon Collection,"Five Obstructions, The",2003,Film,,✓,,,Curzon,Lars von Trier; Jørgen Leth,Documentary
+Lars von Trier: A Curzon Collection,"Five Obstructions, The",2003,Doc,,✓,,,Curzon,Lars von Trier; Jørgen Leth,
 Lars von Trier: A Curzon Collection,Manderlay,2005,Film,,✓,,,Curzon,Lars von Trier,
 Lars von Trier: A Curzon Collection,"Boss of It All, The",2006,Film,,✓,,,Curzon,Lars von Trier,
 Lars von Trier: A Curzon Collection,Antichrist,2009,Film,,✓,,,Curzon,Lars von Trier,
@@ -529,10 +529,10 @@ Lars von Trier: A Curzon Collection,Melancholia,2011,Film,,✓,,,Curzon,Lars von
 Lars von Trier: A Curzon Collection,Nymphomaniac: Vol. I (Director's Cut),2013 / 2014,Film,,✓,,,Curzon,Lars von Trier,
 Lars von Trier: A Curzon Collection,Nymphomaniac: Vol. II (Director's Cut),2013 / 2014,Film,,✓,,,Curzon,Lars von Trier,
 Lars von Trier: A Curzon Collection,"House That Jack Built, The",2018,Film,,✓,,,Curzon,Lars von Trier,
-Futurama: The Complete Collection,Futurama: Season 1,1999,TV,,,,✓,20th Century Fox,David X. Cohen,
-Futurama: The Complete Collection,Futurama: Season 2,1999,TV,,,,✓,20th Century Fox,David X. Cohen,
-Futurama: The Complete Collection,Futurama: Season 3,2001,TV,,,,✓,20th Century Fox,David X. Cohen,
-Futurama: The Complete Collection,Futurama: Season 4,2002,TV,,,,✓,20th Century Fox,David X. Cohen,
+Futurama: The Complete Collection,Futurama: Season 1,1999,Episodic,,,,✓,20th Century Fox,David X. Cohen,
+Futurama: The Complete Collection,Futurama: Season 2,1999,Episodic,,,,✓,20th Century Fox,David X. Cohen,
+Futurama: The Complete Collection,Futurama: Season 3,2001,Episodic,,,,✓,20th Century Fox,David X. Cohen,
+Futurama: The Complete Collection,Futurama: Season 4,2002,Episodic,,,,✓,20th Century Fox,David X. Cohen,
 Rambo Trilogy,Rambo: First Blood,1982,Film,✓,✓,,,StudioCanal,Ted Kotcheff,German release
 Rambo Trilogy,Rambo: First Blood Part II,1985,Film,✓,✓,,,StudioCanal,George P. Cosmatos,German release
 Rambo Trilogy,Rambo III,1988,Film,✓,✓,,,StudioCanal,Peter MacDonald,German release
