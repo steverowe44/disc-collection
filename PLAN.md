@@ -82,8 +82,8 @@ reaching for?", which is how a shelf actually gets used. Four values, exactly on
 | Value | Means |
 |---|---|
 | `Film` | A single self-contained work. The default. |
-| `Episodic` | Fiction with episodes — a season, a serial, a miniseries. One row per season. |
-| `Doc` | Non-fiction. |
+| `Episodic` | Has episodes and is not a documentary — a drama series, a sitcom, a factual or lifestyle format. One row per season. |
+| `Doc` | A documentary. **Not** simply non-fiction — factual entertainment, lifestyle, reality and panel shows are `Episodic`. |
 | `Live` | A recorded performance — a filmed stage production, a concert. |
 
 Notes on the edges:
@@ -92,9 +92,13 @@ Notes on the edges:
   broadcast. A one-off made for television — a TV film, a TV special — is a `Film`.
   Naming the value `Episodic` makes the old mistake unstatable.
 - **A doc is a doc**, whether it runs as one film or as six episodes. `Doc` is not competing
-  with `Episodic` and there is no precedence to work out — non-fiction takes `Doc` and that
-  is the end of it. The practical consequence is that **`Episodic` means episodic fiction**,
-  since anything non-fiction has already gone to `Doc`.
+  with `Episodic` and there is no precedence to work out — a documentary takes `Doc` and that
+  is the end of it.
+- **`Doc` is not a synonym for non-fiction.** Escape to the Country is non-fiction and is
+  `Episodic`; so are Bake Off, Top Gear and any reality or panel format. A Louis Theroux
+  series or a true-crime docuseries is `Doc`. The test is whether it is a documentary, not
+  whether it is factual — otherwise `Doc` swallows most of daytime television and stops
+  telling you anything.
 - **Length is irrelevant.** Shorts are `Film` (or `Doc` if non-fiction). There is no `Short`
   value and there should not be one: length is a continuum with a mushy 35–50 minute band,
   so any threshold is arbitrary and the label stops being reproducible.
