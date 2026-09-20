@@ -76,64 +76,25 @@ One row **per season**, always — including complete-series sets.
 
 ### Type
 
-`Type` is a **browse facet**, not a normalised dimension. It answers "what kind of thing am I
-reaching for?", which is how a shelf actually gets used. Four values, exactly one per row:
+One value per row, never empty.
 
 | Value | Means |
 |---|---|
 | `Film` | A single self-contained work. The default. |
-| `Episodic` | Has episodes and is not a documentary — a drama series, a sitcom, a factual or lifestyle format. One row per season. |
-| `Doc` | A documentary. **Not** simply non-fiction — factual entertainment, lifestyle, reality and panel shows are `Episodic`. |
-| `Live` | A recorded performance — a filmed stage production, a concert. |
+| `Episodic` | Has episodes — a season, a serial, a format show. One row per season. |
+| `Doc` | A documentary. |
+| `Live` | A recorded performance — stage production, concert, stand-up. |
 
-Notes on the edges:
+Four things that aren't obvious:
 
-- **`Episodic`, not `TV`.** The criterion is whether it has episodes, not how it was first
-  broadcast. A one-off made for television — a TV film, a TV special — is a `Film`.
-  Naming the value `Episodic` makes the old mistake unstatable.
-- **A doc is a doc**, whether it runs as one film or as six episodes. `Doc` is not competing
-  with `Episodic` and there is no precedence to work out — a documentary takes `Doc` and that
-  is the end of it.
-- **`Doc` is not a synonym for non-fiction**, and needs a test or it drifts. There is no
-  settled definition of documentary — Grierson's "creative treatment of actuality" is famous
-  and useless for sorting a shelf — so use three questions:
+- **`Episodic`, not `TV`.** The criterion is episodes, not how it was broadcast. A one-off
+  made for television is a `Film`.
+- **A doc is a doc**, whether it runs as one film or six episodes.
+- **`Doc` is not a synonym for non-fiction.** House Hunters is `Episodic`.
+- **Length and technique are irrelevant.** Shorts and animation take the ordinary values —
+  there is no `Short` and no `Animated`, deliberately.
 
-  1. Does it have a **subject** it is about?
-  2. Does it have a **point of view** on that subject?
-  3. Is it a **singular work**, rather than an instance of a repeatable format?
-
-  All three yes → `Doc`. A format with interchangeable episodes → `Episodic`.
-
-  | Title | Type | Why |
-  |---|---|---|
-  | Hearts and Minds, The Act of Killing | `Doc` | One subject, one argument |
-  | Making a Murderer | `Doc` | One case argued across episodes |
-  | Ken Burns, The Vietnam War | `Doc` | One subject sustained over ten episodes |
-  | House Hunters, Pawn Stars, Survivor | `Episodic` | Formats — episode 40 is interchangeable with episode 400 |
-  | Finding Your Roots | `Episodic` | Researched and factual, but still a format with a new subject slotted in weekly |
-
-  **Where it strains:** authored series that are also formats. Cosmos is a singular authored
-  work *and* an episode-per-topic format; strands like Frontline and NOVA are a format whose
-  episodes are each documentaries. The test gives no clean answer — default to `Doc`.
-
-  Where the test disagrees with instinct on a particular disc, instinct wins and the reason
-  goes in `Notes`.
-- **Length is irrelevant.** Shorts are `Film` (or `Doc` if non-fiction). There is no `Short`
-  value and there should not be one: length is a continuum with a mushy 35–50 minute band,
-  so any threshold is arbitrary and the label stops being reproducible.
-- **Technique is irrelevant.** Animation is not a `Type`. An animated film is a film. Around
-  a tenth of the collection is animated and none of it is marked as such, deliberately.
-
-Worked examples:
-
-| Title | Type | Why |
-|---|---|---|
-| Chernobyl, Pride and Prejudice (1995), Jane Eyre (2006) | `Episodic` | Multi-episode serials |
-| Mansfield Park, Emma (ITV), Medea | `Film` | One-off TV films |
-| Dragon Ball Z: Bardock, The History of Trunks | `Film` | One-off TV specials |
-| Last Words (13 min), The Orchid Gardener | `Film` / `Doc` | Shorts take the ordinary values |
-| Spirited Away, Futurama, Cowboy Bebop | `Film` / `Episodic` | Animation changes nothing |
-| The Phantom of the Opera at the Royal Albert Hall | `Live` | Recorded stage production |
+Everything else is a judgement call, and judgement calls go in `Notes`.
 
 ### Multiple cuts
 
