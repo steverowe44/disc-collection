@@ -82,7 +82,7 @@ reaching for?", which is how a shelf actually gets used. Four values, exactly on
 | Value | Means |
 |---|---|
 | `Film` | A single self-contained work. The default. |
-| `Episodic` | Has episodes — a season, a serial, a miniseries. One row per season. |
+| `Episodic` | Fiction with episodes — a season, a serial, a miniseries. One row per season. |
 | `Doc` | Non-fiction. |
 | `Live` | A recorded performance — a filmed stage production, a concert. |
 
@@ -91,8 +91,10 @@ Notes on the edges:
 - **`Episodic`, not `TV`.** The criterion is whether it has episodes, not how it was first
   broadcast. A one-off made for television — a TV film, a TV special — is a `Film`.
   Naming the value `Episodic` makes the old mistake unstatable.
-- **`Doc` beats `Episodic`** when both apply. A documentary series is `Doc`. The collection
-  holds none today, so this is a rule for the future rather than a live case.
+- **A doc is a doc**, whether it runs as one film or as six episodes. `Doc` is not competing
+  with `Episodic` and there is no precedence to work out — non-fiction takes `Doc` and that
+  is the end of it. The practical consequence is that **`Episodic` means episodic fiction**,
+  since anything non-fiction has already gone to `Doc`.
 - **Length is irrelevant.** Shorts are `Film` (or `Doc` if non-fiction). There is no `Short`
   value and there should not be one: length is a continuum with a mushy 35–50 minute band,
   so any threshold is arbitrary and the label stops being reproducible.
