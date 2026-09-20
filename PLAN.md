@@ -85,14 +85,12 @@ One value per row, never empty.
 | `Doc` | A documentary. |
 | `Live` | A recorded performance — stage production, concert, stand-up. |
 
-Four things that aren't obvious:
+Three things that aren't obvious:
 
 - **`Episodic`, not `TV`.** The criterion is episodes, not how it was broadcast. A one-off
   made for television is a `Film`.
 - **A doc is a doc**, whether it runs as one film or six episodes.
-- **`Doc` is not a synonym for non-fiction.** House Hunters is `Episodic`.
-- **Length and technique are irrelevant.** Shorts and animation take the ordinary values —
-  there is no `Short` and no `Animated`, deliberately.
+- **`Doc` is not a synonym for non-fiction.**
 
 Everything else is a judgement call, and judgement calls go in `Notes`.
 
