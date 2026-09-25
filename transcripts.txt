@@ -139,7 +139,10 @@ IMAGE 10 — 12 cases, left to right. Dark boxset + spines cut off at LEFT edge.
 01. Pulp Fiction | Paramount + MIRAMAX | "ULTRA HD Blu-ray" | 5320303 | "2-DISC SET" | BBFC 18 x2
 02. Hundreds of Beavers | lightbulb logo at top | LFO0728 | "ULTRA HD Blu-ray" | BBFC 12 | white
 03. Ghost Dog: The Way of the Samurai | STUDIOCANAL | "ULTRA HD Blu-ray" | OPTU4463 | BBFC 15 x2
-04. Hiroshima [mon amour] | ARROW ACADEMY | FCD2043 | pink/salmon
+04. Hiroshima | ARROW ACADEMY | FCD2043 | pink/salmon
+    Spine read only "HIROSHIMA". Confirmed later as Sekigawa's Hiroshima (1953), NOT
+    Resnais' Hiroshima mon amour - the bracketed completion in the original read was a
+    guess and should have been logged as an uncertainty.
 05. Scream 3 | MIRAMAX + LIONSGATE | MSR LGB94952 | BBFC 18 x2 | Blu-ray
 06. The Sorrow and the Pity | ARROW ACADEMY | FCD1453 | grey
 07. Gomorrah | OPTIMUM HOME | OPTBD1463 | BBFC 15 | Blu-ray | black/red
