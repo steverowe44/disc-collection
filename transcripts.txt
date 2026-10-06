@@ -574,7 +574,8 @@ Criterion US batch + Akira | region checked per disc, not by class rule
       Eyes Wide Shut  4K  1 UHD + 2 BD   "4K: Region free | 2K Blu-ray: Region A (locked)"
       La Haine        4K  1 UHD + 1 BD   "4K Blu-ray: Region free | 2K Blu-ray: Region A (locked)"
       Come and See    BD  1 BD-50        "2K Blu-ray: Region A, B (locked)"  -> plays here, no note
-      War and Peace   BD  2 BD-50        "2K Blu-ray: Region A (B, C untested)" -> may or may not play
+      War and Peace   BD  2 BD-50        listed as "Region A (B, C untested)", but Stephen played it
+                                         on a Region B player - it IS region free. No note.
     War and Peace is four features (Bondarchuk, 1965-67) -> four rows, per the Die Nibelungen
     precedent. Eyes Wide Shut is the international version, i.e. the uncut one.
     Akira assumed to be the Manga Entertainment UK 4K (Region B) since it was the only title
