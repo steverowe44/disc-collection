@@ -578,5 +578,5 @@ Criterion US batch + Akira | region checked per disc, not by class rule
                                          on a Region B player - it IS region free. No note.
     War and Peace is four features (Bondarchuk, 1965-67) -> four rows, per the Die Nibelungen
     precedent. Eyes Wide Shut is the international version, i.e. the uncut one.
-    Akira assumed to be the Manga Entertainment UK 4K (Region B) since it was the only title
-    not marked "US". If it is the Funimation US disc, the Blu-ray is Region A.
+    Akira is the Funimation US 4K, not the UK disc: "4K Blu-ray: Region free / 2K Blu-ray:
+    Region A, B (locked)". The Blu-ray plays in Region B, so no note.
