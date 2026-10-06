@@ -29,7 +29,7 @@ becomes permanent data.
 | `Collection` | Name of the box set this release belongs to. **Empty for standalone releases**, which is most of them. Only a physical box counts — not a franchise, not a themed line. |
 | `Name` | Title with the leading article moved to the end: `Departed, The`. Cuts in parentheses: `Blade Runner (Final Cut)`. Seasons: `Sopranos, The: Season 3`. Leave foreign-language articles in place: `Le Samourai`, not `Samourai, Le`. Move only the article leading the whole title, not one inside a subtitle. |
 | `Year` | Year the work was **originally released** — theatrical or first broadcast. Not the disc's year. For an alternate cut, `original / cut`: `1979 / 2001`. If the cut appeared in the same year as the original, use the single year — never `2005 / 2005`. |
-| `Type` | One of `Film`, `Episodic`, `Documentary`, `Live`. Never empty. See below. |
+| `Type` | One of `Film`, `Episodic`, `Documentary`, `Short`, `Live`. Never empty. See below. |
 | `4K` | Tick if the package contains a 4K UHD disc, else **empty**. |
 | `Blu-ray` | Tick if it contains a Blu-ray of the feature, else **empty**. |
 | `Blu-ray 3D` | Tick if it contains a 3D Blu-ray, else **empty**. Usually ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
@@ -51,15 +51,18 @@ also holds a Blu-ray is ticked in both.
 | `Film` | A single self-contained work. The default. |
 | `Episodic` | Has episodes — a season, a serial, a format show. One row per season. |
 | `Documentary` | A documentary. |
+| `Short` | A short film — but only when it is **among the main attractions** of the disc or set, not a bonus feature. The Herzog shorts in the BFI box qualify; a ten-minute extra tucked into the special features does not. |
 | `Live` | A recorded performance — stage production, concert, stand-up. |
 
-Three things that are not obvious:
+Four things that are not obvious:
 
 - **`Episodic`, not "TV".** The criterion is episodes, not how it was broadcast. A one-off made
   for television — a TV film, a TV special — is a `Film`.
 - **A documentary is a documentary**, whether it runs as one film or six episodes.
 - **`Documentary` is not a synonym for non-fiction.** Factual formats, lifestyle and reality
   shows are `Episodic`.
+- **`Short` is for billed shorts only.** If the short is a special feature rather than
+  something the release is sold on, it gets no row at all. Where a short is also non-fiction it takes `Short`, not `Documentary` — Last Words is a documentary short and is a `Short`.
 
 ## Rules
 
@@ -79,9 +82,10 @@ Blu-ray; Cinema Paradiso has it the other way round.
 Never merge them, and never annotate them — no "second copy", no "4K also held". Cross
 references go stale.
 
-**Region.** Note it **only when a disc will not play on a Region B/2 player**, in the form
-`4K Region free, Blu-ray Region A`. 4K UHD discs are region-free by format specification, so
-only a Blu-ray or DVD can ever be restricted. If everything plays, say nothing.
+**Region.** Note it **only when a disc will not play on a Region B/2 player**. Format:
+`Region A` for a Blu-ray-only release, or `Region A (Blu-ray); Region-free (4K)` where a
+4K package has a restricted Blu-ray. 4K UHD discs are region-free by format specification,
+so only a Blu-ray or DVD can ever be restricted. If everything plays, say nothing.
 
 **Bootlegs** get Label `Unofficial` and a note. Never record the label the packaging imitates.
 

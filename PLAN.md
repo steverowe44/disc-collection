@@ -29,7 +29,7 @@ Collection,Name,Year,Type,4K,Blu-ray,Blu-ray 3D,DVD,Label,Director,Notes
 | `Collection` | Name of the box set or TV series this row belongs to. **Left empty** when the release is standalone — most rows. Quote it if it contains a comma. |
 | `Name` | Title with the leading article moved to the end, comma-separated: `Departed, The` / `Thing, The`. Alternate cuts go in the name in parentheses: `Blade Runner (Final Cut)`. TV seasons: `Sopranos, The: Season 3`. Because this field contains commas, it **must be quoted** in the CSV. |
 | `Year` | Year the film / TV season **originally released** (theatrical or first broadcast). For an alternate cut, `original / cut` — e.g. Apocalypse Now Redux is `1979 / 2001`. A theatrical cut is just the original year. |
-| `Type` | Exactly one of `Film`, `Episodic`, `Documentary`, `Live`. **Not a tick column** — never empty, exactly one value. See *Type* under Rules. |
+| `Type` | Exactly one of `Film`, `Episodic`, `Documentary`, `Short`, `Live`. **Not a tick column** — never empty, exactly one value. See *Type* under Rules. |
 | `4K` | `✓` if the package contains a 4K UHD disc. Else empty. |
 | `Blu-ray` | `✓` if the package contains a Blu-ray disc. Else empty. |
 | `Blu-ray 3D` | `✓` if the package contains a **3D Blu-ray** disc. Else empty. Nearly always ticked alongside `Blu-ray`, since 3D packages normally carry the 2D disc too. |
@@ -83,13 +83,16 @@ One value per row, never empty.
 | `Film` | A single self-contained work. The default. |
 | `Episodic` | Has episodes — a season, a serial, a format show. One row per season. |
 | `Documentary` | A documentary. |
+| `Short` | A short film — but only when it is **among the main attractions** of the disc or set, not a bonus feature. The Herzog shorts in the BFI box qualify; a ten-minute extra tucked into the special features does not. |
 | `Live` | A recorded performance — stage production, concert, stand-up. |
 
-Three things that aren't obvious:
+Four things that aren't obvious:
 
 - **`Episodic`, not `TV`.** The criterion is episodes, not how it was broadcast. A one-off
   made for television is a `Film`.
 - **A documentary is a documentary**, whether it runs as one film or six episodes.
+- **`Short` is for billed shorts only.** If the short is a special feature rather than
+  something the release is sold on, it gets no row at all. Where a short is also non-fiction it takes `Short`, not `Documentary` — Last Words is a documentary short and is a `Short`.
 - **`Documentary` is not a synonym for non-fiction.**
 
 Everything else is a judgement call, and judgement calls go in `Notes`.
@@ -157,7 +160,8 @@ Each of these came out of a resolved uncertainty. They are settled; do not re-de
   Extended)`, `Logan (Noir)`).
 - **A two-part feature is two rows**, under one Collection — see Die Nibelungen.
 - **Region** goes in `Notes`, and only when a disc will not play on a Region B/2 player.
-  Format: `4K Region free, Blu-ray Region A`. Check per disc — a label's general policy is
+  Format: `Region A`, or `Region A (Blu-ray); Region-free (4K)` where only the Blu-ray in a
+  4K package is restricted. Check per disc — a label's general policy is
   not reliable, and several Criterion discs are Region A **and** B.
 - **Identical duplicates** are recorded once. Genuinely different releases of the same film
   still get separate rows.
