@@ -567,3 +567,15 @@ X-Men: Days of Future Past | 20th Century Fox | 4K + Blu-ray
 House of the Dragon: The Complete Second Season | HBO / Warner Bros. Discovery | 4K only
     Four discs, all BD-100. The Blu-ray edition is a separate product, not bundled - same
     as the Game of Thrones 4K set.
+
+Criterion US batch + Akira | region checked per disc, not by class rule
+    Criterion's own FAQ says Blu-ray = Region A, 4K = region free. That rule is WRONG as a
+    blanket: Come and See is Region A,B. Check each disc individually on blu-ray.com.
+      Eyes Wide Shut  4K  1 UHD + 2 BD   "4K: Region free | 2K Blu-ray: Region A (locked)"
+      La Haine        4K  1 UHD + 1 BD   "4K Blu-ray: Region free | 2K Blu-ray: Region A (locked)"
+      Come and See    BD  1 BD-50        "2K Blu-ray: Region A, B (locked)"  -> plays here, no note
+      War and Peace   BD  2 BD-50        "2K Blu-ray: Region A (B, C untested)" -> may or may not play
+    War and Peace is four features (Bondarchuk, 1965-67) -> four rows, per the Die Nibelungen
+    precedent. Eyes Wide Shut is the international version, i.e. the uncut one.
+    Akira assumed to be the Manga Entertainment UK 4K (Region B) since it was the only title
+    not marked "US". If it is the Funimation US disc, the Blu-ray is Region A.
