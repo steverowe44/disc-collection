@@ -156,6 +156,9 @@ Each of these came out of a resolved uncertainty. They are settled; do not re-de
   in the same year as the original, the name alone distinguishes it (`Sin City (Recut &
   Extended)`, `Logan (Noir)`).
 - **A two-part feature is two rows**, under one Collection — see Die Nibelungen.
+- **Region** goes in `Notes`, and only when a disc will not play on a Region B/2 player.
+  Format: `4K Region free, Blu-ray Region A`. Check per disc — a label's general policy is
+  not reliable, and several Criterion discs are Region A **and** B.
 - **Identical duplicates** are recorded once. Genuinely different releases of the same film
   still get separate rows.
 
